@@ -1,1 +1,33 @@
-# 資安防護基礎教材 給公民團體 CSOs 的資安防護基礎教材，教材收錄內容適用於個人與組織內管理者，並提供組織內可實行的政策範本。 教材網站： 各章節主題： 1. 威脅建模：風險評估。 2. 裝置安全：iOS、macOS、Windows、Android。 3. 身份驗證：密碼管理器、密碼強度、多因子驗證。 4. 網路使用行為：隱私瀏覽行為、釣魚詐騙、VPN、網路與 Wi-Fi。 5. 加密通訊：加密即時通訊、加密電子郵件。 6. 帳號管理：權限管理與追蹤。 7. 資料管理與備份：檔案存取權限、資料備份與封存、更新軟體。 8. 海外出差：準備工作、返回時的檢查。 ## 內容授權 教材網站內容採用「[CC-BY 4.0 姓名標示](https://creativecommons.org/licenses/by/4.0/deed.zh-hant)」，如何標示引用可以[參考說明](https://ssd.ocf.tw/support/copyright.html)。 --- > [!NOTE] > - SSD：Shield of Self-Defense (SSD) > [!NOTE] > 參考資源： > - Security in-a-box: > - Privacy Guides: > - Surveillance Self-Defense, EFF: > - CSCS:
+# 開放科技車庫 | Open Tech Garage
+
+[![CC-BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
+**開放科技車庫（Open Tech Garage）** 是一個聚焦於評估、分析與測試多種開源軟體工具的專案，，初期開發由 OCF 與 WPI 實習學生共同執行，網站由財團法人開放文化基金會 (OCF) 維護。
+
+這個儲存庫包含所有用於建置 [OTG 網站](https://a4ltw.github.io/otg/) 的原始碼與文件。
+
+## 🚀 本地開發
+
+如何設定並在您的本機上執行此專案。
+
+1.  **安裝 MkDocs**
+    如果您尚未安裝 MkDocs，請參考 [MkDocs 官方文件](https://www.mkdocs.org/#installation)。建議在 Python 虛擬環境中進行安裝。
+
+2.  **啟動本地伺服器**
+    在專案根目錄執行以下指令：
+    ```bash
+    mkdocs serve
+    ```
+    然後在您的瀏覽器中開啟 `http://1227.0.0.1:8000`。
+
+## 部署
+
+本專案使用 `mkdocs gh-deploy` 指令自動部署到 GitHub Pages。
+
+## 🤝 貢獻
+
+我們歡迎任何形式的貢獻，請參考 `CONTRIBUTING.md`（如果有的話）以了解更多細節。
+
+## 授權
+
+本專案中的內容採用 [CC-BY 4.0 姓名標示](https://creativecommons.org/licenses/by/4.0/deed.zh-hant) 授權。
