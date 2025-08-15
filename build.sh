@@ -14,4 +14,8 @@ mkdocs build -f mkdocs-zh.yml
 echo "Building English site into site/en/ ..."
 mkdocs build -f mkdocs-en.yml
 
+# Create a root index.html to redirect to the default language (zh)
+echo "Creating root redirect page..."
+echo '<!DOCTYPE html><html><head><meta charset="utf-8"><title>Redirecting...</title><meta http-equiv="refresh" content="0; url=./zh/"><link rel="canonical" href="./zh/"></head><body><p>Redirecting to the default language version... <a href="./zh/">Click here if you are not redirected.</a></p></body></html>' > site/index.html
+
 echo "Build complete. The static site is in the 'site' directory."
