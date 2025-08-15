@@ -6,7 +6,7 @@ site_dir: site/zh
 
 theme:
   name: material
-  language: zh-TW
+  language: zh
   features:
     - search.suggest
     - search.highlight
@@ -23,7 +23,7 @@ theme:
     primary: 'indigo'
     accent: 'indigo'
 
-av:
+nav:
   - 首頁: index.md
   - 情境故事: story.md
   - 工具評估方法:
@@ -31,7 +31,7 @@ av:
       - 計分方式: assessment/scoring.md
       - 資料結構: assessment/data-structure.md
       - 評估範例: assessment/example-assessment.md
-      - 工具模板: assessment/TOOL_TEMPLATE.md
+      - 工具模板: assessment/tool-template.md
   - 工具清單（依類別）: categories/
   - 工具清單（依名稱）: tool_evaluated.md
   - 如何貢獻: CONTRIBUTING.md

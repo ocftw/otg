@@ -20,8 +20,20 @@ theme:
     - navigation.footer
     - content.tooltips
   palette:
-    primary: 'indigo'
-    accent: 'indigo'
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: "indigo"
+      accent: "indigo"
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: "indigo"
+      accent: "indigo"
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
 
 nav:
   - Home: index.md
@@ -31,9 +43,9 @@ nav:
       - Scoring: assessment/scoring.md
       - Data Structure: assessment/data-structure.md
       - Example Assessment: assessment/example-assessment.md
-      - Tool Template: assessment/TOOL_TEMPLATE.md
+      - Tool Template: assessment/tool-template.md
   - Tools (by Category): categories/
-  - Tools (by Name): tool_list_name.md
+  - Tools (by Name): tool_evaluated.md
   - How to Contribute: CONTRIBUTING.md
 
 extra:
