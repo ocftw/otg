@@ -1,0 +1,46 @@
+# Chinese Configuration
+site_name: 開放科技車庫
+site_url: https://a4ltw.github.io/otg/
+docs_dir: docs-zh
+site_dir: site/zh
+
+theme:
+  name: material
+  language: zh-TW
+  features:
+    - search.suggest
+    - search.highlight
+    - search.share
+    - navigation.indexes
+    - navigation.top
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.tracking
+    - navigation.footer
+    - content.tooltips
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+
+av:
+  - 首頁: index.md
+  - 情境故事: story.md
+  - 工具評估方法:
+      - 簡介: assessment/index.md
+      - 計分方式: assessment/scoring.md
+      - 資料結構: assessment/data-structure.md
+      - 評估範例: assessment/example-assessment.md
+      - 工具模板: assessment/TOOL_TEMPLATE.md
+  - 工具清單（依類別）: categories/
+  - 工具清單（依名稱）: tool_evaluated.md
+  - 如何貢獻: CONTRIBUTING.md
+
+extra:
+  alternate:
+    - name: 正體中文
+      link: /otg/zh/
+      lang: zh-TW
+    - name: English
+      link: /otg/en/
+      lang: en

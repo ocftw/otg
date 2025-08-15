@@ -1,0 +1,46 @@
+# English Configuration
+site_name: Open Tech Garage
+site_url: https://a4ltw.github.io/otg/
+docs_dir: docs-en
+site_dir: site/en
+
+theme:
+  name: material
+  language: en
+  features:
+    - search.suggest
+    - search.highlight
+    - search.share
+    - navigation.indexes
+    - navigation.top
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.tracking
+    - navigation.footer
+    - content.tooltips
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+
+nav:
+  - Home: index.md
+  - Story: story.md
+  - Tool Assessment:
+      - Introduction: assessment/index.md
+      - Scoring: assessment/scoring.md
+      - Data Structure: assessment/data-structure.md
+      - Example Assessment: assessment/example-assessment.md
+      - Tool Template: assessment/TOOL_TEMPLATE.md
+  - Tools (by Category): categories/
+  - Tools (by Name): tool_list_name.md
+  - How to Contribute: CONTRIBUTING.md
+
+extra:
+  alternate:
+    - name: 正體中文
+      link: /otg/zh/
+      lang: zh-TW
+    - name: English
+      link: /otg/en/
+      lang: en
