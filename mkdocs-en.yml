@@ -19,6 +19,7 @@ theme:
     - navigation.tracking
     - navigation.footer
     - content.tooltips
+  
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -44,8 +45,8 @@ nav:
       - Data Structure: assessment/data-structure.md
       - Example Assessment: assessment/example-assessment.md
       - Tool Template: assessment/tool-template.md
-  - Tools (by Category): categories/
-  - Tools (by Name): tool_evaluated.md
+  - Tool list: toollist_byname.md
+  - Tool comparison: tool_comparison.md
   - How to Contribute: CONTRIBUTING.md
 
 extra:
@@ -56,3 +57,15 @@ extra:
     - name: English
       link: /otg/en/
       lang: en
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      toc_depth: 2

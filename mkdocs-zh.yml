@@ -6,7 +6,7 @@ site_dir: site/zh
 
 theme:
   name: material
-  language: zh
+  language: zh-Hant
   features:
     - search.suggest
     - search.highlight
@@ -20,20 +20,27 @@ theme:
     - navigation.footer
     - content.tooltips
   palette:
-    primary: 'indigo'
-    accent: 'indigo'
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: "indigo"
+      accent: "indigo"
+      toggle:
+        icon: material/weather-sunny
+        name: 切換至暗色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: "indigo"
+      accent: "indigo"
+      toggle:
+        icon: material/weather-night
+        name: 切換至亮色模式
 
 nav:
   - 首頁: index.md
   - 情境故事: story.md
-  - 工具評估方法:
-      - 簡介: assessment/index.md
-      - 計分方式: assessment/scoring.md
-      - 資料結構: assessment/data-structure.md
-      - 評估範例: assessment/example-assessment.md
-      - 工具模板: assessment/tool-template.md
-  - 工具清單（依類別）: categories/
-  - 工具清單（依名稱）: tool_evaluated.md
+  - 工具評估方法: assessment/index.md
+  - 工具清單（依名稱）: toollist_byname.md
+  - 工具清單（依類別）: toollist_category.md
   - 如何貢獻: CONTRIBUTING.md
 
 extra:
@@ -44,3 +51,13 @@ extra:
     - name: English
       link: /otg/en/
       lang: en
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
