@@ -14,7 +14,7 @@
         <link rel="prev" href="../story/">
       
       
-        <link rel="next" href="scoring/">
+        <link rel="next" href="../toollist_byname/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -48,6 +48,8 @@
       
     
     
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -74,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#_1" class="md-skip">
+        <a href="#tool-assessment-methodology" class="md-skip">
           Skip to content
         </a>
       
@@ -298,13 +300,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../categories/" class="md-tabs__link">
+      <a href="../toollist_byname/" class="md-tabs__link">
         
   
   
     
   
-  Tools (by Category)
+  Tool list
 
       </a>
     </li>
@@ -317,13 +319,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../tool_evaluated/" class="md-tabs__link">
+      <a href="../tool_comparison/" class="md-tabs__link">
         
   
   
     
   
-  Tools (by Name)
+  Tool comparison
 
       </a>
     </li>
@@ -510,7 +512,7 @@
   
   
     <li class="md-nav__item">
-      <a href="scoring/" class="md-nav__link">
+      <a href="scoring.md" class="md-nav__link">
         
   
   
@@ -533,7 +535,7 @@
   
   
     <li class="md-nav__item">
-      <a href="data-structure/" class="md-nav__link">
+      <a href="data-structure.md" class="md-nav__link">
         
   
   
@@ -556,7 +558,7 @@
   
   
     <li class="md-nav__item">
-      <a href="example-assessment/" class="md-nav__link">
+      <a href="example-assessment.md" class="md-nav__link">
         
   
   
@@ -579,7 +581,7 @@
   
   
     <li class="md-nav__item">
-      <a href="tool-template/" class="md-nav__link">
+      <a href="tool-template.md" class="md-nav__link">
         
   
   
@@ -609,12 +611,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../categories/" class="md-nav__link">
+      <a href="../toollist_byname/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Tools (by Category)
+    Tool list
     
   </span>
   
@@ -631,12 +633,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../tool_evaluated/" class="md-nav__link">
+      <a href="../tool_comparison/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Tools (by Name)
+    Tool comparison
     
   </span>
   
@@ -702,557 +704,827 @@
 
 
 
-<h1 id="_1">工具評估方法</h1>
-<p>本頁面介紹工具評估的相關方法與文件。</p>
-<details>
+<h1 id="tool-assessment-methodology">Tool Assessment Methodology</h1>
+<p>This page introduces the methods and documentation related to our tool assessments.</p>
+<details class="note">
 <summary>Scoring</summary>
-# Tool Scoring System
-
-This document outlines how tools are scored and rated in our repository.
-
-## Scoring Metrics
-
-These five categories contribute to the overall tool assessment score. Each category has sub-metrics with assigned weights, and the category score is calculated as a weighted average of its sub-metrics.
-
-### 1. Operational Functionality (Weight: 10%)
-| Sub-Metric                       | Data Type | Example Value |
-|-----------------------------------------|----------|--------------|
-| Functionality     | Integer (1-5) | 3 |
-| Localization and Language Support         | Integer (1-5) | 5 |
-| Mobile Accessibility      | Integer (1-5) | 2 |
-
-### 2. Usability for Non-Technical Users (Weight: 25%)
-| Sub-Metric                      |  Data Type | Example Value |
-|---------------------------------|----------|--------------|
-| Ease of installation/deployment |  Integer (1-5) | 3 |
-| User onboarding experience      |  Integer (1-5) | 4 |
-| Technical experience required   |  Integer (1-5) | 2 |
-
-### 3. Security & Privacy Strength (Weight: 30%)
-| Sub-Metric                      |  Data Type | Example Value |
-|---------------------------------|----------|--------------|
-| Encryption standards            | Integer (1-5) | 5 |
-| Resilience against known threats| Integer (1-5) | 4 |
-| Compliance with security best practices | Integer (1-5) | 3 |
-| Data minimization               |  Integer (1-5) | 4 |
-| Privacy policy transparency     |  Integer (1-5) | 5 |
-
-### 4. Maintenance & Sustainability (Weight: 15%)
-| Sub-Metric                      |  Data Type | Example Value |
-|---------------------------------|----------|--------------|
-| Active development              |  Integer (1-5) | 5 |
-| Community support               |  Integer (1-5) | 3 |
-| Funding & sponsorship           |  Integer (1-5) | 2 |
-
-### 5. Performance Efficiency (Weight: 20%)
-| Sub-Metric                      |  Data Type | Example Value |
-|---------------------------------|----------|--------------|
-| CSO Function                      | Integer (1-5)   | 4 |
-| Relevance          |  Integer (1-5) | 3 |
-| Effectiveness |  Integer (1-5) | 2 |
-
-## Final Scoring Calculation
-
-Each category is scored as a weighted average of its sub-metrics which are just simply added and divided by the number of sub-metrics for that category. The final tool score is then computed as a weighted sum of all five categories:
-
-$$
+<h1 id="tool-scoring-system">Tool Scoring System</h1>
+<p>This document outlines how tools are scored and rated in our repository.</p>
+<h2 id="scoring-metrics">Scoring Metrics</h2>
+<p>These five categories contribute to the overall tool assessment score. Each category has sub-metrics with assigned weights, and the category score is calculated as a weighted average of its sub-metrics.</p>
+<h3 id="1-operational-functionality-weight-10">1. Operational Functionality (Weight: 10%)</h3>
+<table>
+<thead>
+<tr>
+<th>Sub-Metric</th>
+<th>Data Type</th>
+<th>Example Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Functionality</td>
+<td>Integer (1-5)</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Localization and Language Support</td>
+<td>Integer (1-5)</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Mobile Accessibility</td>
+<td>Integer (1-5)</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+<h3 id="2-usability-for-non-technical-users-weight-25">2. Usability for Non-Technical Users (Weight: 25%)</h3>
+<table>
+<thead>
+<tr>
+<th>Sub-Metric</th>
+<th>Data Type</th>
+<th>Example Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ease of installation/deployment</td>
+<td>Integer (1-5)</td>
+<td>3</td>
+</tr>
+<tr>
+<td>User onboarding experience</td>
+<td>Integer (1-5)</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Technical experience required</td>
+<td>Integer (1-5)</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+<h3 id="3-security-privacy-strength-weight-30">3. Security &amp; Privacy Strength (Weight: 30%)</h3>
+<table>
+<thead>
+<tr>
+<th>Sub-Metric</th>
+<th>Data Type</th>
+<th>Example Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Encryption standards</td>
+<td>Integer (1-5)</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Resilience against known threats</td>
+<td>Integer (1-5)</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Compliance with security best practices</td>
+<td>Integer (1-5)</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Data minimization</td>
+<td>Integer (1-5)</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Privacy policy transparency</td>
+<td>Integer (1-5)</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+<h3 id="4-maintenance-sustainability-weight-15">4. Maintenance &amp; Sustainability (Weight: 15%)</h3>
+<table>
+<thead>
+<tr>
+<th>Sub-Metric</th>
+<th>Data Type</th>
+<th>Example Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Active development</td>
+<td>Integer (1-5)</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Community support</td>
+<td>Integer (1-5)</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Funding &amp; sponsorship</td>
+<td>Integer (1-5)</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+<h3 id="5-performance-efficiency-weight-20">5. Performance Efficiency (Weight: 20%)</h3>
+<table>
+<thead>
+<tr>
+<th>Sub-Metric</th>
+<th>Data Type</th>
+<th>Example Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CSO Function</td>
+<td>Integer (1-5)</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Relevance</td>
+<td>Integer (1-5)</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Effectiveness</td>
+<td>Integer (1-5)</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+<h2 id="final-scoring-calculation">Final Scoring Calculation</h2>
+<p>Each category is scored as a weighted average of its sub-metrics which are just simply added and divided by the number of sub-metrics for that category. The final tool score is then computed as a weighted sum of all five categories:</p>
+<p>$$
 \text{Final Score} = (0.10 \times \text{Operational Functionality}) + (0.25 \times \text{Usability}) + (0.30 \times \text{Security}) + (0.15 \times \text{Maintenance/Sustainability}) + (0.20 \times \text{Performance})
-$$
-
-We are planning to create a system that allows users to adjust weights dynamically on a webpage to find tools that match their specific needs. *Coming Soon!*
+$$</p>
+<p>We are planning to create a system that allows users to adjust weights dynamically on a webpage to find tools that match their specific needs. <em>Coming Soon!</em></p>
 </details>
-
-<details>
+<details class="note">
 <summary>Data Structure</summary>
-# Data Structure Documentation
-
-This document outlines the data structure used for tool submissions and evaluations in our repository.
-
-## Overview
-
-Tools are stored in a JSON array where each tool is represented by an object containing various fields that describe its features, capabilities, and evaluation results.
-
-## Field Descriptions
-
-### Metadata
-- `id` (string): Unique identifier for the tool
-- `date_submitted` (integer): Unix timestamp of initial submission
-- `date_updated` (integer): Unix timestamp of last update
-- `submitted_by` (string): GitHub username of the submitter
-
-### Basic Information
-- `tool-name` (string): Name of the tool
-- `tool-url` (string): Official website or repository URL
-- `category` (string): Tool category (e.g., Browser, Password Management)
-- `description` (string): Brief description of the tool\'s purpose
-- `status` (string): Current status (Active, Inactive, Experimental)
-
-### Core Features & Compatibility
-- `core-features` (string): Comma-separated list of main features
-- `os-compatibility` (string): Supported operating systems
-- `offline-functionality` (string): "Yes", "No", or "Partially"
-- `mobile-friendly` (string): "Yes", "No", or "Partially"
-- `languages-supported` (string): Supported languages
-- `technical-level` (string): Required technical expertise (Beginner, Intermediate, Advanced)
-
-### Security & Privacy
-- `security-privacy-features` (string): Key security and privacy features
-- `data-collection-level` (string): "None", "Minimal", or "Extensive"
-- `security-privacy-strength-rating` (string): Rating from 1-5
-
-### Deployment & Technical
-- `deployment-architecture` (string): How the tool is deployed
-- `license` (string): License type (SPDX identifier preferred)
-- `cost` (string): "Fully Free", "Free Core", "Subscription Model", "One-time Purchase"
-
-### Maintenance & Support
-- `maintenance-sustainability` (string): Description of maintenance status and funding
-- `community-support` (string): "Yes", "No", or "Limited"
-- `maintenance-sustainability-rating` (string): Rating from 1-5
-
-### Performance & Ratings
-- `operational-functionality-rating` (string): Rating from 1-5
-- `usability-rating` (string): Rating from 1-5
-- `effectiveness-reliability-rating` (string): Rating from 1-5
-- `overall-rating` (string): Weighted average of all ratings
-
-### Documentation & Testing
-- `full-documentation` (string): URL to complete documentation
-- `version-tested` (string): Version number tested
-- `date-tested` (string): Date of testing (YYYY-MM-DD)
-- `testing-environment` (string): Description of testing environment
-
-### Additional Information
-- `limitations-vulnerabilities` (string): Known limitations or security concerns
-
-## Example JSON
-
-
-<pre><code class="language-json">{
-    &quot;id&quot;: &quot;example-id-123&quot;,
-    &quot;date_submitted&quot;: 1744747334,
-    &quot;date_updated&quot;: 1744750500,
-    &quot;submitted_by&quot;: &quot;username&quot;,
-    &quot;tool-name&quot;: &quot;Example Tool&quot;,
-    &quot;tool-url&quot;: &quot;https://example.com&quot;,
-    &quot;category&quot;: &quot;Browser&quot;,
-    &quot;description&quot;: &quot;A privacy-focused web browser&quot;,
-    &quot;status&quot;: &quot;Active&quot;,
-    &quot;core-features&quot;: &quot;Feature 1, Feature 2, Feature 3&quot;,
-    &quot;os-compatibility&quot;: &quot;Windows, Linux, macOS&quot;,
-    &quot;offline-functionality&quot;: &quot;Yes&quot;,
-    &quot;mobile-friendly&quot;: &quot;Yes&quot;,
-    &quot;languages-supported&quot;: &quot;English, Spanish, French&quot;,
-    &quot;technical-level&quot;: &quot;Beginner&quot;,
-    &quot;security-privacy-features&quot;: &quot;Feature A, Feature B&quot;,
-    &quot;data-collection-level&quot;: &quot;Minimal&quot;,
-    &quot;security-privacy-strength-rating&quot;: &quot;4.5&quot;,
-    &quot;deployment-architecture&quot;: &quot;Desktop Application&quot;,
-    &quot;license&quot;: &quot;MIT&quot;,
-    &quot;cost&quot;: &quot;Fully Free&quot;,
-    &quot;maintenance-sustainability&quot;: &quot;Regular updates, community-funded&quot;,
-    &quot;community-support&quot;: &quot;Yes&quot;,
-    &quot;maintenance-sustainability-rating&quot;: &quot;4.0&quot;,
-    &quot;operational-functionality-rating&quot;: &quot;4.2&quot;,
-    &quot;usability-rating&quot;: &quot;4.3&quot;,
-    &quot;effectiveness-reliability-rating&quot;: &quot;4.4&quot;,
-    &quot;overall-rating&quot;: &quot;4.3&quot;,
-    &quot;full-documentation&quot;: &quot;https://docs.example.com&quot;,
-    &quot;version-tested&quot;: &quot;1.0.0&quot;,
-    &quot;date-tested&quot;: &quot;2024-03-21&quot;,
-    &quot;testing-environment&quot;: &quot;Windows 11, macOS 14.2&quot;,
-    &quot;limitations-vulnerabilities&quot;: &quot;Limited to specific use cases&quot;
+<h1 id="data-structure-documentation">Data Structure Documentation</h1>
+<p>This document outlines the data structure used for tool submissions and evaluations in our repository.</p>
+<h2 id="overview">Overview</h2>
+<p>Tools are stored in a JSON array where each tool is represented by an object containing various fields that describe its features, capabilities, and evaluation results.</p>
+<h2 id="field-descriptions">Field Descriptions</h2>
+<h3 id="metadata">Metadata</h3>
+<ul>
+<li><code>id</code> (string): Unique identifier for the tool</li>
+<li><code>date_submitted</code> (integer): Unix timestamp of initial submission</li>
+<li><code>date_updated</code> (integer): Unix timestamp of last update</li>
+<li><code>submitted_by</code> (string): GitHub username of the submitter</li>
+</ul>
+<h3 id="basic-information">Basic Information</h3>
+<ul>
+<li><code>tool-name</code> (string): Name of the tool</li>
+<li><code>tool-url</code> (string): Official website or repository URL</li>
+<li><code>category</code> (string): Tool category (e.g., Browser, Password Management)</li>
+<li><code>description</code> (string): Brief description of the tool's purpose</li>
+<li><code>status</code> (string): Current status (Active, Inactive, Experimental)</li>
+</ul>
+<h3 id="core-features-compatibility">Core Features &amp; Compatibility</h3>
+<ul>
+<li><code>core-features</code> (string): Comma-separated list of main features</li>
+<li><code>os-compatibility</code> (string): Supported operating systems</li>
+<li><code>offline-functionality</code> (string): "Yes", "No", or "Partially"</li>
+<li><code>mobile-friendly</code> (string): "Yes", "No", or "Partially"</li>
+<li><code>languages-supported</code> (string): Supported languages</li>
+<li><code>technical-level</code> (string): Required technical expertise (Beginner, Intermediate, Advanced)</li>
+</ul>
+<h3 id="security-privacy">Security &amp; Privacy</h3>
+<ul>
+<li><code>security-privacy-features</code> (string): Key security and privacy features</li>
+<li><code>data-collection-level</code> (string): "None", "Minimal", or "Extensive"</li>
+<li><code>security-privacy-strength-rating</code> (string): Rating from 1-5</li>
+</ul>
+<h3 id="deployment-technical">Deployment &amp; Technical</h3>
+<ul>
+<li><code>deployment-architecture</code> (string): How the tool is deployed</li>
+<li><code>license</code> (string): License type (SPDX identifier preferred)</li>
+<li><code>cost</code> (string): "Fully Free", "Free Core", "Subscription Model", "One-time Purchase"</li>
+</ul>
+<h3 id="maintenance-support">Maintenance &amp; Support</h3>
+<ul>
+<li><code>maintenance-sustainability</code> (string): Description of maintenance status and funding</li>
+<li><code>community-support</code> (string): "Yes", "No", or "Limited"</li>
+<li><code>maintenance-sustainability-rating</code> (string): Rating from 1-5</li>
+</ul>
+<h3 id="performance-ratings">Performance &amp; Ratings</h3>
+<ul>
+<li><code>operational-functionality-rating</code> (string): Rating from 1-5</li>
+<li><code>usability-rating</code> (string): Rating from 1-5</li>
+<li><code>effectiveness-reliability-rating</code> (string): Rating from 1-5</li>
+<li><code>overall-rating</code> (string): Weighted average of all ratings</li>
+</ul>
+<h3 id="documentation-testing">Documentation &amp; Testing</h3>
+<ul>
+<li><code>full-documentation</code> (string): URL to complete documentation</li>
+<li><code>version-tested</code> (string): Version number tested</li>
+<li><code>date-tested</code> (string): Date of testing (YYYY-MM-DD)</li>
+<li><code>testing-environment</code> (string): Description of testing environment</li>
+</ul>
+<h3 id="additional-information">Additional Information</h3>
+<ul>
+<li><code>limitations-vulnerabilities</code> (string): Known limitations or security concerns</li>
+</ul>
+<h2 id="example-json">Example JSON</h2>
+<p>'''json
+{
+    "id": "example-id-123",
+    "date_submitted": 1744747334,
+    "date_updated": 1744750500,
+    "submitted_by": "username",
+    "tool-name": "Example Tool",
+    "tool-url": "https://example.com",
+    "category": "Browser",
+    "description": "A privacy-focused web browser",
+    "status": "Active",
+    "core-features": "Feature 1, Feature 2, Feature 3",
+    "os-compatibility": "Windows, Linux, macOS",
+    "offline-functionality": "Yes",
+    "mobile-friendly": "Yes",
+    "languages-supported": "English, Spanish, French",
+    "technical-level": "Beginner",
+    "security-privacy-features": "Feature A, Feature B",
+    "data-collection-level": "Minimal",
+    "security-privacy-strength-rating": "4.5",
+    "deployment-architecture": "Desktop Application",
+    "license": "MIT",
+    "cost": "Fully Free",
+    "maintenance-sustainability": "Regular updates, community-funded",
+    "community-support": "Yes",
+    "maintenance-sustainability-rating": "4.0",
+    "operational-functionality-rating": "4.2",
+    "usability-rating": "4.3",
+    "effectiveness-reliability-rating": "4.4",
+    "overall-rating": "4.3",
+    "full-documentation": "https://docs.example.com",
+    "version-tested": "1.0.0",
+    "date-tested": "2024-03-21",
+    "testing-environment": "Windows 11, macOS 14.2",
+    "limitations-vulnerabilities": "Limited to specific use cases"
 }
-</code></pre>
-
-
-## Notes
-
-1. All ratings are on a scale of 1-5, with higher numbers being better
-2. Dates should be in YYYY-MM-DD format
-3. URLs should include the protocol (https://)
-4. The overall rating is calculated as a weighted average of individual ratings
-5. All fields are required unless explicitly marked as optional
+'''</p>
+<h2 id="notes">Notes</h2>
+<ol>
+<li>All ratings are on a scale of 1-5, with higher numbers being better</li>
+<li>Dates should be in YYYY-MM-DD format</li>
+<li>URLs should include the protocol (https://)</li>
+<li>The overall rating is calculated as a weighted average of individual ratings</li>
+<li>All fields are required unless explicitly marked as optional</li>
+</ol>
 </details>
-
-<details>
+<details class="note">
 <summary>Example Assessment</summary>
-# Example Assessment: Tor Browser
-
-## Testing & Evaluation Sheet
-
-### Tool Overview
-- **Name**: Tor Browser
-- **Category**: Privacy & Security
-- **Purpose**: A privacy-focused web browser that routes traffic through the Tor network to protect users\' anonymity and privacy online
-- **Date Tested**: 2024-03-15
-- **Status**: 
-  - [x] Deployed / Not Deployed (Launched or not)
-  - [x] Operational - Actively running/maintained
-  - [ ] In Testing - Currently being evaluated or piloted
-  - [ ] Inactive/Deprecated - No longer maintained or functional
-- **Deployment Architecture**:
-  - [x] A standalone software - Runs entirely locally (e.g., runs on computer and doesn\'t depend on external server)
-  - [ ] A locally hosted service with separate server and client component
-  - [ ] A service with a local client that\'s hosted by a third party
-  - [ ] A service that is hosted by a third party but can also be self-hosted
-- **Version**: 13.0.10
-
-### Installation & Setup
-- **OS Compatibility**: Windows, macOS, Linux, Android
-- **Installation Manual**: Yes
-- **Installation Steps**: 
-  1. Download the appropriate version for your OS from torproject.org
-  2. Extract the downloaded file
-  3. Run the browser executable
-  4. Configure initial settings (optional)
-- **Common Installation Issues & Fixes**: 
-  - Issue: Browser fails to connect to Tor network
-  - Fix: Check internet connection and firewall settings
-  - Issue: Slow initial connection
-  - Fix: Wait for network to establish, consider using bridges
-- **User Documentation**: Yes
-- **Required Technical Knowledge**: Beginner
-- **Special Configurations**: None required for basic use
-
-### Testing & Evaluation
-
-#### Operational Functionality
-- **Functionality**
-  - Test Steps: Verified core features including browsing, private browsing, security settings, and network configuration
-  - [ ] The tool is mostly non-functional with many broken features and bugs
-  - [ ] Several broken features or bugs
-  - [ ] Minor bugs or issues
-  - [x] Mostly functional with few bugs or no bugs
-  - [ ] Fully functional with no bugs
-
-- **Internet Dependence**:
-  - Simulated no internet connection: Browser cannot function without internet
-  - Tested on 2G/3G networks: Works but with reduced performance
-
-- **Localization & Language Support**
-  - Languages Available: 50+ languages
-  - East Asian Languages: Chinese (Simplified and Traditional), Japanese, Korean
-  - Community Localization: Yes, active community contributing translations
-
-- **Mobile Accessibility**
-  - Mobile App: Available for Android
-  - Key Functions: All core browsing features work on mobile
-  - Mobile Browser Support: Not available for iOS
-
-#### Usability for Non-Technical Users
-- **Ease of Installation & Deployment**
-  - How many steps are required to install the tool?
-  - Are there one-click installations, or does it require command-line knowledge?
-  - Are setup guides, manuals and FAQ\'s regularly updated?
-  - Approximately how much times does a typical installation take (e.g., under 10 minutes, 30+ minutes)
-
-- **User Onboarding Experience**
-  - Are there any tool-tips or in-app guidance when first using the software?
-
-- **Technical Experience Level Required**
-  - Can users with no programming background install and start using the tool?
-  - Is the interface visual and menu-driven or does it rely heavily on terminal commands?
-
-#### Security & Privacy Strength
-- **Encryption Standards**
-  - Verify encryption strength through external tools or expert review
-  - Does the tool use E2E encryption? What algorithm is used? (E.g., "AES-256 encryption used; E2E verified in test")
-
-- **Known Strength Resilience**
-  - Is the tool usable in regions with heavy censorship or surveillance?
-  - Does it include built-in circumvention tools?
-  - Any known weaknesses or risks?
-
-- **Comparison with Known Standards**
-  - How does the tool measure up against established security/privacy standards?
-
-- **Data Minimization**
-  - What user data is collected?
-
-- **Privacy Policy Transparency**
-  - What does the privacy policy state about data handling?
-
-#### Maintenance/Sustainability
-- **Community Support**
-  - Is it easy to get help, ask questions, or find solutions from other users or developers?
-
-- **Development Active Status**
-  - How frequently is it updated?
-  - How responsive is the development team?
-
-- **Funding and Sponsorship**
-  - Who are the main funders? (e.g., NGOs, governments, private donors)
-  - Who are the main sponsors?
-  - Does the software seem financially sustainable?
-
-#### Performance / Effectiveness & Reliability
-- **Testing Environment Setup**:
-  - Device: [Device model and specs (CPU, RAM, etc.)]
-  - OS: [Operating System version]
-  - Network: [Network type and speed (e.g., broadband, 3G/4G, etc.)]
-
-- **User Experience Observations**
-  - How smooth does the tool feel?
-  - What is the tool\'s responsiveness during normal use?
-
-- **Speed & Responsiveness**:
-  - Does it load & work efficiently?
-  - Conduct speed tests to measure loading times and responsiveness (e.g., using ping, traceroute, lighthouse)
-  - Are there any noticeable delays or lag during use?
-
-- **Resource Usage**:
-  - How much CPU & memory does it consume?
-  - Measure CPU and memory usage using specific tools like Task Manager (Windows), htop (Linux), or Activity Monitor (macOS)?
-
-- **Network Performance**:
-  - How much Latency & Bandwidth Usage?
-  - Test network efficiency by monitoring bandwidth consumption with tools like Wireshark.
-
-- **Reliability**
-  - Are there independent peer reviews or third-party audits available?
-  - Detail if low error rates and specify uptime percentage
-  - Run core tests multiple times and log how many attempts fail
-
-### Deployment Considerations
-- **Open Source & Transparency**:
-  - Is the code open for independent verification?
-
-- **Cloud vs. Local Deployment**:
-  - Does the tool require cloud infrastructure like AWS or Azure, or can it be locally run on a private server?
-
-- **Dependencies**:
-  - Does it require Docker, Python, databases, etc.?
-  - Are dependencies clearly documented?
-
-- **Post-Deployment Maintenance**
-  - After deployment, is the tool easy to maintain?
-  - If a deployer decides to fork the project, is the code easy to modify?
-- **Merge/Sustainability**: 
-  - How open is the original project to contributions?
-  - Is there a streamlined process for submitting changes back to the main repository?
-
-### Testing Scenarios
-#### Scenario 1
-- Notes & Documentation
-
-#### Scenario 2
-- Notes & Documentation
-
-### Insights & Recommendations
-- **Key Findings**
-  - What are the key findings?
-
-- **Strengths**:
-  - What are the benefits of the tool?
-
-- **Weaknesses**:
-  - What are the major drawbacks of the tool?
-
-- **Suggested Improvements**
-  - What are some suggestions for improving the tool?
-
-- **Alternative Tools**:
-  - Are there better tools available? If so, which tools are they?
-
-- **License**:
-  - Which License?
-
-- **Cost/Resource Implications**:
-  - **Total Cost of Ownership**:
-    - Is the tool free to use?
-      - Are there premium tiers or paid features?
-    - Are there hidden costs for maintenance, third-party integrations, or updates?
-    - [License cost, time, resources to install, maintain and troubleshoot]
-
-### Why is this useful to civil societies in authoritarian environments?
-Explain why this tool would be useful to civil society organizations. Include if it is unavailable in certain regions due to firewalls or other blocking systems.
+<h1 id="example-assessment-tor-browser">Example Assessment: Tor Browser</h1>
+<h2 id="testing-evaluation-sheet">Testing &amp; Evaluation Sheet</h2>
+<h3 id="tool-overview">Tool Overview</h3>
+<ul>
+<li><strong>Name</strong>: Tor Browser</li>
+<li><strong>Category</strong>: Privacy &amp; Security</li>
+<li><strong>Purpose</strong>: A privacy-focused web browser that routes traffic through the Tor network to protect users' anonymity and privacy online</li>
+<li><strong>Date Tested</strong>: 2024-03-15</li>
+<li><strong>Status</strong>: </li>
+<li>[x] Deployed / Not Deployed (Launched or not)</li>
+<li>[x] Operational - Actively running/maintained</li>
+<li>[ ] In Testing - Currently being evaluated or piloted</li>
+<li>[ ] Inactive/Deprecated - No longer maintained or functional</li>
+<li><strong>Deployment Architecture</strong>:</li>
+<li>[x] A standalone software - Runs entirely locally (e.g., runs on computer and doesn't depend on external server)</li>
+<li>[ ] A locally hosted service with separate server and client component</li>
+<li>[ ] A service with a local client that's hosted by a third party</li>
+<li>[ ] A service that is hosted by a third party but can also be self-hosted</li>
+<li><strong>Version</strong>: 13.0.10</li>
+</ul>
+<h3 id="installation-setup">Installation &amp; Setup</h3>
+<ul>
+<li><strong>OS Compatibility</strong>: Windows, macOS, Linux, Android</li>
+<li><strong>Installation Manual</strong>: Yes</li>
+<li><strong>Installation Steps</strong>: </li>
+<li>Download the appropriate version for your OS from torproject.org</li>
+<li>Extract the downloaded file</li>
+<li>Run the browser executable</li>
+<li>Configure initial settings (optional)</li>
+<li><strong>Common Installation Issues &amp; Fixes</strong>: </li>
+<li>Issue: Browser fails to connect to Tor network</li>
+<li>Fix: Check internet connection and firewall settings</li>
+<li>Issue: Slow initial connection</li>
+<li>Fix: Wait for network to establish, consider using bridges</li>
+<li><strong>User Documentation</strong>: Yes</li>
+<li><strong>Required Technical Knowledge</strong>: Beginner</li>
+<li><strong>Special Configurations</strong>: None required for basic use</li>
+</ul>
+<h3 id="testing-evaluation">Testing &amp; Evaluation</h3>
+<h4 id="operational-functionality">Operational Functionality</h4>
+<ul>
+<li><strong>Functionality</strong></li>
+<li>Test Steps: Verified core features including browsing, private browsing, security settings, and network configuration</li>
+<li>[ ] The tool is mostly non-functional with many broken features and bugs</li>
+<li>[ ] Several broken features or bugs</li>
+<li>[ ] Minor bugs or issues</li>
+<li>[x] Mostly functional with few bugs or no bugs</li>
+<li>
+<p>[ ] Fully functional with no bugs</p>
+</li>
+<li>
+<p><strong>Internet Dependence</strong>:</p>
+</li>
+<li>Simulated no internet connection: Browser cannot function without internet</li>
+<li>
+<p>Tested on 2G/3G networks: Works but with reduced performance</p>
+</li>
+<li>
+<p><strong>Localization &amp; Language Support</strong></p>
+</li>
+<li>Languages Available: 50+ languages</li>
+<li>East Asian Languages: Chinese (Simplified and Traditional), Japanese, Korean</li>
+<li>
+<p>Community Localization: Yes, active community contributing translations</p>
+</li>
+<li>
+<p><strong>Mobile Accessibility</strong></p>
+</li>
+<li>Mobile App: Available for Android</li>
+<li>Key Functions: All core browsing features work on mobile</li>
+<li>Mobile Browser Support: Not available for iOS</li>
+</ul>
+<h4 id="usability-for-non-technical-users">Usability for Non-Technical Users</h4>
+<ul>
+<li><strong>Ease of Installation &amp; Deployment</strong></li>
+<li>How many steps are required to install the tool?</li>
+<li>Are there one-click installations, or does it require command-line knowledge?</li>
+<li>Are setup guides, manuals and FAQ's regularly updated?</li>
+<li>
+<p>Approximately how much times does a typical installation take (e.g., under 10 minutes, 30+ minutes)</p>
+</li>
+<li>
+<p><strong>User Onboarding Experience</strong></p>
+</li>
+<li>
+<p>Are there any tool-tips or in-app guidance when first using the software?</p>
+</li>
+<li>
+<p><strong>Technical Experience Level Required</strong></p>
+</li>
+<li>Can users with no programming background install and start using the tool?</li>
+<li>Is the interface visual and menu-driven or does it rely heavily on terminal commands?</li>
+</ul>
+<h4 id="security-privacy-strength">Security &amp; Privacy Strength</h4>
+<ul>
+<li><strong>Encryption Standards</strong></li>
+<li>Verify encryption strength through external tools or expert review</li>
+<li>
+<p>Does the tool use E2E encryption? What algorithm is used? (E.g., "AES-256 encryption used; E2E verified in test")</p>
+</li>
+<li>
+<p><strong>Known Strength Resilience</strong></p>
+</li>
+<li>Is the tool usable in regions with heavy censorship or surveillance?</li>
+<li>Does it include built-in circumvention tools?</li>
+<li>
+<p>Any known weaknesses or risks?</p>
+</li>
+<li>
+<p><strong>Comparison with Known Standards</strong></p>
+</li>
+<li>
+<p>How does the tool measure up against established security/privacy standards?</p>
+</li>
+<li>
+<p><strong>Data Minimization</strong></p>
+</li>
+<li>
+<p>What user data is collected?</p>
+</li>
+<li>
+<p><strong>Privacy Policy Transparency</strong></p>
+</li>
+<li>What does the privacy policy state about data handling?</li>
+</ul>
+<h4 id="maintenancesustainability">Maintenance/Sustainability</h4>
+<ul>
+<li><strong>Community Support</strong></li>
+<li>
+<p>Is it easy to get help, ask questions, or find solutions from other users or developers?</p>
+</li>
+<li>
+<p><strong>Development Active Status</strong></p>
+</li>
+<li>How frequently is it updated?</li>
+<li>
+<p>How responsive is the development team?</p>
+</li>
+<li>
+<p><strong>Funding and Sponsorship</strong></p>
+</li>
+<li>Who are the main funders? (e.g., NGOs, governments, private donors)</li>
+<li>Who are the main sponsors?</li>
+<li>Does the software seem financially sustainable?</li>
+</ul>
+<h4 id="performance-effectiveness-reliability">Performance / Effectiveness &amp; Reliability</h4>
+<ul>
+<li><strong>Testing Environment Setup</strong>:</li>
+<li>Device: [Device model and specs (CPU, RAM, etc.)]</li>
+<li>OS: [Operating System version]</li>
+<li>
+<p>Network: [Network type and speed (e.g., broadband, 3G/4G, etc.)]</p>
+</li>
+<li>
+<p><strong>User Experience Observations</strong></p>
+</li>
+<li>How smooth does the tool feel?</li>
+<li>
+<p>What is the tool's responsiveness during normal use?</p>
+</li>
+<li>
+<p><strong>Speed &amp; Responsiveness</strong>:</p>
+</li>
+<li>Does it load &amp; work efficiently?</li>
+<li>Conduct speed tests to measure loading times and responsiveness (e.g., using ping, traceroute, lighthouse)</li>
+<li>
+<p>Are there any noticeable delays or lag during use?</p>
+</li>
+<li>
+<p><strong>Resource Usage</strong>:</p>
+</li>
+<li>How much CPU &amp; memory does it consume?</li>
+<li>
+<p>Measure CPU and memory usage using specific tools like Task Manager (Windows), htop (Linux), or Activity Monitor (macOS)?</p>
+</li>
+<li>
+<p><strong>Network Performance</strong>:</p>
+</li>
+<li>How much Latency &amp; Bandwidth Usage?</li>
+<li>
+<p>Test network efficiency by monitoring bandwidth consumption with tools like Wireshark.</p>
+</li>
+<li>
+<p><strong>Reliability</strong></p>
+</li>
+<li>Are there independent peer reviews or third-party audits available?</li>
+<li>Detail if low error rates and specify uptime percentage</li>
+<li>Run core tests multiple times and log how many attempts fail</li>
+</ul>
+<h3 id="deployment-considerations">Deployment Considerations</h3>
+<ul>
+<li><strong>Open Source &amp; Transparency</strong>:</li>
+<li>
+<p>Is the code open for independent verification?</p>
+</li>
+<li>
+<p><strong>Cloud vs. Local Deployment</strong></p>
+</li>
+<li>
+<p>Does the tool require cloud infrastructure like AWS or Azure, or can it be locally run on a private server?</p>
+</li>
+<li>
+<p><strong>Dependencies</strong>:</p>
+</li>
+<li>Does it require Docker, Python, databases, etc.?</li>
+<li>
+<p>Are dependencies clearly documented?</p>
+</li>
+<li>
+<p><strong>Post-Deployment Maintenance</strong></p>
+</li>
+<li>After deployment, is the tool easy to maintain?</li>
+<li>If a deployer decides to fork the project, is the code easy to modify?</li>
+<li><strong>Merge/Sustainability</strong>: </li>
+<li>How open is the original project to contributions?</li>
+<li>Is there a streamlined process for submitting changes back to the main repository?</li>
+</ul>
+<h3 id="testing-scenarios">Testing Scenarios</h3>
+<h4 id="scenario-1">Scenario 1</h4>
+<ul>
+<li>Notes &amp; Documentation</li>
+</ul>
+<h4 id="scenario-2">Scenario 2</h4>
+<ul>
+<li>Notes &amp; Documentation</li>
+</ul>
+<h3 id="insights-recommendations">Insights &amp; Recommendations</h3>
+<ul>
+<li><strong>Key Findings</strong></li>
+<li>
+<p>What are the key findings?</p>
+</li>
+<li>
+<p><strong>Strengths</strong>:</p>
+</li>
+<li>
+<p>What are the benefits of the tool?</p>
+</li>
+<li>
+<p><strong>Weaknesses</strong>:</p>
+</li>
+<li>
+<p>What are the major drawbacks of the tool?</p>
+</li>
+<li>
+<p><strong>Suggested Improvements</strong></p>
+</li>
+<li>
+<p>What are some suggestions for improving the tool?</p>
+</li>
+<li>
+<p><strong>Alternative Tools</strong>:</p>
+</li>
+<li>
+<p>Are there better tools available? If so, which tools are they?</p>
+</li>
+<li>
+<p><strong>License</strong>:</p>
+</li>
+<li>
+<p>Which License?</p>
+</li>
+<li>
+<p><strong>Cost/Resource Implications</strong>:</p>
+</li>
+<li><strong>Total Cost of Ownership</strong>:<ul>
+<li>Is the tool free to use?</li>
+<li>Are there premium tiers or paid features?</li>
+<li>Are there hidden costs for maintenance, third-party integrations, or updates?</li>
+<li>[License cost, time, resources to install, maintain and troubleshoot]</li>
+</ul>
+</li>
+</ul>
+<h3 id="why-is-this-useful-to-civil-societies-in-authoritarian-environments">Why is this useful to civil societies in authoritarian environments?</h3>
+<p>Explain why this tool would be useful to civil society organizations. Include if it is unavailable in certain regions due to firewalls or other blocking systems.</p>
 </details>
-
-<details>
+<details class="note">
 <summary>Tool Template</summary>
-# Testing Template
-Does the tool "prove" to be high-impact?
-
-## Testing & Evaluation Sheet
-
-### Tool Overview
-- **Name**: [Tool Name]
-- **Category**: [Category, e.g., Secure Communication, Anonymity, Encryption]
-- **Purpose**: [What the tool is designed to do]
-- **Date Tested**: [Date tested]
-- **Status**: 
-  - [ ] Deployed / Not Deployed (Launched or not)
-  - [ ] Operational - Actively running/maintained
-  - [ ] In Testing - Currently being evaluated or piloted
-  - [ ] Inactive/Deprecated - No longer maintained or functional
-- **Deployment Architecture**:
-  - [ ] A standalone software - Runs entirely locally (e.g., runs on computer and doesn\'t depend on external server)
-  - [ ] A locally hosted service with separate server and client component - Run both backend/frontend yourself (e.g., backend could be on a local network, or self-hosted on cloud)
-  - [ ] A service with a local client that\'s hosted by a third party - You install a client on your device, but it connects to and depends on a remote server (e.g., Signal: install app (client), but Signal\'s servers handle message relaying, etc.)
-  - [ ] A service that is hosted by a third party but can also be self-hosted
-- **Version**: [Version Tested]
-
-### Installation & Setup
-- **OS Compatibility**: What is the OS compatibility of the tool?
-- **Installation Manual**: Yes/No
-- **Installation Steps**: What is the installation process?
-- **Common Installation Issues & Fixes**: List common errors users might face and how to troubleshoot them
-- **User Documentation**: Yes/No
-- **Required Technical Knowledge**: None, beginner, intermediate, professional
-- **Special Configurations**: Mention if command-line setup or special configurations are needed
-
-### Testing & Evaluation
-
-#### Operational Functionality
-- **Functionality**
-  - Test Steps: Verify the tool\'s core features by using all major functions, tracking any failures or bugs.
-  - [ ] The tool is mostly non-functional with many broken features and bugs
-  - [ ] Several broken features or bugs
-  - [ ] Minor bugs or issues
-  - [ ] Mostly functional with few bugs or no bugs
-  - [ ] Fully functional with no bugs
-
-- **Internet Dependence**:
-  - Simulate no internet connection (e.g., disable Wifi)
-  - Test the tool on 2G/3G networks
-
-- **Localization & Language Support**
-  - How many languages are available?
-  - Which East Asian languages are available?
-  - Do they have an active community contributing to localization?
-
-- **Mobile Accessibility**
-  - Verify if a mobile app exists and is functional
-  - Test key functions (e.g., navigating, uploading data) on mobile browsers
-
-#### Usability for Non-Technical Users
-- **Ease of Installation & Deployment**
-  - How many steps are required to install the tool?
-  - Are there one-click installations, or does it require command-line knowledge?
-  - Are setup guides, manuals and FAQ\'s regularly updated?
-  - Approximately how much times does a typical installation take (e.g., under 10 minutes, 30+ minutes)
-
-- **User Onboarding Experience**
-  - Are there any tool-tips or in-app guidance when first using the software?
-
-- **Technical Experience Level Required**
-  - Can users with no programming background install and start using the tool?
-  - Is the interface visual and menu-driven or does it rely heavily on terminal commands?
-
-#### Security & Privacy Strength
-- **Encryption Standards**
-  - Verify encryption strength through external tools or expert review
-  - Does the tool use E2E encryption? What algorithm is used? (E.g., "AES-256 encryption used; E2E verified in test")
-
-- **Known Strength Resilience**
-  - Is the tool usable in regions with heavy censorship or surveillance?
-  - Does it include built-in circumvention tools?
-  - Any known weaknesses or risks?
-
-- **Comparison with Known Standards**
-  - How does the tool measure up against established security/privacy standards?
-
-- **Data Minimization**
-  - What user data is collected?
-
-- **Privacy Policy Transparency**
-  - What does the privacy policy state about data handling?
-
-#### Maintenance/Sustainability
-- **Community Support**
-  - Is it easy to get help, ask questions, or find solutions from other users or developers?
-
-- **Development Active Status**
-  - How frequently is it updated?
-  - How responsive is the development team?
-
-- **Funding and Sponsorship**
-  - Who are the main funders? (e.g., NGOs, governments, private donors)
-  - Who are the main sponsors?
-  - Does the software seem financially sustainable?
-
-#### Performance / Effectiveness & Reliability
-- **Testing Environment Setup**:
-  - Device: [Device model and specs (CPU, RAM, etc.)]
-  - OS: [Operating System version]
-  - Network: [Network type and speed (e.g., broadband, 3G/4G, etc.)]
-
-- **User Experience Observations**
-  - How smooth does the tool feel?
-  - What is the tool\'s responsiveness during normal use?
-
-- **Speed & Responsiveness**:
-  - Does it load & work efficiently?
-  - Conduct speed tests to measure loading times and responsiveness (e.g., using ping, traceroute, lighthouse)
-  - Are there any noticeable delays or lag during use?
-
-- **Resource Usage**:
-  - How much CPU & memory does it consume?
-  - Measure CPU and memory usage using specific tools like Task Manager (Windows), htop (Linux), or Activity Monitor (macOS)?
-
-- **Network Performance**:
-  - How much Latency & Bandwidth Usage?
-  - Test network efficiency by monitoring bandwidth consumption with tools like Wireshark.
-
-- **Reliability**
-  - Are there independent peer reviews or third-party audits available?
-  - Detail if low error rates and specify uptime percentage
-  - Run core tests multiple times and log how many attempts fail
-
-### Deployment Considerations
-- **Open Source & Transparency**:
-  - Is the code open for independent verification?
-
-- **Cloud vs. Local Deployment**:
-  - Does the tool require cloud infrastructure like AWS or Azure, or can it be locally run on a private server?
-
-- **Dependencies**:
-  - Does it require Docker, Python, databases, etc.?
-  - Are dependencies clearly documented?
-
-- **Post-Deployment Maintenance**
-  - After deployment, is the tool easy to maintain?
-  - If a deployer decides to fork the project, is the code easy to modify?
-- **Merge/Sustainability**: 
-  - How open is the original project to contributions?
-  - Is there a streamlined process for submitting changes back to the main repository?
-
-### Testing Scenarios
-#### Scenario 1
-- Notes & Documentation
-
-#### Scenario 2
-- Notes & Documentation
-
-### Insights & Recommendations
-- **Key Findings**
-  - What are the key findings?
-
-- **Strengths**:
-  - What are the benefits of the tool?
-
-- **Weaknesses**:
-  - What are the major drawbacks of the tool?
-
-- **Suggested Improvements**
-  - What are some suggestions for improving the tool?
-
-- **Alternative Tools**:
-  - Are there better tools available? If so, which tools are they?
-
-- **License**:
-  - Which License?
-
-- **Cost/Resource Implications**:
-  - **Total Cost of Ownership**:
-    - Is the tool free to use?
-      - Are there premium tiers or paid features?
-    - Are there hidden costs for maintenance, third-party integrations, or updates?
-    - [License cost, time, resources to install, maintain and troubleshoot]
-
-### Why is this useful to civil societies in authoritarian environments?
-Explain why this tool would be useful to civil society organizations. Include if it is unavailable in certain regions due to firewalls or other blocking systems.
+<h1 id="testing-template">Testing Template</h1>
+<p>Does the tool "prove" to be high-impact?</p>
+<h2 id="testing-evaluation-sheet_1">Testing &amp; Evaluation Sheet</h2>
+<h3 id="tool-overview_1">Tool Overview</h3>
+<ul>
+<li><strong>Name</strong>: [Tool Name]</li>
+<li><strong>Category</strong>: [Category, e.g., Secure Communication, Anonymity, Encryption]</li>
+<li><strong>Purpose</strong>: [What the tool is designed to do]</li>
+<li><strong>Date Tested</strong>: [Date tested]</li>
+<li><strong>Status</strong>: </li>
+<li>[ ] Deployed / Not Deployed (Launched or not)</li>
+<li>[ ] Operational - Actively running/maintained</li>
+<li>[ ] In Testing - Currently being evaluated or piloted</li>
+<li>[ ] Inactive/Deprecated - No longer maintained or functional</li>
+<li><strong>Deployment Architecture</strong>:</li>
+<li>[ ] A standalone software - Runs entirely locally (e.g., runs on computer and doesn't depend on external server)</li>
+<li>[ ] A locally hosted service with separate server and client component - Run both backend/frontend yourself (e.g., backend could be on a local network, or self-hosted on cloud)</li>
+<li>[ ] A service with a local client that's hosted by a third party - You install a client on your device, but it connects to and depends on a remote server (e.g., Signal: install app (client), but Signal's servers handle message relaying, etc.)</li>
+<li>[ ] A service that is hosted by a third party but can also be self-hosted</li>
+<li><strong>Version</strong>: [Version Tested]</li>
+</ul>
+<h3 id="installation-setup_1">Installation &amp; Setup</h3>
+<ul>
+<li><strong>OS Compatibility</strong>: What is the OS compatibility of the tool?</li>
+<li><strong>Installation Manual</strong>: Yes/No</li>
+<li><strong>Installation Steps</strong>: What is the installation process?</li>
+<li><strong>Common Installation Issues &amp; Fixes</strong>: List common errors users might face and how to troubleshoot them</li>
+<li><strong>User Documentation</strong>: Yes/No</li>
+<li><strong>Required Technical Knowledge</strong>: None, beginner, intermediate, professional</li>
+<li><strong>Special Configurations</strong>: Mention if command-line setup or special configurations are needed</li>
+</ul>
+<h3 id="testing-evaluation_1">Testing &amp; Evaluation</h3>
+<h4 id="operational-functionality_1">Operational Functionality</h4>
+<ul>
+<li><strong>Functionality</strong></li>
+<li>Test Steps: Verify the tool's core features by using all major functions, tracking any failures or bugs.</li>
+<li>[ ] The tool is mostly non-functional with many broken features and bugs</li>
+<li>[ ] Several broken features or bugs</li>
+<li>[ ] Minor bugs or issues</li>
+<li>[ ] Mostly functional with few bugs or no bugs</li>
+<li>
+<p>[ ] Fully functional with no bugs</p>
+</li>
+<li>
+<p><strong>Internet Dependence</strong>:</p>
+</li>
+<li>Simulate no internet connection (e.g., disable Wifi)</li>
+<li>
+<p>Test the tool on 2G/3G networks</p>
+</li>
+<li>
+<p><strong>Localization &amp; Language Support</strong></p>
+</li>
+<li>How many languages are available?</li>
+<li>Which East Asian languages are available?</li>
+<li>
+<p>Do they have an active community contributing to localization?</p>
+</li>
+<li>
+<p><strong>Mobile Accessibility</strong></p>
+</li>
+<li>Verify if a mobile app exists and is functional</li>
+<li>Test key functions (e.g., navigating, uploading data) on mobile browsers</li>
+</ul>
+<h4 id="usability-for-non-technical-users_1">Usability for Non-Technical Users</h4>
+<ul>
+<li><strong>Ease of Installation &amp; Deployment</strong></li>
+<li>How many steps are required to install the tool?</li>
+<li>Are there one-click installations, or does it require command-line knowledge?</li>
+<li>Are setup guides, manuals and FAQ's regularly updated?</li>
+<li>
+<p>Approximately how much times does a typical installation take (e.g., under 10 minutes, 30+ minutes)</p>
+</li>
+<li>
+<p><strong>User Onboarding Experience</strong></p>
+</li>
+<li>
+<p>Are there any tool-tips or in-app guidance when first using the software?</p>
+</li>
+<li>
+<p><strong>Technical Experience Level Required</strong></p>
+</li>
+<li>Can users with no programming background install and start using the tool?</li>
+<li>Is the interface visual and menu-driven or does it rely heavily on terminal commands?</li>
+</ul>
+<h4 id="security-privacy-strength_1">Security &amp; Privacy Strength</h4>
+<ul>
+<li><strong>Encryption Standards</strong></li>
+<li>Verify encryption strength through external tools or expert review</li>
+<li>
+<p>Does the tool use E2E encryption? What algorithm is used? (E.g., "AES-256 encryption used; E2E verified in test")</p>
+</li>
+<li>
+<p><strong>Known Strength Resilience</strong></p>
+</li>
+<li>Is the tool usable in regions with heavy censorship or surveillance?</li>
+<li>Does it include built-in circumvention tools?</li>
+<li>
+<p>Any known weaknesses or risks?</p>
+</li>
+<li>
+<p><strong>Comparison with Known Standards</strong></p>
+</li>
+<li>
+<p>How does the tool measure up against established security/privacy standards?</p>
+</li>
+<li>
+<p><strong>Data Minimization</strong></p>
+</li>
+<li>
+<p>What user data is collected?</p>
+</li>
+<li>
+<p><strong>Privacy Policy Transparency</strong></p>
+</li>
+<li>What does the privacy policy state about data handling?</li>
+</ul>
+<h4 id="maintenancesustainability_1">Maintenance/Sustainability</h4>
+<ul>
+<li><strong>Community Support</strong></li>
+<li>
+<p>Is it easy to get help, ask questions, or find solutions from other users or developers?</p>
+</li>
+<li>
+<p><strong>Development Active Status</strong></p>
+</li>
+<li>How frequently is it updated?</li>
+<li>
+<p>How responsive is the development team?</p>
+</li>
+<li>
+<p><strong>Funding and Sponsorship</strong></p>
+</li>
+<li>Who are the main funders? (e.g., NGOs, governments, private donors)</li>
+<li>Who are the main sponsors?</li>
+<li>Does the software seem financially sustainable?</li>
+</ul>
+<h4 id="performance-effectiveness-reliability_1">Performance / Effectiveness &amp; Reliability</h4>
+<ul>
+<li><strong>Testing Environment Setup</strong>:</li>
+<li>Device: [Device model and specs (CPU, RAM, etc.)]</li>
+<li>OS: [Operating System version]</li>
+<li>
+<p>Network: [Network type and speed (e.g., broadband, 3G/4G, etc.)]</p>
+</li>
+<li>
+<p><strong>User Experience Observations</strong></p>
+</li>
+<li>How smooth does the tool feel?</li>
+<li>
+<p>What is the tool's responsiveness during normal use?</p>
+</li>
+<li>
+<p><strong>Speed &amp; Responsiveness</strong>:</p>
+</li>
+<li>Does it load &amp; work efficiently?</li>
+<li>Conduct speed tests to measure loading times and responsiveness (e.g., using ping, traceroute, lighthouse)</li>
+<li>
+<p>Are there any noticeable delays or lag during use?</p>
+</li>
+<li>
+<p><strong>Resource Usage</strong>:</p>
+</li>
+<li>How much CPU &amp; memory does it consume?</li>
+<li>
+<p>Measure CPU and memory usage using specific tools like Task Manager (Windows), htop (Linux), or Activity Monitor (macOS)?</p>
+</li>
+<li>
+<p><strong>Network Performance</strong>:</p>
+</li>
+<li>How much Latency &amp; Bandwidth Usage?</li>
+<li>
+<p>Test network efficiency by monitoring bandwidth consumption with tools like Wireshark.</p>
+</li>
+<li>
+<p><strong>Reliability</strong></p>
+</li>
+<li>Are there independent peer reviews or third-party audits available?</li>
+<li>Detail if low error rates and specify uptime percentage</li>
+<li>Run core tests multiple times and log how many attempts fail</li>
+</ul>
+<h3 id="deployment-considerations_1">Deployment Considerations</h3>
+<ul>
+<li><strong>Open Source &amp; Transparency</strong>:</li>
+<li>
+<p>Is the code open for independent verification?</p>
+</li>
+<li>
+<p><strong>Cloud vs. Local Deployment</strong></p>
+</li>
+<li>
+<p>Does the tool require cloud infrastructure like AWS or Azure, or can it be locally run on a private server?</p>
+</li>
+<li>
+<p><strong>Dependencies</strong>:</p>
+</li>
+<li>Does it require Docker, Python, databases, etc.?</li>
+<li>
+<p>Are dependencies clearly documented?</p>
+</li>
+<li>
+<p><strong>Post-Deployment Maintenance</strong></p>
+</li>
+<li>After deployment, is the tool easy to maintain?</li>
+<li>If a deployer decides to fork the project, is the code easy to modify?</li>
+<li><strong>Merge/Sustainability</strong>: </li>
+<li>How open is the original project to contributions?</li>
+<li>Is there a streamlined process for submitting changes back to the main repository?</li>
+</ul>
+<h3 id="testing-scenarios_1">Testing Scenarios</h3>
+<h4 id="scenario-1_1">Scenario 1</h4>
+<ul>
+<li>Notes &amp; Documentation</li>
+</ul>
+<h4 id="scenario-2_1">Scenario 2</h4>
+<ul>
+<li>Notes &amp; Documentation</li>
+</ul>
+<h3 id="insights-recommendations_1">Insights &amp; Recommendations</h3>
+<ul>
+<li><strong>Key Findings</strong></li>
+<li>
+<p>What are the key findings?</p>
+</li>
+<li>
+<p><strong>Strengths</strong>:</p>
+</li>
+<li>
+<p>What are the benefits of the tool?</p>
+</li>
+<li>
+<p><strong>Weaknesses</strong>:</p>
+</li>
+<li>
+<p>What are the major drawbacks of the tool?</p>
+</li>
+<li>
+<p><strong>Suggested Improvements</strong></p>
+</li>
+<li>
+<p>What are some suggestions for improving the tool?</p>
+</li>
+<li>
+<p><strong>Alternative Tools</strong>:</p>
+</li>
+<li>
+<p>Are there better tools available? If so, which tools are they?</p>
+</li>
+<li>
+<p><strong>License</strong>:</p>
+</li>
+<li>
+<p>Which License?</p>
+</li>
+<li>
+<p><strong>Cost/Resource Implications</strong>:</p>
+</li>
+<li><strong>Total Cost of Ownership</strong>:<ul>
+<li>Is the tool free to use?</li>
+<li>Are there premium tiers or paid features?</li>
+<li>Are there hidden costs for maintenance, third-party integrations, or updates?</li>
+<li>[License cost, time, resources to install, maintain and troubleshoot]</li>
+</ul>
+</li>
+</ul>
+<h3 id="why-is-this-useful-to-civil-societies-in-authoritarian-environments_1">Why is this useful to civil societies in authoritarian environments?</h3>
+<p>Explain why this tool would be useful to civil society organizations. Include if it is unavailable in certain regions due to firewalls or other blocking systems.</p>
 </details>
 
 
@@ -1306,13 +1578,13 @@ Explain why this tool would be useful to civil society organizations. Include if
         
         
           
-          <a href="scoring/" class="md-footer__link md-footer__link--next" aria-label="Next: Scoring">
+          <a href="../toollist_byname/" class="md-footer__link md-footer__link--next" aria-label="Next: Tool list">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Scoring
+                Tool list
               </div>
             </div>
             <div class="md-footer__button md-icon">

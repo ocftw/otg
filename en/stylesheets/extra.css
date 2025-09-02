@@ -49,8 +49,7 @@ div.grid.cards > ul > li > p:first-child {
   font-size: .8rem;
 }
 
-.md-typeset .admonition,
-.md-typeset details {
+.md-typeset .admonition {
   font-size: .7rem;
 }
 
@@ -79,4 +78,56 @@ div.grid.cards > ul > li > p:first-child {
 
 [data-md-color-scheme="slate"] .md-header h1 {
   color: #D7DCF0 !important;
+}
+
+/* Card layout for tool list */
+.tool-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem; /* space between cards */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tool-card {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  padding: 1rem;
+  flex: 1 1 300px; /* Flex properties for responsiveness */
+  display: flex;
+  flex-direction: column;
+  background-color: var(--md-default-bg-color);
+}
+
+.tool-card h3 {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+.tool-card h3 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.tool-card p {
+  margin-bottom: 0.5rem;
+  flex-grow: 1; /* Allow description to grow */
+}
+
+.tool-card .tool-details-link {
+    margin-top: auto; /* Pushes the link to the bottom */
+    align-self: flex-start; /* Aligns link to the left */
+    background-color: var(--md-primary-fg-color);
+    color: var(--md-primary-bg-color);
+    padding: 8px 12px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.md-content__inner h2 {
+    font-weight: bold;
+    text-decoration: underline;
 }

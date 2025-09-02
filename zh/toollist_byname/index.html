@@ -1,6 +1,6 @@
 
 <!doctype html>
-<html lang="zh" class="no-js">
+<html lang="zh-Hant" class="no-js">
   <head>
     
       <meta charset="utf-8">
@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://a4ltw.github.io/otg/tool_evaluated/">
+        <link rel="canonical" href="https://a4ltw.github.io/otg/toollist_byname/">
       
       
-        <link rel="prev" href="../assessment/tool-template/">
+        <link rel="prev" href="../assessment/">
       
       
-        <link rel="next" href="../CONTRIBUTING/">
+        <link rel="next" href="../toollist_category/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -48,6 +48,8 @@
       
     
     
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -59,6 +61,8 @@
   
   
     
+    
+      
     
     
     
@@ -73,7 +77,7 @@
       
         
         <a href="#_1" class="md-skip">
-          跳转至
+          跳轉至
         </a>
       
     </div>
@@ -87,7 +91,7 @@
   
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="页眉">
+  <nav class="md-header__inner md-grid" aria-label="頁首">
     <a href=".." title="開放科技車庫" class="md-header__button md-logo" aria-label="開放科技車庫" data-md-component="logo">
       
   
@@ -116,13 +120,39 @@
     </div>
     
       
+        <form class="md-header__option" data-md-component="palette">
+  
     
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="切換至暗色模式"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="切換至暗色模式" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="切換至亮色模式"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="切換至亮色模式" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
       <div class="md-header__option">
   <div class="md-select">
     
-    <button class="md-header__button md-icon" aria-label="选择当前语言">
+    <button class="md-header__button md-icon" aria-label="選擇語言">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
     </button>
     <div class="md-select__inner">
@@ -156,21 +186,21 @@
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <input type="text" class="md-search__input" name="query" aria-label="搜尋" placeholder="搜尋" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
       </label>
-      <nav class="md-search__options" aria-label="查找">
+      <nav class="md-search__options" aria-label="搜尋">
         
           <a href="javascript:void(0)" class="md-search__icon md-icon" title="分享" aria-label="分享" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
             
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
           </a>
         
-        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+        <button type="reset" class="md-search__icon md-icon" title="清空" aria-label="清空" tabindex="-1">
           
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
         </button>
@@ -183,7 +213,7 @@
       <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
         <div class="md-search-result" data-md-component="search-result">
           <div class="md-search-result__meta">
-            正在初始化搜索引擎
+            正在初始化搜尋引擎
           </div>
           <ol class="md-search-result__list" role="presentation"></ol>
         </div>
@@ -198,7 +228,7 @@
   
     
       
-<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+<nav class="md-tabs" aria-label="標籤頁" data-md-component="tabs">
   <div class="md-grid">
     <ul class="md-tabs__list">
       
@@ -245,36 +275,14 @@
   
   
   
-    
-    
-      <li class="md-tabs__item">
-        <a href="../assessment/index.md" class="md-tabs__link">
-          
+    <li class="md-tabs__item">
+      <a href="../assessment/" class="md-tabs__link">
+        
   
   
     
   
   工具評估方法
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../categories/" class="md-tabs__link">
-        
-  
-  
-    
-  
-  工具清單（依類別）
 
       </a>
     </li>
@@ -296,6 +304,25 @@
     
   
   工具清單（依名稱）
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../toollist_category/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  工具清單（依類別）
 
       </a>
     </li>
@@ -347,7 +374,7 @@
   
 
 
-<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="導航" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href=".." title="開放科技車庫" class="md-nav__button md-logo" aria-label="開放科技車庫" data-md-component="logo">
       
@@ -410,190 +437,13 @@
   
   
   
-    
-    
-      
+    <li class="md-nav__item">
+      <a href="../assessment/" class="md-nav__link">
         
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
-        
-          
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
-            
   
   
   <span class="md-ellipsis">
     工具評估方法
-    
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3">
-            <span class="md-nav__icon md-icon"></span>
-            工具評估方法
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../assessment/index.md" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    簡介
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../assessment/scoring/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    計分方式
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../assessment/data-structure/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    資料結構
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../assessment/example-assessment/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    評估範例
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../assessment/tool-template/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    工具模板
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../categories/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    工具清單（依類別）
     
   </span>
   
@@ -646,7 +496,7 @@
       
         
 
-<nav class="md-nav md-nav--secondary" aria-label="目录">
+<nav class="md-nav md-nav--secondary" aria-label="目錄">
   
   
   
@@ -655,21 +505,11 @@
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
-      目录
+      目錄
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#adguard" class="md-nav__link">
-    <span class="md-ellipsis">
-      AdGuard
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="AdGuard">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       分類
@@ -677,8 +517,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       簡介
@@ -686,8 +526,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
       狀態
@@ -695,8 +535,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
       部署方式
@@ -704,8 +544,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_6" class="md-nav__link">
     <span class="md-ellipsis">
       技術層級
@@ -713,8 +553,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_7" class="md-nav__link">
     <span class="md-ellipsis">
       整體評分
@@ -722,8 +562,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_8" class="md-nav__link">
     <span class="md-ellipsis">
       完整文件
@@ -731,8 +571,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_9" class="md-nav__link">
     <span class="md-ellipsis">
       最近測試日期
@@ -740,23 +580,8 @@
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
       
         <li class="md-nav__item">
-  <a href="#bitwarden" class="md-nav__link">
-    <span class="md-ellipsis">
-      Bitwarden
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Bitwarden">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_10" class="md-nav__link">
     <span class="md-ellipsis">
       分類
@@ -764,8 +589,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_11" class="md-nav__link">
     <span class="md-ellipsis">
       簡介
@@ -773,8 +598,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_12" class="md-nav__link">
     <span class="md-ellipsis">
       狀態
@@ -782,8 +607,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_13" class="md-nav__link">
     <span class="md-ellipsis">
       部署方式
@@ -791,8 +616,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_14" class="md-nav__link">
     <span class="md-ellipsis">
       技術層級
@@ -800,8 +625,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_15" class="md-nav__link">
     <span class="md-ellipsis">
       整體評分
@@ -809,8 +634,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_16" class="md-nav__link">
     <span class="md-ellipsis">
       完整文件
@@ -818,8 +643,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_17" class="md-nav__link">
     <span class="md-ellipsis">
       最近測試日期
@@ -827,23 +652,8 @@
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
       
         <li class="md-nav__item">
-  <a href="#croc" class="md-nav__link">
-    <span class="md-ellipsis">
-      Croc
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Croc">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_18" class="md-nav__link">
     <span class="md-ellipsis">
       分類
@@ -851,8 +661,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_19" class="md-nav__link">
     <span class="md-ellipsis">
       簡介
@@ -860,8 +670,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_20" class="md-nav__link">
     <span class="md-ellipsis">
       狀態
@@ -869,8 +679,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_21" class="md-nav__link">
     <span class="md-ellipsis">
       部署方式
@@ -878,8 +688,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_22" class="md-nav__link">
     <span class="md-ellipsis">
       技術層級
@@ -887,8 +697,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_23" class="md-nav__link">
     <span class="md-ellipsis">
       整體評分
@@ -896,8 +706,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_24" class="md-nav__link">
     <span class="md-ellipsis">
       完整文件
@@ -905,8 +715,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_25" class="md-nav__link">
     <span class="md-ellipsis">
       最近測試日期
@@ -914,23 +724,8 @@
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
       
         <li class="md-nav__item">
-  <a href="#cryptomator" class="md-nav__link">
-    <span class="md-ellipsis">
-      Cryptomator
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Cryptomator">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_26" class="md-nav__link">
     <span class="md-ellipsis">
       分類
@@ -938,8 +733,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_27" class="md-nav__link">
     <span class="md-ellipsis">
       簡介
@@ -947,8 +742,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_28" class="md-nav__link">
     <span class="md-ellipsis">
       狀態
@@ -956,8 +751,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_29" class="md-nav__link">
     <span class="md-ellipsis">
       部署方式
@@ -965,8 +760,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_30" class="md-nav__link">
     <span class="md-ellipsis">
       技術層級
@@ -974,8 +769,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_31" class="md-nav__link">
     <span class="md-ellipsis">
       整體評分
@@ -983,8 +778,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_32" class="md-nav__link">
     <span class="md-ellipsis">
       完整文件
@@ -992,8 +787,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_33" class="md-nav__link">
     <span class="md-ellipsis">
       最近測試日期
@@ -1001,23 +796,8 @@
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
       
         <li class="md-nav__item">
-  <a href="#duckduckgo" class="md-nav__link">
-    <span class="md-ellipsis">
-      DuckDuckGo
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="DuckDuckGo">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_34" class="md-nav__link">
     <span class="md-ellipsis">
       分類
@@ -1025,8 +805,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_35" class="md-nav__link">
     <span class="md-ellipsis">
       簡介
@@ -1034,8 +814,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_36" class="md-nav__link">
     <span class="md-ellipsis">
       狀態
@@ -1043,8 +823,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_37" class="md-nav__link">
     <span class="md-ellipsis">
       部署方式
@@ -1052,8 +832,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_38" class="md-nav__link">
     <span class="md-ellipsis">
       技術層級
@@ -1061,8 +841,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_39" class="md-nav__link">
     <span class="md-ellipsis">
       整體評分
@@ -1070,8 +850,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_40" class="md-nav__link">
     <span class="md-ellipsis">
       完整文件
@@ -1079,8 +859,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_41" class="md-nav__link">
     <span class="md-ellipsis">
       最近測試日期
@@ -1088,23 +868,8 @@
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
       
         <li class="md-nav__item">
-  <a href="#languagetool" class="md-nav__link">
-    <span class="md-ellipsis">
-      LanguageTool
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="LanguageTool">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_42" class="md-nav__link">
     <span class="md-ellipsis">
       分類
@@ -1112,8 +877,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_43" class="md-nav__link">
     <span class="md-ellipsis">
       簡介
@@ -1121,8 +886,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_44" class="md-nav__link">
     <span class="md-ellipsis">
       狀態
@@ -1130,8 +895,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_45" class="md-nav__link">
     <span class="md-ellipsis">
       部署方式
@@ -1139,8 +904,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_46" class="md-nav__link">
     <span class="md-ellipsis">
       技術層級
@@ -1148,8 +913,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_47" class="md-nav__link">
     <span class="md-ellipsis">
       整體評分
@@ -1157,8 +922,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_48" class="md-nav__link">
     <span class="md-ellipsis">
       完整文件
@@ -1166,8 +931,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_49" class="md-nav__link">
     <span class="md-ellipsis">
       最近測試日期
@@ -1175,23 +940,8 @@
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
       
         <li class="md-nav__item">
-  <a href="#libreoffice" class="md-nav__link">
-    <span class="md-ellipsis">
-      LibreOffice
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="LibreOffice">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_50" class="md-nav__link">
     <span class="md-ellipsis">
       分類
@@ -1199,8 +949,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_51" class="md-nav__link">
     <span class="md-ellipsis">
       簡介
@@ -1208,8 +958,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_52" class="md-nav__link">
     <span class="md-ellipsis">
       狀態
@@ -1217,8 +967,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_53" class="md-nav__link">
     <span class="md-ellipsis">
       部署方式
@@ -1226,8 +976,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_54" class="md-nav__link">
     <span class="md-ellipsis">
       技術層級
@@ -1235,8 +985,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_55" class="md-nav__link">
     <span class="md-ellipsis">
       整體評分
@@ -1244,8 +994,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_56" class="md-nav__link">
     <span class="md-ellipsis">
       完整文件
@@ -1253,8 +1003,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_57" class="md-nav__link">
     <span class="md-ellipsis">
       最近測試日期
@@ -1262,23 +1012,8 @@
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
       
         <li class="md-nav__item">
-  <a href="#magic-wormhole" class="md-nav__link">
-    <span class="md-ellipsis">
-      Magic Wormhole
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Magic Wormhole">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_58" class="md-nav__link">
     <span class="md-ellipsis">
       分類
@@ -1286,8 +1021,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_59" class="md-nav__link">
     <span class="md-ellipsis">
       簡介
@@ -1295,8 +1030,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_60" class="md-nav__link">
     <span class="md-ellipsis">
       狀態
@@ -1304,8 +1039,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_61" class="md-nav__link">
     <span class="md-ellipsis">
       部署方式
@@ -1313,8 +1048,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_62" class="md-nav__link">
     <span class="md-ellipsis">
       技術層級
@@ -1322,8 +1057,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_63" class="md-nav__link">
     <span class="md-ellipsis">
       整體評分
@@ -1331,8 +1066,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_64" class="md-nav__link">
     <span class="md-ellipsis">
       完整文件
@@ -1340,8 +1075,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_65" class="md-nav__link">
     <span class="md-ellipsis">
       最近測試日期
@@ -1349,23 +1084,8 @@
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
       
         <li class="md-nav__item">
-  <a href="#mat2" class="md-nav__link">
-    <span class="md-ellipsis">
-      MAT2
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="MAT2">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_66" class="md-nav__link">
     <span class="md-ellipsis">
       分類
@@ -1373,8 +1093,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_67" class="md-nav__link">
     <span class="md-ellipsis">
       簡介
@@ -1382,8 +1102,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_68" class="md-nav__link">
     <span class="md-ellipsis">
       狀態
@@ -1391,8 +1111,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_69" class="md-nav__link">
     <span class="md-ellipsis">
       部署方式
@@ -1400,8 +1120,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_70" class="md-nav__link">
     <span class="md-ellipsis">
       技術層級
@@ -1409,8 +1129,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_71" class="md-nav__link">
     <span class="md-ellipsis">
       整體評分
@@ -1418,8 +1138,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_72" class="md-nav__link">
     <span class="md-ellipsis">
       完整文件
@@ -1427,8 +1147,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_73" class="md-nav__link">
     <span class="md-ellipsis">
       最近測試日期
@@ -1436,23 +1156,8 @@
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
       
         <li class="md-nav__item">
-  <a href="#notesnook" class="md-nav__link">
-    <span class="md-ellipsis">
-      Notesnook
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Notesnook">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_74" class="md-nav__link">
     <span class="md-ellipsis">
       分類
@@ -1460,8 +1165,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_75" class="md-nav__link">
     <span class="md-ellipsis">
       簡介
@@ -1469,8 +1174,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_76" class="md-nav__link">
     <span class="md-ellipsis">
       狀態
@@ -1478,8 +1183,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_77" class="md-nav__link">
     <span class="md-ellipsis">
       部署方式
@@ -1487,8 +1192,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_78" class="md-nav__link">
     <span class="md-ellipsis">
       技術層級
@@ -1496,8 +1201,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_79" class="md-nav__link">
     <span class="md-ellipsis">
       整體評分
@@ -1505,8 +1210,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_80" class="md-nav__link">
     <span class="md-ellipsis">
       完整文件
@@ -1514,8 +1219,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_81" class="md-nav__link">
     <span class="md-ellipsis">
       最近測試日期
@@ -1523,23 +1228,8 @@
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
       
         <li class="md-nav__item">
-  <a href="#ollama" class="md-nav__link">
-    <span class="md-ellipsis">
-      Ollama
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Ollama">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_82" class="md-nav__link">
     <span class="md-ellipsis">
       分類
@@ -1547,8 +1237,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_83" class="md-nav__link">
     <span class="md-ellipsis">
       簡介
@@ -1556,8 +1246,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_84" class="md-nav__link">
     <span class="md-ellipsis">
       狀態
@@ -1565,8 +1255,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_85" class="md-nav__link">
     <span class="md-ellipsis">
       部署方式
@@ -1574,8 +1264,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_86" class="md-nav__link">
     <span class="md-ellipsis">
       技術層級
@@ -1583,8 +1273,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_87" class="md-nav__link">
     <span class="md-ellipsis">
       整體評分
@@ -1592,8 +1282,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_88" class="md-nav__link">
     <span class="md-ellipsis">
       完整文件
@@ -1601,8 +1291,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_89" class="md-nav__link">
     <span class="md-ellipsis">
       最近測試日期
@@ -1610,23 +1300,8 @@
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
       
         <li class="md-nav__item">
-  <a href="#onlyoffice" class="md-nav__link">
-    <span class="md-ellipsis">
-      ONLYOFFICE
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="ONLYOFFICE">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_90" class="md-nav__link">
     <span class="md-ellipsis">
       分類
@@ -1634,8 +1309,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_91" class="md-nav__link">
     <span class="md-ellipsis">
       簡介
@@ -1643,8 +1318,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_92" class="md-nav__link">
     <span class="md-ellipsis">
       狀態
@@ -1652,8 +1327,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_93" class="md-nav__link">
     <span class="md-ellipsis">
       部署方式
@@ -1661,8 +1336,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_94" class="md-nav__link">
     <span class="md-ellipsis">
       技術層級
@@ -1670,8 +1345,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_95" class="md-nav__link">
     <span class="md-ellipsis">
       整體評分
@@ -1679,8 +1354,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_96" class="md-nav__link">
     <span class="md-ellipsis">
       完整文件
@@ -1688,8 +1363,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_97" class="md-nav__link">
     <span class="md-ellipsis">
       最近測試日期
@@ -1697,23 +1372,8 @@
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
       
         <li class="md-nav__item">
-  <a href="#privatebin" class="md-nav__link">
-    <span class="md-ellipsis">
-      PrivateBin
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="PrivateBin">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_98" class="md-nav__link">
     <span class="md-ellipsis">
       分類
@@ -1721,8 +1381,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_99" class="md-nav__link">
     <span class="md-ellipsis">
       簡介
@@ -1730,8 +1390,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_100" class="md-nav__link">
     <span class="md-ellipsis">
       狀態
@@ -1739,8 +1399,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_101" class="md-nav__link">
     <span class="md-ellipsis">
       部署方式
@@ -1748,8 +1408,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_102" class="md-nav__link">
     <span class="md-ellipsis">
       技術層級
@@ -1757,8 +1417,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_103" class="md-nav__link">
     <span class="md-ellipsis">
       整體評分
@@ -1766,8 +1426,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_104" class="md-nav__link">
     <span class="md-ellipsis">
       完整文件
@@ -1775,8 +1435,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_105" class="md-nav__link">
     <span class="md-ellipsis">
       最近測試日期
@@ -1784,23 +1444,8 @@
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
       
         <li class="md-nav__item">
-  <a href="#proton-vpn" class="md-nav__link">
-    <span class="md-ellipsis">
-      Proton VPN
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Proton VPN">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_106" class="md-nav__link">
     <span class="md-ellipsis">
       分類
@@ -1808,8 +1453,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_107" class="md-nav__link">
     <span class="md-ellipsis">
       簡介
@@ -1817,8 +1462,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_108" class="md-nav__link">
     <span class="md-ellipsis">
       狀態
@@ -1826,8 +1471,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_109" class="md-nav__link">
     <span class="md-ellipsis">
       部署方式
@@ -1835,8 +1480,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_110" class="md-nav__link">
     <span class="md-ellipsis">
       技術層級
@@ -1844,8 +1489,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_111" class="md-nav__link">
     <span class="md-ellipsis">
       整體評分
@@ -1853,8 +1498,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_112" class="md-nav__link">
     <span class="md-ellipsis">
       完整文件
@@ -1862,8 +1507,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_113" class="md-nav__link">
     <span class="md-ellipsis">
       最近測試日期
@@ -1871,23 +1516,8 @@
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
       
         <li class="md-nav__item">
-  <a href="#quiet" class="md-nav__link">
-    <span class="md-ellipsis">
-      Quiet
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Quiet">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_114" class="md-nav__link">
     <span class="md-ellipsis">
       分類
@@ -1895,8 +1525,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_115" class="md-nav__link">
     <span class="md-ellipsis">
       簡介
@@ -1904,8 +1534,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_116" class="md-nav__link">
     <span class="md-ellipsis">
       狀態
@@ -1913,8 +1543,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_117" class="md-nav__link">
     <span class="md-ellipsis">
       部署方式
@@ -1922,8 +1552,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_118" class="md-nav__link">
     <span class="md-ellipsis">
       技術層級
@@ -1931,8 +1561,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_119" class="md-nav__link">
     <span class="md-ellipsis">
       整體評分
@@ -1940,8 +1570,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_120" class="md-nav__link">
     <span class="md-ellipsis">
       完整文件
@@ -1949,8 +1579,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_121" class="md-nav__link">
     <span class="md-ellipsis">
       最近測試日期
@@ -1958,23 +1588,8 @@
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
       
         <li class="md-nav__item">
-  <a href="#send" class="md-nav__link">
-    <span class="md-ellipsis">
-      Send
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Send">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_122" class="md-nav__link">
     <span class="md-ellipsis">
       分類
@@ -1982,8 +1597,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_123" class="md-nav__link">
     <span class="md-ellipsis">
       簡介
@@ -1991,8 +1606,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_124" class="md-nav__link">
     <span class="md-ellipsis">
       狀態
@@ -2000,8 +1615,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_125" class="md-nav__link">
     <span class="md-ellipsis">
       部署方式
@@ -2009,8 +1624,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_126" class="md-nav__link">
     <span class="md-ellipsis">
       技術層級
@@ -2018,8 +1633,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_127" class="md-nav__link">
     <span class="md-ellipsis">
       整體評分
@@ -2027,8 +1642,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_128" class="md-nav__link">
     <span class="md-ellipsis">
       完整文件
@@ -2036,8 +1651,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_129" class="md-nav__link">
     <span class="md-ellipsis">
       最近測試日期
@@ -2045,23 +1660,8 @@
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
       
         <li class="md-nav__item">
-  <a href="#signal" class="md-nav__link">
-    <span class="md-ellipsis">
-      Signal
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Signal">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_130" class="md-nav__link">
     <span class="md-ellipsis">
       分類
@@ -2069,8 +1669,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_131" class="md-nav__link">
     <span class="md-ellipsis">
       簡介
@@ -2078,8 +1678,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_132" class="md-nav__link">
     <span class="md-ellipsis">
       狀態
@@ -2087,8 +1687,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_133" class="md-nav__link">
     <span class="md-ellipsis">
       部署方式
@@ -2096,8 +1696,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_134" class="md-nav__link">
     <span class="md-ellipsis">
       技術層級
@@ -2105,8 +1705,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_135" class="md-nav__link">
     <span class="md-ellipsis">
       整體評分
@@ -2114,8 +1714,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_136" class="md-nav__link">
     <span class="md-ellipsis">
       完整文件
@@ -2123,8 +1723,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_137" class="md-nav__link">
     <span class="md-ellipsis">
       最近測試日期
@@ -2132,23 +1732,8 @@
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
       
         <li class="md-nav__item">
-  <a href="#standard-notes" class="md-nav__link">
-    <span class="md-ellipsis">
-      Standard Notes
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Standard Notes">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_138" class="md-nav__link">
     <span class="md-ellipsis">
       分類
@@ -2156,8 +1741,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_139" class="md-nav__link">
     <span class="md-ellipsis">
       簡介
@@ -2165,8 +1750,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_140" class="md-nav__link">
     <span class="md-ellipsis">
       狀態
@@ -2174,8 +1759,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_141" class="md-nav__link">
     <span class="md-ellipsis">
       部署方式
@@ -2183,8 +1768,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_142" class="md-nav__link">
     <span class="md-ellipsis">
       技術層級
@@ -2192,8 +1777,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_143" class="md-nav__link">
     <span class="md-ellipsis">
       整體評分
@@ -2201,8 +1786,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_144" class="md-nav__link">
     <span class="md-ellipsis">
       完整文件
@@ -2210,8 +1795,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_145" class="md-nav__link">
     <span class="md-ellipsis">
       最近測試日期
@@ -2219,23 +1804,8 @@
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
       
         <li class="md-nav__item">
-  <a href="#thunderbird" class="md-nav__link">
-    <span class="md-ellipsis">
-      ThunderBird
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="ThunderBird">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_146" class="md-nav__link">
     <span class="md-ellipsis">
       分類
@@ -2243,8 +1813,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_147" class="md-nav__link">
     <span class="md-ellipsis">
       簡介
@@ -2252,8 +1822,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_148" class="md-nav__link">
     <span class="md-ellipsis">
       狀態
@@ -2261,8 +1831,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_149" class="md-nav__link">
     <span class="md-ellipsis">
       部署方式
@@ -2270,8 +1840,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_150" class="md-nav__link">
     <span class="md-ellipsis">
       技術層級
@@ -2279,8 +1849,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_151" class="md-nav__link">
     <span class="md-ellipsis">
       整體評分
@@ -2288,8 +1858,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_152" class="md-nav__link">
     <span class="md-ellipsis">
       完整文件
@@ -2297,8 +1867,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_153" class="md-nav__link">
     <span class="md-ellipsis">
       最近測試日期
@@ -2306,23 +1876,8 @@
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
       
         <li class="md-nav__item">
-  <a href="#tor" class="md-nav__link">
-    <span class="md-ellipsis">
-      Tor 瀏覽器
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Tor 瀏覽器">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_154" class="md-nav__link">
     <span class="md-ellipsis">
       分類
@@ -2330,8 +1885,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_155" class="md-nav__link">
     <span class="md-ellipsis">
       簡介
@@ -2339,8 +1894,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_156" class="md-nav__link">
     <span class="md-ellipsis">
       狀態
@@ -2348,8 +1903,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_157" class="md-nav__link">
     <span class="md-ellipsis">
       部署方式
@@ -2357,8 +1912,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_158" class="md-nav__link">
     <span class="md-ellipsis">
       技術層級
@@ -2366,8 +1921,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_159" class="md-nav__link">
     <span class="md-ellipsis">
       整體評分
@@ -2375,8 +1930,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_160" class="md-nav__link">
     <span class="md-ellipsis">
       完整文件
@@ -2384,8 +1939,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_161" class="md-nav__link">
     <span class="md-ellipsis">
       最近測試日期
@@ -2393,23 +1948,8 @@
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
       
         <li class="md-nav__item">
-  <a href="#veracrypt" class="md-nav__link">
-    <span class="md-ellipsis">
-      VeraCrypt
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="VeraCrypt">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_162" class="md-nav__link">
     <span class="md-ellipsis">
       分類
@@ -2417,8 +1957,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_163" class="md-nav__link">
     <span class="md-ellipsis">
       簡介
@@ -2426,8 +1966,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_164" class="md-nav__link">
     <span class="md-ellipsis">
       狀態
@@ -2435,8 +1975,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_165" class="md-nav__link">
     <span class="md-ellipsis">
       部署方式
@@ -2444,8 +1984,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_166" class="md-nav__link">
     <span class="md-ellipsis">
       技術層級
@@ -2453,8 +1993,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_167" class="md-nav__link">
     <span class="md-ellipsis">
       整體評分
@@ -2462,8 +2002,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_168" class="md-nav__link">
     <span class="md-ellipsis">
       完整文件
@@ -2471,8 +2011,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_169" class="md-nav__link">
     <span class="md-ellipsis">
       最近測試日期
@@ -2480,16 +2020,33 @@
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
       
     </ul>
   
 </nav>
       
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../toollist_category/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    工具清單（依類別）
+    
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -2529,7 +2086,7 @@
                   <div class="md-sidebar__inner">
                     
 
-<nav class="md-nav md-nav--secondary" aria-label="目录">
+<nav class="md-nav md-nav--secondary" aria-label="目錄">
   
   
   
@@ -2538,21 +2095,11 @@
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
-      目录
+      目錄
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#adguard" class="md-nav__link">
-    <span class="md-ellipsis">
-      AdGuard
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="AdGuard">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       分類
@@ -2560,8 +2107,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       簡介
@@ -2569,8 +2116,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
       狀態
@@ -2578,8 +2125,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
       部署方式
@@ -2587,8 +2134,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_6" class="md-nav__link">
     <span class="md-ellipsis">
       技術層級
@@ -2596,8 +2143,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_7" class="md-nav__link">
     <span class="md-ellipsis">
       整體評分
@@ -2605,8 +2152,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_8" class="md-nav__link">
     <span class="md-ellipsis">
       完整文件
@@ -2614,8 +2161,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_9" class="md-nav__link">
     <span class="md-ellipsis">
       最近測試日期
@@ -2623,23 +2170,8 @@
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
       
         <li class="md-nav__item">
-  <a href="#bitwarden" class="md-nav__link">
-    <span class="md-ellipsis">
-      Bitwarden
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Bitwarden">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_10" class="md-nav__link">
     <span class="md-ellipsis">
       分類
@@ -2647,8 +2179,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_11" class="md-nav__link">
     <span class="md-ellipsis">
       簡介
@@ -2656,8 +2188,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_12" class="md-nav__link">
     <span class="md-ellipsis">
       狀態
@@ -2665,8 +2197,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_13" class="md-nav__link">
     <span class="md-ellipsis">
       部署方式
@@ -2674,8 +2206,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_14" class="md-nav__link">
     <span class="md-ellipsis">
       技術層級
@@ -2683,8 +2215,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_15" class="md-nav__link">
     <span class="md-ellipsis">
       整體評分
@@ -2692,8 +2224,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_16" class="md-nav__link">
     <span class="md-ellipsis">
       完整文件
@@ -2701,8 +2233,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_17" class="md-nav__link">
     <span class="md-ellipsis">
       最近測試日期
@@ -2710,23 +2242,8 @@
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
       
         <li class="md-nav__item">
-  <a href="#croc" class="md-nav__link">
-    <span class="md-ellipsis">
-      Croc
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Croc">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_18" class="md-nav__link">
     <span class="md-ellipsis">
       分類
@@ -2734,8 +2251,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_19" class="md-nav__link">
     <span class="md-ellipsis">
       簡介
@@ -2743,8 +2260,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_20" class="md-nav__link">
     <span class="md-ellipsis">
       狀態
@@ -2752,8 +2269,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_21" class="md-nav__link">
     <span class="md-ellipsis">
       部署方式
@@ -2761,8 +2278,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_22" class="md-nav__link">
     <span class="md-ellipsis">
       技術層級
@@ -2770,8 +2287,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_23" class="md-nav__link">
     <span class="md-ellipsis">
       整體評分
@@ -2779,8 +2296,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_24" class="md-nav__link">
     <span class="md-ellipsis">
       完整文件
@@ -2788,8 +2305,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_25" class="md-nav__link">
     <span class="md-ellipsis">
       最近測試日期
@@ -2797,23 +2314,8 @@
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
       
         <li class="md-nav__item">
-  <a href="#cryptomator" class="md-nav__link">
-    <span class="md-ellipsis">
-      Cryptomator
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Cryptomator">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_26" class="md-nav__link">
     <span class="md-ellipsis">
       分類
@@ -2821,8 +2323,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_27" class="md-nav__link">
     <span class="md-ellipsis">
       簡介
@@ -2830,8 +2332,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_28" class="md-nav__link">
     <span class="md-ellipsis">
       狀態
@@ -2839,8 +2341,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_29" class="md-nav__link">
     <span class="md-ellipsis">
       部署方式
@@ -2848,8 +2350,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_30" class="md-nav__link">
     <span class="md-ellipsis">
       技術層級
@@ -2857,8 +2359,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_31" class="md-nav__link">
     <span class="md-ellipsis">
       整體評分
@@ -2866,8 +2368,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_32" class="md-nav__link">
     <span class="md-ellipsis">
       完整文件
@@ -2875,8 +2377,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_33" class="md-nav__link">
     <span class="md-ellipsis">
       最近測試日期
@@ -2884,23 +2386,8 @@
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
       
         <li class="md-nav__item">
-  <a href="#duckduckgo" class="md-nav__link">
-    <span class="md-ellipsis">
-      DuckDuckGo
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="DuckDuckGo">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_34" class="md-nav__link">
     <span class="md-ellipsis">
       分類
@@ -2908,8 +2395,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_35" class="md-nav__link">
     <span class="md-ellipsis">
       簡介
@@ -2917,8 +2404,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_36" class="md-nav__link">
     <span class="md-ellipsis">
       狀態
@@ -2926,8 +2413,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_37" class="md-nav__link">
     <span class="md-ellipsis">
       部署方式
@@ -2935,8 +2422,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_38" class="md-nav__link">
     <span class="md-ellipsis">
       技術層級
@@ -2944,8 +2431,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_39" class="md-nav__link">
     <span class="md-ellipsis">
       整體評分
@@ -2953,8 +2440,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_40" class="md-nav__link">
     <span class="md-ellipsis">
       完整文件
@@ -2962,8 +2449,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_41" class="md-nav__link">
     <span class="md-ellipsis">
       最近測試日期
@@ -2971,23 +2458,8 @@
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
       
         <li class="md-nav__item">
-  <a href="#languagetool" class="md-nav__link">
-    <span class="md-ellipsis">
-      LanguageTool
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="LanguageTool">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_42" class="md-nav__link">
     <span class="md-ellipsis">
       分類
@@ -2995,8 +2467,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_43" class="md-nav__link">
     <span class="md-ellipsis">
       簡介
@@ -3004,8 +2476,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_44" class="md-nav__link">
     <span class="md-ellipsis">
       狀態
@@ -3013,8 +2485,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_45" class="md-nav__link">
     <span class="md-ellipsis">
       部署方式
@@ -3022,8 +2494,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_46" class="md-nav__link">
     <span class="md-ellipsis">
       技術層級
@@ -3031,8 +2503,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_47" class="md-nav__link">
     <span class="md-ellipsis">
       整體評分
@@ -3040,8 +2512,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_48" class="md-nav__link">
     <span class="md-ellipsis">
       完整文件
@@ -3049,8 +2521,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_49" class="md-nav__link">
     <span class="md-ellipsis">
       最近測試日期
@@ -3058,23 +2530,8 @@
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
       
         <li class="md-nav__item">
-  <a href="#libreoffice" class="md-nav__link">
-    <span class="md-ellipsis">
-      LibreOffice
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="LibreOffice">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_50" class="md-nav__link">
     <span class="md-ellipsis">
       分類
@@ -3082,8 +2539,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_51" class="md-nav__link">
     <span class="md-ellipsis">
       簡介
@@ -3091,8 +2548,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_52" class="md-nav__link">
     <span class="md-ellipsis">
       狀態
@@ -3100,8 +2557,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_53" class="md-nav__link">
     <span class="md-ellipsis">
       部署方式
@@ -3109,8 +2566,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_54" class="md-nav__link">
     <span class="md-ellipsis">
       技術層級
@@ -3118,8 +2575,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_55" class="md-nav__link">
     <span class="md-ellipsis">
       整體評分
@@ -3127,8 +2584,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_56" class="md-nav__link">
     <span class="md-ellipsis">
       完整文件
@@ -3136,8 +2593,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_57" class="md-nav__link">
     <span class="md-ellipsis">
       最近測試日期
@@ -3145,23 +2602,8 @@
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
       
         <li class="md-nav__item">
-  <a href="#magic-wormhole" class="md-nav__link">
-    <span class="md-ellipsis">
-      Magic Wormhole
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Magic Wormhole">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_58" class="md-nav__link">
     <span class="md-ellipsis">
       分類
@@ -3169,8 +2611,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_59" class="md-nav__link">
     <span class="md-ellipsis">
       簡介
@@ -3178,8 +2620,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_60" class="md-nav__link">
     <span class="md-ellipsis">
       狀態
@@ -3187,8 +2629,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_61" class="md-nav__link">
     <span class="md-ellipsis">
       部署方式
@@ -3196,8 +2638,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_62" class="md-nav__link">
     <span class="md-ellipsis">
       技術層級
@@ -3205,8 +2647,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_63" class="md-nav__link">
     <span class="md-ellipsis">
       整體評分
@@ -3214,8 +2656,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_64" class="md-nav__link">
     <span class="md-ellipsis">
       完整文件
@@ -3223,8 +2665,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_65" class="md-nav__link">
     <span class="md-ellipsis">
       最近測試日期
@@ -3232,23 +2674,8 @@
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
       
         <li class="md-nav__item">
-  <a href="#mat2" class="md-nav__link">
-    <span class="md-ellipsis">
-      MAT2
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="MAT2">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_66" class="md-nav__link">
     <span class="md-ellipsis">
       分類
@@ -3256,8 +2683,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_67" class="md-nav__link">
     <span class="md-ellipsis">
       簡介
@@ -3265,8 +2692,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_68" class="md-nav__link">
     <span class="md-ellipsis">
       狀態
@@ -3274,8 +2701,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_69" class="md-nav__link">
     <span class="md-ellipsis">
       部署方式
@@ -3283,8 +2710,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_70" class="md-nav__link">
     <span class="md-ellipsis">
       技術層級
@@ -3292,8 +2719,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_71" class="md-nav__link">
     <span class="md-ellipsis">
       整體評分
@@ -3301,8 +2728,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_72" class="md-nav__link">
     <span class="md-ellipsis">
       完整文件
@@ -3310,8 +2737,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_73" class="md-nav__link">
     <span class="md-ellipsis">
       最近測試日期
@@ -3319,23 +2746,8 @@
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
       
         <li class="md-nav__item">
-  <a href="#notesnook" class="md-nav__link">
-    <span class="md-ellipsis">
-      Notesnook
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Notesnook">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_74" class="md-nav__link">
     <span class="md-ellipsis">
       分類
@@ -3343,8 +2755,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_75" class="md-nav__link">
     <span class="md-ellipsis">
       簡介
@@ -3352,8 +2764,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_76" class="md-nav__link">
     <span class="md-ellipsis">
       狀態
@@ -3361,8 +2773,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_77" class="md-nav__link">
     <span class="md-ellipsis">
       部署方式
@@ -3370,8 +2782,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_78" class="md-nav__link">
     <span class="md-ellipsis">
       技術層級
@@ -3379,8 +2791,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_79" class="md-nav__link">
     <span class="md-ellipsis">
       整體評分
@@ -3388,8 +2800,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_80" class="md-nav__link">
     <span class="md-ellipsis">
       完整文件
@@ -3397,8 +2809,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_81" class="md-nav__link">
     <span class="md-ellipsis">
       最近測試日期
@@ -3406,23 +2818,8 @@
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
       
         <li class="md-nav__item">
-  <a href="#ollama" class="md-nav__link">
-    <span class="md-ellipsis">
-      Ollama
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Ollama">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_82" class="md-nav__link">
     <span class="md-ellipsis">
       分類
@@ -3430,8 +2827,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_83" class="md-nav__link">
     <span class="md-ellipsis">
       簡介
@@ -3439,8 +2836,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_84" class="md-nav__link">
     <span class="md-ellipsis">
       狀態
@@ -3448,8 +2845,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_85" class="md-nav__link">
     <span class="md-ellipsis">
       部署方式
@@ -3457,8 +2854,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_86" class="md-nav__link">
     <span class="md-ellipsis">
       技術層級
@@ -3466,8 +2863,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_87" class="md-nav__link">
     <span class="md-ellipsis">
       整體評分
@@ -3475,8 +2872,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_88" class="md-nav__link">
     <span class="md-ellipsis">
       完整文件
@@ -3484,8 +2881,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_89" class="md-nav__link">
     <span class="md-ellipsis">
       最近測試日期
@@ -3493,23 +2890,8 @@
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
       
         <li class="md-nav__item">
-  <a href="#onlyoffice" class="md-nav__link">
-    <span class="md-ellipsis">
-      ONLYOFFICE
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="ONLYOFFICE">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_90" class="md-nav__link">
     <span class="md-ellipsis">
       分類
@@ -3517,8 +2899,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_91" class="md-nav__link">
     <span class="md-ellipsis">
       簡介
@@ -3526,8 +2908,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_92" class="md-nav__link">
     <span class="md-ellipsis">
       狀態
@@ -3535,8 +2917,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_93" class="md-nav__link">
     <span class="md-ellipsis">
       部署方式
@@ -3544,8 +2926,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_94" class="md-nav__link">
     <span class="md-ellipsis">
       技術層級
@@ -3553,8 +2935,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_95" class="md-nav__link">
     <span class="md-ellipsis">
       整體評分
@@ -3562,8 +2944,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_96" class="md-nav__link">
     <span class="md-ellipsis">
       完整文件
@@ -3571,8 +2953,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_97" class="md-nav__link">
     <span class="md-ellipsis">
       最近測試日期
@@ -3580,23 +2962,8 @@
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
       
         <li class="md-nav__item">
-  <a href="#privatebin" class="md-nav__link">
-    <span class="md-ellipsis">
-      PrivateBin
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="PrivateBin">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_98" class="md-nav__link">
     <span class="md-ellipsis">
       分類
@@ -3604,8 +2971,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_99" class="md-nav__link">
     <span class="md-ellipsis">
       簡介
@@ -3613,8 +2980,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_100" class="md-nav__link">
     <span class="md-ellipsis">
       狀態
@@ -3622,8 +2989,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_101" class="md-nav__link">
     <span class="md-ellipsis">
       部署方式
@@ -3631,8 +2998,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_102" class="md-nav__link">
     <span class="md-ellipsis">
       技術層級
@@ -3640,8 +3007,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_103" class="md-nav__link">
     <span class="md-ellipsis">
       整體評分
@@ -3649,8 +3016,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_104" class="md-nav__link">
     <span class="md-ellipsis">
       完整文件
@@ -3658,8 +3025,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_105" class="md-nav__link">
     <span class="md-ellipsis">
       最近測試日期
@@ -3667,23 +3034,8 @@
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
       
         <li class="md-nav__item">
-  <a href="#proton-vpn" class="md-nav__link">
-    <span class="md-ellipsis">
-      Proton VPN
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Proton VPN">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_106" class="md-nav__link">
     <span class="md-ellipsis">
       分類
@@ -3691,8 +3043,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_107" class="md-nav__link">
     <span class="md-ellipsis">
       簡介
@@ -3700,8 +3052,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_108" class="md-nav__link">
     <span class="md-ellipsis">
       狀態
@@ -3709,8 +3061,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_109" class="md-nav__link">
     <span class="md-ellipsis">
       部署方式
@@ -3718,8 +3070,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_110" class="md-nav__link">
     <span class="md-ellipsis">
       技術層級
@@ -3727,8 +3079,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_111" class="md-nav__link">
     <span class="md-ellipsis">
       整體評分
@@ -3736,8 +3088,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_112" class="md-nav__link">
     <span class="md-ellipsis">
       完整文件
@@ -3745,8 +3097,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_113" class="md-nav__link">
     <span class="md-ellipsis">
       最近測試日期
@@ -3754,23 +3106,8 @@
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
       
         <li class="md-nav__item">
-  <a href="#quiet" class="md-nav__link">
-    <span class="md-ellipsis">
-      Quiet
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Quiet">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_114" class="md-nav__link">
     <span class="md-ellipsis">
       分類
@@ -3778,8 +3115,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_115" class="md-nav__link">
     <span class="md-ellipsis">
       簡介
@@ -3787,8 +3124,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_116" class="md-nav__link">
     <span class="md-ellipsis">
       狀態
@@ -3796,8 +3133,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_117" class="md-nav__link">
     <span class="md-ellipsis">
       部署方式
@@ -3805,8 +3142,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_118" class="md-nav__link">
     <span class="md-ellipsis">
       技術層級
@@ -3814,8 +3151,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_119" class="md-nav__link">
     <span class="md-ellipsis">
       整體評分
@@ -3823,8 +3160,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_120" class="md-nav__link">
     <span class="md-ellipsis">
       完整文件
@@ -3832,8 +3169,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_121" class="md-nav__link">
     <span class="md-ellipsis">
       最近測試日期
@@ -3841,23 +3178,8 @@
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
       
         <li class="md-nav__item">
-  <a href="#send" class="md-nav__link">
-    <span class="md-ellipsis">
-      Send
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Send">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_122" class="md-nav__link">
     <span class="md-ellipsis">
       分類
@@ -3865,8 +3187,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_123" class="md-nav__link">
     <span class="md-ellipsis">
       簡介
@@ -3874,8 +3196,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_124" class="md-nav__link">
     <span class="md-ellipsis">
       狀態
@@ -3883,8 +3205,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_125" class="md-nav__link">
     <span class="md-ellipsis">
       部署方式
@@ -3892,8 +3214,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_126" class="md-nav__link">
     <span class="md-ellipsis">
       技術層級
@@ -3901,8 +3223,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_127" class="md-nav__link">
     <span class="md-ellipsis">
       整體評分
@@ -3910,8 +3232,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_128" class="md-nav__link">
     <span class="md-ellipsis">
       完整文件
@@ -3919,8 +3241,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_129" class="md-nav__link">
     <span class="md-ellipsis">
       最近測試日期
@@ -3928,23 +3250,8 @@
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
       
         <li class="md-nav__item">
-  <a href="#signal" class="md-nav__link">
-    <span class="md-ellipsis">
-      Signal
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Signal">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_130" class="md-nav__link">
     <span class="md-ellipsis">
       分類
@@ -3952,8 +3259,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_131" class="md-nav__link">
     <span class="md-ellipsis">
       簡介
@@ -3961,8 +3268,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_132" class="md-nav__link">
     <span class="md-ellipsis">
       狀態
@@ -3970,8 +3277,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_133" class="md-nav__link">
     <span class="md-ellipsis">
       部署方式
@@ -3979,8 +3286,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_134" class="md-nav__link">
     <span class="md-ellipsis">
       技術層級
@@ -3988,8 +3295,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_135" class="md-nav__link">
     <span class="md-ellipsis">
       整體評分
@@ -3997,8 +3304,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_136" class="md-nav__link">
     <span class="md-ellipsis">
       完整文件
@@ -4006,8 +3313,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_137" class="md-nav__link">
     <span class="md-ellipsis">
       最近測試日期
@@ -4015,23 +3322,8 @@
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
       
         <li class="md-nav__item">
-  <a href="#standard-notes" class="md-nav__link">
-    <span class="md-ellipsis">
-      Standard Notes
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Standard Notes">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_138" class="md-nav__link">
     <span class="md-ellipsis">
       分類
@@ -4039,8 +3331,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_139" class="md-nav__link">
     <span class="md-ellipsis">
       簡介
@@ -4048,8 +3340,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_140" class="md-nav__link">
     <span class="md-ellipsis">
       狀態
@@ -4057,8 +3349,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_141" class="md-nav__link">
     <span class="md-ellipsis">
       部署方式
@@ -4066,8 +3358,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_142" class="md-nav__link">
     <span class="md-ellipsis">
       技術層級
@@ -4075,8 +3367,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_143" class="md-nav__link">
     <span class="md-ellipsis">
       整體評分
@@ -4084,8 +3376,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_144" class="md-nav__link">
     <span class="md-ellipsis">
       完整文件
@@ -4093,8 +3385,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_145" class="md-nav__link">
     <span class="md-ellipsis">
       最近測試日期
@@ -4102,23 +3394,8 @@
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
       
         <li class="md-nav__item">
-  <a href="#thunderbird" class="md-nav__link">
-    <span class="md-ellipsis">
-      ThunderBird
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="ThunderBird">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_146" class="md-nav__link">
     <span class="md-ellipsis">
       分類
@@ -4126,8 +3403,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_147" class="md-nav__link">
     <span class="md-ellipsis">
       簡介
@@ -4135,8 +3412,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_148" class="md-nav__link">
     <span class="md-ellipsis">
       狀態
@@ -4144,8 +3421,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_149" class="md-nav__link">
     <span class="md-ellipsis">
       部署方式
@@ -4153,8 +3430,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_150" class="md-nav__link">
     <span class="md-ellipsis">
       技術層級
@@ -4162,8 +3439,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_151" class="md-nav__link">
     <span class="md-ellipsis">
       整體評分
@@ -4171,8 +3448,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_152" class="md-nav__link">
     <span class="md-ellipsis">
       完整文件
@@ -4180,8 +3457,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_153" class="md-nav__link">
     <span class="md-ellipsis">
       最近測試日期
@@ -4189,23 +3466,8 @@
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
       
         <li class="md-nav__item">
-  <a href="#tor" class="md-nav__link">
-    <span class="md-ellipsis">
-      Tor 瀏覽器
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Tor 瀏覽器">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_154" class="md-nav__link">
     <span class="md-ellipsis">
       分類
@@ -4213,8 +3475,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_155" class="md-nav__link">
     <span class="md-ellipsis">
       簡介
@@ -4222,8 +3484,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_156" class="md-nav__link">
     <span class="md-ellipsis">
       狀態
@@ -4231,8 +3493,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_157" class="md-nav__link">
     <span class="md-ellipsis">
       部署方式
@@ -4240,8 +3502,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_158" class="md-nav__link">
     <span class="md-ellipsis">
       技術層級
@@ -4249,8 +3511,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_159" class="md-nav__link">
     <span class="md-ellipsis">
       整體評分
@@ -4258,8 +3520,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_160" class="md-nav__link">
     <span class="md-ellipsis">
       完整文件
@@ -4267,8 +3529,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_161" class="md-nav__link">
     <span class="md-ellipsis">
       最近測試日期
@@ -4276,23 +3538,8 @@
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
       
         <li class="md-nav__item">
-  <a href="#veracrypt" class="md-nav__link">
-    <span class="md-ellipsis">
-      VeraCrypt
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="VeraCrypt">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_162" class="md-nav__link">
     <span class="md-ellipsis">
       分類
@@ -4300,8 +3547,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_163" class="md-nav__link">
     <span class="md-ellipsis">
       簡介
@@ -4309,8 +3556,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_164" class="md-nav__link">
     <span class="md-ellipsis">
       狀態
@@ -4318,8 +3565,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_165" class="md-nav__link">
     <span class="md-ellipsis">
       部署方式
@@ -4327,8 +3574,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_166" class="md-nav__link">
     <span class="md-ellipsis">
       技術層級
@@ -4336,8 +3583,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_167" class="md-nav__link">
     <span class="md-ellipsis">
       整體評分
@@ -4345,8 +3592,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_168" class="md-nav__link">
     <span class="md-ellipsis">
       完整文件
@@ -4354,18 +3601,13 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_169" class="md-nav__link">
     <span class="md-ellipsis">
       最近測試日期
     </span>
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -4386,7 +3628,8 @@
 
 
 <h1 id="_1">已評估工具</h1>
-<h2 id="adguard"><a href="https://adguard.com/">AdGuard</a></h2>
+<details class="note">
+<summary><a href="https://adguard.com/">AdGuard</a></summary>
 <h3 id="_2">分類</h3>
 <p>廣告追蹤器攔截</p>
 <h3 id="_3">簡介</h3>
@@ -4403,7 +3646,9 @@
 <p><a href="categories/ad-tracker-blocking/adguard_zh.md">詳細資訊</a></p>
 <h3 id="_9">最近測試日期</h3>
 <p>2025-03-30</p>
-<h2 id="bitwarden"><a href="https://bitwarden.com/">Bitwarden</a></h2>
+</details>
+<details class="note">
+<summary><a href="https://bitwarden.com/">Bitwarden</a></summary>
 <h3 id="_10">分類</h3>
 <p>密碼管理</p>
 <h3 id="_11">簡介</h3>
@@ -4420,7 +3665,9 @@
 <p><a href="../categories/password-management/bitwarden/">詳細資訊</a></p>
 <h3 id="_17">最近測試日期</h3>
 <p>2025-03-27</p>
-<h2 id="croc"><a href="https://github.com/schollz/croc">Croc</a></h2>
+</details>
+<details class="note">
+<summary><a href="https://github.com/schollz/croc">Croc</a></summary>
 <h3 id="_18">分類</h3>
 <p>檔案傳輸</p>
 <h3 id="_19">簡介</h3>
@@ -4437,7 +3684,9 @@
 <p><a href="../categories/file-transfer/croc/">詳細資訊</a></p>
 <h3 id="_25">最近測試日期</h3>
 <p>2025-04-07</p>
-<h2 id="cryptomator"><a href="https://cryptomator.org/">Cryptomator</a></h2>
+</details>
+<details class="note">
+<summary><a href="https://cryptomator.org/">Cryptomator</a></summary>
 <h3 id="_26">分類</h3>
 <p>加密</p>
 <h3 id="_27">簡介</h3>
@@ -4454,7 +3703,9 @@
 <p><a href="../categories/encryption/cryptomator/">詳細資訊</a></p>
 <h3 id="_33">最近測試日期</h3>
 <p>2025-04-22</p>
-<h2 id="duckduckgo"><a href="https://duckduckgo.com/">DuckDuckGo</a></h2>
+</details>
+<details class="note">
+<summary><a href="https://duckduckgo.com/">DuckDuckGo</a></summary>
 <h3 id="_34">分類</h3>
 <p>隱私搜尋引擎</p>
 <h3 id="_35">簡介</h3>
@@ -4471,7 +3722,9 @@
 <p><a href="../categories/privacy-search-engine/duckduckgo/">詳細資訊</a></p>
 <h3 id="_41">最近測試日期</h3>
 <p>2025-04-17</p>
-<h2 id="languagetool"><a href="https://languagetool.org/">LanguageTool</a></h2>
+</details>
+<details class="note">
+<summary><a href="https://languagetool.org/">LanguageTool</a></summary>
 <h3 id="_42">分類</h3>
 <p>語言工具</p>
 <h3 id="_43">簡介</h3>
@@ -4488,7 +3741,9 @@
 <p><a href="../categories/language-tools/languagetool/">詳細資訊</a></p>
 <h3 id="_49">最近測試日期</h3>
 <p>2025-04-29</p>
-<h2 id="libreoffice"><a href="https://www.libreoffice.org/">LibreOffice</a></h2>
+</details>
+<details class="note">
+<summary><a href="https://www.libreoffice.org/">LibreOffice</a></summary>
 <h3 id="_50">分類</h3>
 <p>辦公室套件</p>
 <h3 id="_51">簡介</h3>
@@ -4505,7 +3760,9 @@
 <p><a href="../categories/office-suite/libreoffice/">詳細資訊</a></p>
 <h3 id="_57">最近測試日期</h3>
 <p>2025-04-23</p>
-<h2 id="magic-wormhole"><a href="https://github.com/magic-wormhole/magic-wormhole">Magic Wormhole</a></h2>
+</details>
+<details class="note">
+<summary><a href="https://github.com/magic-wormhole/magic-wormhole">Magic Wormhole</a></summary>
 <h3 id="_58">分類</h3>
 <p>檔案傳輸</p>
 <h3 id="_59">簡介</h3>
@@ -4522,7 +3779,9 @@
 <p><a href="../categories/file-transfer/magic-wormhole/">詳細資訊</a></p>
 <h3 id="_65">最近測試日期</h3>
 <p>2025-04-02</p>
-<h2 id="mat2"><a href="https://github.com/jvoisin/mat2">MAT2</a></h2>
+</details>
+<details class="note">
+<summary><a href="https://github.com/jvoisin/mat2">MAT2</a></summary>
 <h3 id="_66">分類</h3>
 <p>資料和中繼資料編輯</p>
 <h3 id="_67">簡介</h3>
@@ -4539,7 +3798,9 @@
 <p><a href="../categories/data-%26-metadata-redaction/mat2/">詳細資訊</a></p>
 <h3 id="_73">最近測試日期</h3>
 <p>2025-04-29</p>
-<h2 id="notesnook"><a href="https://notesnook.com/">Notesnook</a></h2>
+</details>
+<details class="note">
+<summary><a href="https://notesnook.com/">Notesnook</a></summary>
 <h3 id="_74">分類</h3>
 <p>筆記本</p>
 <h3 id="_75">簡介</h3>
@@ -4556,7 +3817,9 @@
 <p><a href="../categories/notebooks/notesnook/">詳細資訊</a></p>
 <h3 id="_81">最近測試日期</h3>
 <p>2025-04-21</p>
-<h2 id="ollama"><a href="https://ollama.com/">Ollama</a></h2>
+</details>
+<details class="note">
+<summary><a href="https://ollama.com/">Ollama</a></summary>
 <h3 id="_82">分類</h3>
 <p>人工智慧聊天</p>
 <h3 id="_83">簡介</h3>
@@ -4573,7 +3836,9 @@
 <p><a href="../categories/ai-chat/ollama/">詳細資訊</a></p>
 <h3 id="_89">最近測試日期</h3>
 <p>2025-05-06</p>
-<h2 id="onlyoffice"><a href="https://www.onlyoffice.com/">ONLYOFFICE</a></h2>
+</details>
+<details class="note">
+<summary><a href="https://www.onlyoffice.com/">ONLYOFFICE</a></summary>
 <h3 id="_90">分類</h3>
 <p>辦公室套件</p>
 <h3 id="_91">簡介</h3>
@@ -4590,7 +3855,9 @@
 <p><a href="../categories/office-suite/onlyoffice/">詳細資訊</a></p>
 <h3 id="_97">最近測試日期</h3>
 <p>2025-04-17</p>
-<h2 id="privatebin"><a href="https://privatebin.info/">PrivateBin</a></h2>
+</details>
+<details class="note">
+<summary><a href="https://privatebin.info/">PrivateBin</a></summary>
 <h3 id="_98">分類</h3>
 <p>貼上箱</p>
 <h3 id="_99">簡介</h3>
@@ -4607,7 +3874,9 @@
 <p><a href="../categories/pastebins/privatebin/">詳細資訊</a></p>
 <h3 id="_105">最近測試日期</h3>
 <p>2025-04-16</p>
-<h2 id="proton-vpn"><a href="https://protonvpn.com/">Proton VPN</a></h2>
+</details>
+<details class="note">
+<summary><a href="https://protonvpn.com/">Proton VPN</a></summary>
 <h3 id="_106">分類</h3>
 <p>VPN 服務</p>
 <h3 id="_107">簡介</h3>
@@ -4624,7 +3893,9 @@
 <p><a href="../categories/vpn-services/proton-vpn/">詳細資訊</a></p>
 <h3 id="_113">最近測試日期</h3>
 <p>2025-04-15</p>
-<h2 id="quiet"><a href="https://tryquiet.org/">Quiet</a></h2>
+</details>
+<details class="note">
+<summary><a href="https://tryquiet.org/">Quiet</a></summary>
 <h3 id="_114">分類</h3>
 <p>即時通訊</p>
 <h3 id="_115">簡介</h3>
@@ -4641,7 +3912,9 @@
 <p><a href="../categories/messaging/quiet/">詳細資訊</a></p>
 <h3 id="_121">最近測試日期</h3>
 <p>2025-04-23</p>
-<h2 id="send"><a href="https://github.com/timvisee/send">Send</a></h2>
+</details>
+<details class="note">
+<summary><a href="https://github.com/timvisee/send">Send</a></summary>
 <h3 id="_122">分類</h3>
 <p>檔案傳輸</p>
 <h3 id="_123">簡介</h3>
@@ -4658,7 +3931,9 @@
 <p><a href="../categories/file-transfer/send/">詳細資訊</a></p>
 <h3 id="_129">最近測試日期</h3>
 <p>2025-03-27</p>
-<h2 id="signal"><a href="https://signal.org/">Signal</a></h2>
+</details>
+<details class="note">
+<summary><a href="https://signal.org/">Signal</a></summary>
 <h3 id="_130">分類</h3>
 <p>即時通訊</p>
 <h3 id="_131">簡介</h3>
@@ -4675,7 +3950,9 @@
 <p><a href="../categories/messaging/signal/">詳細資訊</a></p>
 <h3 id="_137">最近測試日期</h3>
 <p>2025-03-27</p>
-<h2 id="standard-notes"><a href="https://standardnotes.com/">Standard Notes</a></h2>
+</details>
+<details class="note">
+<summary><a href="https://standardnotes.com/">Standard Notes</a></summary>
 <h3 id="_138">分類</h3>
 <p>筆記本</p>
 <h3 id="_139">簡介</h3>
@@ -4692,7 +3969,9 @@
 <p><a href="../categories/notebooks/standard-notes/">詳細資訊</a></p>
 <h3 id="_145">最近測試日期</h3>
 <p>2025-04-03</p>
-<h2 id="thunderbird"><a href="https://www.thunderbird.net/en-US/">ThunderBird</a></h2>
+</details>
+<details class="note">
+<summary><a href="https://www.thunderbird.net/en-US/">ThunderBird</a></summary>
 <h3 id="_146">分類</h3>
 <p>電子郵件客戶端</p>
 <h3 id="_147">簡介</h3>
@@ -4709,7 +3988,9 @@
 <p><a href="../categories/email-clients/thunderbird/">詳細資訊</a></p>
 <h3 id="_153">最近測試日期</h3>
 <p>2025-04-23</p>
-<h2 id="tor"><a href="https://www.torproject.org/">Tor 瀏覽器</a></h2>
+</details>
+<details class="note">
+<summary><a href="https://www.torproject.org/">Tor 瀏覽器</a></summary>
 <h3 id="_154">分類</h3>
 <p>瀏覽器</p>
 <h3 id="_155">簡介</h3>
@@ -4726,7 +4007,9 @@
 <p>詳細資訊](categories/browser/tor-browser.md)</p>
 <h3 id="_161">最近測試日期</h3>
 <p>2025-04-02</p>
-<h2 id="veracrypt"><a href="https://www.veracrypt.fr/en/Home.html">VeraCrypt</a></h2>
+</details>
+<details class="note">
+<summary><a href="https://www.veracrypt.fr/en/Home.html">VeraCrypt</a></summary>
 <h3 id="_162">分類</h3>
 <p>加密</p>
 <h3 id="_163">簡介</h3>
@@ -4743,6 +4026,7 @@
 <p><a href="../categories/encryption/veracrypt/">詳細資訊</a></p>
 <h3 id="_169">最近測試日期</h3>
 <p>2025-04-22</p>
+</details>
 
 
 
@@ -4766,7 +4050,7 @@
           <button type="button" class="md-top md-icon" data-md-component="top" hidden>
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
-  回到页面顶部
+  回到頂部
 </button>
         
       </main>
@@ -4775,33 +4059,33 @@
   
     
       
-      <nav class="md-footer__inner md-grid" aria-label="页脚" >
+      <nav class="md-footer__inner md-grid" aria-label="頁脚" >
         
           
-          <a href="../assessment/tool-template/" class="md-footer__link md-footer__link--prev" aria-label="上一页: 工具模板">
+          <a href="../assessment/" class="md-footer__link md-footer__link--prev" aria-label="上一頁: 工具評估方法">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
             </div>
             <div class="md-footer__title">
               <span class="md-footer__direction">
-                上一页
+                上一頁
               </span>
               <div class="md-ellipsis">
-                工具模板
+                工具評估方法
               </div>
             </div>
           </a>
         
         
           
-          <a href="../CONTRIBUTING/" class="md-footer__link md-footer__link--next" aria-label="下一页: 如何貢獻">
+          <a href="../toollist_category/" class="md-footer__link md-footer__link--next" aria-label="下一頁: 工具清單（依類別）">
             <div class="md-footer__title">
               <span class="md-footer__direction">
-                下一页
+                下一頁
               </span>
               <div class="md-ellipsis">
-                如何貢獻
+                工具清單（依類別）
               </div>
             </div>
             <div class="md-footer__button md-icon">
@@ -4837,7 +4121,7 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "..", "features": ["search.suggest", "search.highlight", "search.share", "navigation.indexes", "navigation.top", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.tracking", "navigation.footer", "content.tooltips"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "..", "features": ["search.suggest", "search.highlight", "search.share", "navigation.indexes", "navigation.top", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.tracking", "navigation.footer", "content.tooltips"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u62f7\u8c9d", "clipboard.copy": "\u62f7\u8c9d", "search.result.more.one": "\u6b64\u9801\u5c1a\u6709 1 \u500b\u7b26\u5408\u7684\u9805\u76ee", "search.result.more.other": "\u6b64\u9801\u5c1a\u6709 # \u500b\u7b26\u5408\u7684\u9805\u76ee", "search.result.none": "\u6c92\u6709\u627e\u5230\u7b26\u5408\u689d\u4ef6\u7684\u7d50\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u689d\u4ef6\u7684\u7d50\u679c", "search.result.other": "\u627e\u5230 # \u500b\u7b26\u5408\u689d\u4ef6\u7684\u7d50\u679c", "search.result.placeholder": "\u9375\u5165\u4ee5\u958b\u59cb\u6aa2\u7d22", "search.result.term.missing": "\u7f3a\u5931", "select.version": "\u9078\u64c7\u7248\u672c"}, "version": null}</script>
     
     
       <script src="../assets/javascripts/bundle.50899def.min.js"></script>

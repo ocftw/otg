@@ -11,6 +11,10 @@
         <link rel="canonical" href="https://a4ltw.github.io/otg/tool_comparison/">
       
       
+        <link rel="prev" href="../toollist_byname/">
+      
+      
+        <link rel="next" href="../CONTRIBUTING/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -18,7 +22,7 @@
     
     
       
-        <title>工具比較 - Open Tech Garage</title>
+        <title>Tool comparison - Open Tech Garage</title>
       
     
     
@@ -43,6 +47,8 @@
         <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -70,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#_1" class="md-skip">
+        <a href="#tool-comparison" class="md-skip">
           Skip to content
         </a>
       
@@ -106,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              工具比較
+              Tool comparison
             
           </span>
         </div>
@@ -292,13 +298,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../categories/" class="md-tabs__link">
+      <a href="../toollist_byname/" class="md-tabs__link">
         
   
   
     
   
-  Tools (by Category)
+  Tool list
 
       </a>
     </li>
@@ -309,15 +315,17 @@
   
   
   
+    
   
-    <li class="md-tabs__item">
-      <a href="../tool_evaluated/" class="md-tabs__link">
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
         
   
   
     
   
-  Tools (by Name)
+  Tool comparison
 
       </a>
     </li>
@@ -499,7 +507,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../assessment/scoring/" class="md-nav__link">
+      <a href="../assessment/scoring.md" class="md-nav__link">
         
   
   
@@ -522,7 +530,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../assessment/data-structure/" class="md-nav__link">
+      <a href="../assessment/data-structure.md" class="md-nav__link">
         
   
   
@@ -545,7 +553,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../assessment/example-assessment/" class="md-nav__link">
+      <a href="../assessment/example-assessment.md" class="md-nav__link">
         
   
   
@@ -568,7 +576,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../assessment/tool-template/" class="md-nav__link">
+      <a href="../assessment/tool-template.md" class="md-nav__link">
         
   
   
@@ -598,12 +606,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../categories/" class="md-nav__link">
+      <a href="../toollist_byname/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Tools (by Category)
+    Tool list
     
   </span>
   
@@ -617,20 +625,197 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../tool_evaluated/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Tool comparison
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
-    Tools (by Name)
+    Tool comparison
     
   </span>
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ad-tracker-blocking" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ad-Tracker Blocking
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ai-chat" class="md-nav__link">
+    <span class="md-ellipsis">
+      AI Chat
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#browser" class="md-nav__link">
+    <span class="md-ellipsis">
+      Browser
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-metadata-redaction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data &amp; Metadata Redaction
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#email-clients" class="md-nav__link">
+    <span class="md-ellipsis">
+      Email Clients
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#encryption" class="md-nav__link">
+    <span class="md-ellipsis">
+      Encryption
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#file-transfer" class="md-nav__link">
+    <span class="md-ellipsis">
+      File Transfer
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#language-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      Language Tools
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#messaging" class="md-nav__link">
+    <span class="md-ellipsis">
+      Messaging
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#notebooks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Notebooks
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#office-suite" class="md-nav__link">
+    <span class="md-ellipsis">
+      Office Suite
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#password-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Password Management
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pastebins" class="md-nav__link">
+    <span class="md-ellipsis">
+      PasteBins
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#privacy-search-engine" class="md-nav__link">
+    <span class="md-ellipsis">
+      Privacy Search Engine
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vpn-services" class="md-nav__link">
+    <span class="md-ellipsis">
+      VPN Services
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -677,6 +862,149 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ad-tracker-blocking" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ad-Tracker Blocking
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ai-chat" class="md-nav__link">
+    <span class="md-ellipsis">
+      AI Chat
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#browser" class="md-nav__link">
+    <span class="md-ellipsis">
+      Browser
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-metadata-redaction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data &amp; Metadata Redaction
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#email-clients" class="md-nav__link">
+    <span class="md-ellipsis">
+      Email Clients
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#encryption" class="md-nav__link">
+    <span class="md-ellipsis">
+      Encryption
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#file-transfer" class="md-nav__link">
+    <span class="md-ellipsis">
+      File Transfer
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#language-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      Language Tools
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#messaging" class="md-nav__link">
+    <span class="md-ellipsis">
+      Messaging
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#notebooks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Notebooks
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#office-suite" class="md-nav__link">
+    <span class="md-ellipsis">
+      Office Suite
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#password-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Password Management
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pastebins" class="md-nav__link">
+    <span class="md-ellipsis">
+      PasteBins
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#privacy-search-engine" class="md-nav__link">
+    <span class="md-ellipsis">
+      Privacy Search Engine
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vpn-services" class="md-nav__link">
+    <span class="md-ellipsis">
+      VPN Services
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -691,8 +1019,1537 @@
 
 
 
-<h1 id="_1">工具比較</h1>
-<p>這裡將放置工具比較的內容。</p>
+<h1 id="tool-comparison">Tool Comparison</h1>
+<h2 id="ad-tracker-blocking">Ad-Tracker Blocking</h2>
+<h3 id="overview">Overview</h3>
+<p>Quick comparison of key features and ratings:</p>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Overall Rating</th>
+<th>Cost</th>
+<th>Technical Level</th>
+<th>Key Features</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://adguard.com/">AdGuard</a></td>
+<td>⭐⭐⭐⭐⯪ (4.56)</td>
+<td>Free Core</td>
+<td>Beginner</td>
+<td>Ad Blocking, Tracker Blocking, Privacy Protection</td>
+</tr>
+</tbody>
+</table>
+<h3 id="platform-support">Platform Support</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Operating Systems</th>
+<th>Mobile Support</th>
+<th>Offline Use</th>
+<th>Languages</th>
+<th>Usability Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://adguard.com/">AdGuard</a></td>
+<td>Windows, macOS, Linux (via browsers: Chrome, Firefox, Edge, Opera, Brave, Tor), Android (via Firefox)</td>
+<td>✅</td>
+<td>❌</td>
+<td>47 languages including Chinese (Traditional &amp; Simplified), Japanese, Korean</td>
+<td>⭐⭐⭐⭐☆ (4.00)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="security-privacy">Security &amp; Privacy</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Security Features</th>
+<th>Data Collection</th>
+<th>License</th>
+<th>Community Support</th>
+<th>Security Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://adguard.com/">AdGuard</a></td>
+<td>HTTPS Filtering, No Browsing Activity Logs, Minimal Technical Diagnostics, Optional HTTPS Certificate Management, Local Rule Processing, No User Data Collection Without Consent</td>
+<td>Minimal</td>
+<td>GPL-3.0</td>
+<td>✅</td>
+<td>⭐⭐⭐⭐⯪ (4.80)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="maintenance-deployment">Maintenance &amp; Deployment</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Deployment Type</th>
+<th>Maintenance Status</th>
+<th>Last Tested</th>
+<th>Maintenance Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://adguard.com/">AdGuard</a></td>
+<td>A standalone software - Runs entirely locally (e.g., runs on computer and doesn't depend on external server)</td>
+<td>Last release April 1, 2025, with active development (last commit 1 week ago). Development team highly responsive to GitHub issues (response within hours). Privately owned with estimated $1.2M revenue. Partnership program available but current partners not disclosed.</td>
+<td>2025-03-30</td>
+<td>⭐⭐⭐⭐⯪ (4.30)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="ai-chat">AI Chat</h2>
+<h3 id="overview_1">Overview</h3>
+<p>Quick comparison of key features and ratings:</p>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Overall Rating</th>
+<th>Cost</th>
+<th>Technical Level</th>
+<th>Key Features</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://ollama.com/">Ollama</a></td>
+<td>⭐⭐⭐⭐☆ (4.05)</td>
+<td>Fully Free</td>
+<td>Intermediate</td>
+<td>Offline LLM Operation, Local Model Hosting, Command-Line Interface</td>
+</tr>
+</tbody>
+</table>
+<h3 id="platform-support_1">Platform Support</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Operating Systems</th>
+<th>Mobile Support</th>
+<th>Offline Use</th>
+<th>Languages</th>
+<th>Usability Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://ollama.com/">Ollama</a></td>
+<td>macOS (Intel and Apple Silicon), Windows, Linux (Ubuntu/Debian-based)</td>
+<td>❌</td>
+<td>✅</td>
+<td>Multiple languages including English, Chinese, Japanese, Spanish, Korean (model dependent)</td>
+<td>⭐⭐⭐⯪☆ (3.70)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="security-privacy_1">Security &amp; Privacy</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Security Features</th>
+<th>Data Collection</th>
+<th>License</th>
+<th>Community Support</th>
+<th>Security Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://ollama.com/">Ollama</a></td>
+<td>100% Local Operation, No Data Collection or Transmission, System-Level Security, Offline Model Execution, No Cloud Dependencies, No Account Required, Open Source Codebase, Local Data Processing</td>
+<td>No Data Collection</td>
+<td>MIT License</td>
+<td>✅</td>
+<td>⭐⭐⭐⭐☆ (4.00)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="maintenance-deployment_1">Maintenance &amp; Deployment</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Deployment Type</th>
+<th>Maintenance Status</th>
+<th>Last Tested</th>
+<th>Maintenance Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://ollama.com/">Ollama</a></td>
+<td>A standalone software - Runs entirely locally (e.g., runs on computer and doesn't depend on external server)</td>
+<td>Regular updates with recent version 0.6.8 released on May 3, 2025. Active GitHub repository with engaged community. Development team actively responds to issues and implements community feedback. Community-driven funding model with private backers and open-source contributors. No government funding, maintaining independence.</td>
+<td>2025-05-06</td>
+<td>⭐⭐⭐⭐⯪ (4.70)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="browser">Browser</h2>
+<h3 id="overview_2">Overview</h3>
+<p>Quick comparison of key features and ratings:</p>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Overall Rating</th>
+<th>Cost</th>
+<th>Technical Level</th>
+<th>Key Features</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.torproject.org/">Tor Browser</a></td>
+<td>⭐⭐⭐⭐⯪ (4.51)</td>
+<td>Fully Free</td>
+<td>Intermediate</td>
+<td>Anonymous browsing, Traffic encryption via Tor network, Access to .onion sites</td>
+</tr>
+</tbody>
+</table>
+<h3 id="platform-support_2">Platform Support</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Operating Systems</th>
+<th>Mobile Support</th>
+<th>Offline Use</th>
+<th>Languages</th>
+<th>Usability Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.torproject.org/">Tor Browser</a></td>
+<td>Windows, Linux, macOS, Android</td>
+<td>⚠️</td>
+<td>❌</td>
+<td>32 languages</td>
+<td>⭐⭐⭐⭐⯪ (4.30)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="security-privacy_2">Security &amp; Privacy</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Security Features</th>
+<th>Data Collection</th>
+<th>License</th>
+<th>Community Support</th>
+<th>Security Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.torproject.org/">Tor Browser</a></td>
+<td>Multi-layer Encryption, MITM Protection, NoScript, IP/DNS Leak Prevention, Traffic Obfuscation, Circuit Switching, Device Fingerprinting Resistance, Tracker and Cookie Isolation, Secure Defaults, Software Sandboxing</td>
+<td>Minimal</td>
+<td>Mozilla Public License</td>
+<td>✅</td>
+<td>⭐⭐⭐⭐⯪ (4.60)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="maintenance-deployment_2">Maintenance &amp; Deployment</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Deployment Type</th>
+<th>Maintenance Status</th>
+<th>Last Tested</th>
+<th>Maintenance Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.torproject.org/">Tor Browser</a></td>
+<td>A service with a local client that’s hosted by a third party - You install a client on your device, but it connects to and depends on a remote server (Tor Browser is a software that runs locally on a computer but connects to the Tor network to surf the web).</td>
+<td>Frequent updates ~ every month there is an update. Status page that shows the current status of various sites of the TorProject, includes an incident history. Around $7 million in disclosed funding. Around 28.5% of the revenue was derived from individual donors, reflecting a growing base of grassroots support. Sponsorships: Open Technology Fund, Sida (Swedish International Development Cooperation Agency), Craig Newmark Philanthropies, Ford Foundation, Fastly (provides in-kind support for hosting Tor update</td>
+<td>2025-04-02</td>
+<td>⭐⭐⭐⭐⭐ (5.00)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="data-metadata-redaction">Data &amp; Metadata Redaction</h2>
+<h3 id="overview_3">Overview</h3>
+<p>Quick comparison of key features and ratings:</p>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Overall Rating</th>
+<th>Cost</th>
+<th>Technical Level</th>
+<th>Key Features</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/jvoisin/mat2">MAT2</a></td>
+<td>⭐⭐⭐⯪☆ (3.83)</td>
+<td>Fully Free</td>
+<td>Intermediate</td>
+<td>Metadata Removal, EXIF Data Stripping, Custom Metadata Configuration</td>
+</tr>
+</tbody>
+</table>
+<h3 id="platform-support_3">Platform Support</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Operating Systems</th>
+<th>Mobile Support</th>
+<th>Offline Use</th>
+<th>Languages</th>
+<th>Usability Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/jvoisin/mat2">MAT2</a></td>
+<td>Windows, Linux, macOS</td>
+<td>❌</td>
+<td>✅</td>
+<td>English (due to command line interface)</td>
+<td>⭐⭐⭐☆☆ (3.00)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="security-privacy_3">Security &amp; Privacy</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Security Features</th>
+<th>Data Collection</th>
+<th>License</th>
+<th>Community Support</th>
+<th>Security Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/jvoisin/mat2">MAT2</a></td>
+<td>MAT2 does not have dedicated security features as it primarily focuses on privacy by removing metadata from files. The tool's purpose is to strip EXIF data, location information, and device details embedded in files to prevent privacy leaks. However, it does not implement encryption, authentication, or other security measures like secure file transfer or data protection. Its privacy focus ensures no user data is collected, and it is open-source, allowing for transparency and community audits.</td>
+<td>No Data Collection</td>
+<td>GNU Lesser General Public License (LGPL-3.0)</td>
+<td>✅</td>
+<td>⭐⭐⭐⭐☆ (4.00)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="maintenance-deployment_3">Maintenance &amp; Deployment</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Deployment Type</th>
+<th>Maintenance Status</th>
+<th>Last Tested</th>
+<th>Maintenance Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/jvoisin/mat2">MAT2</a></td>
+<td>A standalone software - Runs entirely locally (e.g., runs on computer and doesn’t depend on external server)</td>
+<td>Actively maintained. The project receives multiple updates per year, with recent commits as of 2025. Updates include bug fixes, support for new file formats, and dependency improvements. The development team is highly responsive. The lead developer, Julien Voisin, is active in maintaining the tool and responds to issues regularly on GitLab. Feature requests and bug reports are typically acknowledged within a few days. Indirectly funded through its use in larger projects. Tails OS (a privacy-focused live operating system) integrates MAT2 and receives NGO and foundation funding, which indirectly supports MAT2’s development (supported by the Tails ecosystem which is supported by organizations like Tor Project, Access Now, and others).</td>
+<td>2025-04-29</td>
+<td>⭐⭐⭐⯪☆ (3.70)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="email-clients">Email Clients</h2>
+<h3 id="overview_4">Overview</h3>
+<p>Quick comparison of key features and ratings:</p>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Overall Rating</th>
+<th>Cost</th>
+<th>Technical Level</th>
+<th>Key Features</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.thunderbird.net/en-US/">ThunderBird</a></td>
+<td>⭐⭐⭐⭐⯪ (4.29)</td>
+<td>Fully Free</td>
+<td>Intermediate</td>
+<td>Email Management, Multi-Account Support, Customizable Interface</td>
+</tr>
+</tbody>
+</table>
+<h3 id="platform-support_4">Platform Support</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Operating Systems</th>
+<th>Mobile Support</th>
+<th>Offline Use</th>
+<th>Languages</th>
+<th>Usability Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.thunderbird.net/en-US/">ThunderBird</a></td>
+<td>Windows, macOS, Linux, Android</td>
+<td>⚠️</td>
+<td>⚠️</td>
+<td>63 languages</td>
+<td>⭐⭐⭐⭐☆ (4.00)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="security-privacy_4">Security &amp; Privacy</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Security Features</th>
+<th>Data Collection</th>
+<th>License</th>
+<th>Community Support</th>
+<th>Security Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.thunderbird.net/en-US/">ThunderBird</a></td>
+<td>End-to-End Encryption (OpenPGP, S/MIME), Secure Email Signatures, Two-Factor Authentication (for email accounts), Phishing Protection, Junk Mail Filters, TLS Support, Encrypted Storage of Credentials, Anti-Tracking Features, Privacy-Focused Add-Ons.</td>
+<td>Minimal</td>
+<td>MPL-2.0</td>
+<td>✅</td>
+<td>⭐⭐⭐⭐☆ (4.20)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="maintenance-deployment_4">Maintenance &amp; Deployment</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Deployment Type</th>
+<th>Maintenance Status</th>
+<th>Last Tested</th>
+<th>Maintenance Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.thunderbird.net/en-US/">ThunderBird</a></td>
+<td>Thunderbird is a standalone, open-source desktop email client that is deployed locally on a user’s device. It is installed directly onto OS systems, where it manages and syncs emails, contacts, and calendars through IMAP, POP3, and other email protocols. The tool does not require a server for basic functionality but supports integration with external email services for sending and receiving messages (Thunderbird application is a standalone software but email data is located on the remote email server---IMAP or POP3).</td>
+<td>It is updated regularly with new monthly releases for users who want all available features and bug fixes monthly. Bug reports and feature requests are handled through <a href="https://bugzilla.mozilla.org/">Bugzilla</a> and GitHub. Response times vary but important security issues are prioritized quickly. It is primarily funded by the Mozilla Foundation (a non-profit organization). Sustainable through generous donations and small partnerships. Thunderbird is financially sustainable and has long term development plans.</td>
+<td>2025-04-23</td>
+<td>⭐⭐⭐⭐⯪ (4.70)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="encryption">Encryption</h2>
+<h3 id="overview_5">Overview</h3>
+<p>Quick comparison of key features and ratings:</p>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Overall Rating</th>
+<th>Cost</th>
+<th>Technical Level</th>
+<th>Key Features</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.veracrypt.fr/en/Home.html">VeraCrypt</a></td>
+<td>⭐⭐⭐⭐⯪ (4.75)</td>
+<td>Fully Free</td>
+<td>Intermediate</td>
+<td>On-the-fly Encryption, Encrypted Containers, Full Disk Encryption</td>
+</tr>
+<tr>
+<td><a href="https://cryptomator.org/">Cryptomator</a></td>
+<td>⭐⭐⭐⭐⯪ (4.34)</td>
+<td>Free Core</td>
+<td>Beginner</td>
+<td>Local-First Encryption, Cross-Platform Support, Zero-Knowledge Architecture</td>
+</tr>
+</tbody>
+</table>
+<h3 id="platform-support_5">Platform Support</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Operating Systems</th>
+<th>Mobile Support</th>
+<th>Offline Use</th>
+<th>Languages</th>
+<th>Usability Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.veracrypt.fr/en/Home.html">VeraCrypt</a></td>
+<td>Windows, macOS (Monterey 12 and later), Linux, FreeBSD</td>
+<td>❌</td>
+<td>✅</td>
+<td>40+ languages</td>
+<td>⭐⭐⭐⭐⯪ (4.70)</td>
+</tr>
+<tr>
+<td><a href="https://cryptomator.org/">Cryptomator</a></td>
+<td>Windows, macOS, Linux, Android, iOS</td>
+<td>✅</td>
+<td>✅</td>
+<td>Over 50 languages including Chinese (Simplified and Traditional), Japanese, and Korean</td>
+<td>⭐⭐⭐⭐⯪ (4.30)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="security-privacy_5">Security &amp; Privacy</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Security Features</th>
+<th>Data Collection</th>
+<th>License</th>
+<th>Community Support</th>
+<th>Security Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.veracrypt.fr/en/Home.html">VeraCrypt</a></td>
+<td>Strong Encryption Algorithms (AES, Serpent, Twofish), Cascaded Encryption Support, End-to-End Encryption, Hashing Algorithms (BLAKE2s-256, SHA-256, SHA-512, Whirlpool, Streebog), Plausible Deniability (Hidden Volumes and OS), Pre-Boot Authentication, Secure Key Derivation (PBKDF2, SHA-512, Whirlpool), Keyfile Support, No Backdoors, Open Source Codebase.</td>
+<td>No Data Collection</td>
+<td>Apache License 2.0</td>
+<td>✅</td>
+<td>⭐⭐⭐⭐⭐ (5.00)</td>
+</tr>
+<tr>
+<td><a href="https://cryptomator.org/">Cryptomator</a></td>
+<td>End-to-End Encryption, AES-GCM (256-bit), ECDH-ES for Key Exchange, PBES2-HS256+A128KW for Key Derivation, Zero-Knowledge Architecture, Metadata Encryption, No Third-Party Trackers, Plausible Deniability, Local Encryption Processing</td>
+<td>Minimal</td>
+<td>GPLv3</td>
+<td>✅</td>
+<td>⭐⭐⭐⭐☆ (4.20)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="maintenance-deployment_5">Maintenance &amp; Deployment</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Deployment Type</th>
+<th>Maintenance Status</th>
+<th>Last Tested</th>
+<th>Maintenance Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.veracrypt.fr/en/Home.html">VeraCrypt</a></td>
+<td>A standalone software - Runs entirely locally (e.g., runs on computer and doesn’t depend on external server).</td>
+<td>It is frequently updated with updates nearly every month. The development team is responsive and clearly looks at new contributions and approves if they are acceptable. Amount of funding not publicly known. Independent project without any major sponsors. VeraCrypt is actively involved in funding campaigns and other initiatives to support it. Users will see requests for donations on websites to help maintain the project.</td>
+<td>2025-04-22</td>
+<td>⭐⭐⭐⭐⯪ (4.30)</td>
+</tr>
+<tr>
+<td><a href="https://cryptomator.org/">Cryptomator</a></td>
+<td>A standalone software - Runs entirely locally (e.g., runs on computer and doesn't depend on external server)</td>
+<td>Updated weekly/monthly with very responsive development team. Funded by Skymatic GmbH (core development company) and user contributions through direct donations, GitHub Sponsors, and app store purchases. No major NGO or government funders. 390k+ downloads and daily users.</td>
+<td>2025-04-22</td>
+<td>⭐⭐⭐⭐⯪ (4.60)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="file-transfer">File Transfer</h2>
+<h3 id="overview_6">Overview</h3>
+<p>Quick comparison of key features and ratings:</p>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Overall Rating</th>
+<th>Cost</th>
+<th>Technical Level</th>
+<th>Key Features</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/magic-wormhole/magic-wormhole">Magic Wormhole</a></td>
+<td>⭐⭐⭐⭐☆ (4.15)</td>
+<td>Fully Free</td>
+<td>Intermediate</td>
+<td>Secure File Transfer, End-to-End Encryption, Human-Friendly One-Time Codes</td>
+</tr>
+<tr>
+<td><a href="https://github.com/timvisee/send">Send</a></td>
+<td>⭐⭐⭐⯪☆ (3.62)</td>
+<td>Free Core</td>
+<td>Beginner</td>
+<td>Email Delivery, Email API, Template Management</td>
+</tr>
+<tr>
+<td><a href="https://github.com/schollz/croc">Croc</a></td>
+<td>⭐⭐⭐⯪☆ (3.98)</td>
+<td>Fully Free</td>
+<td>Intermediate</td>
+<td>Secure File Transfer, End-to-End Encryption, Cross-Platform Support</td>
+</tr>
+</tbody>
+</table>
+<h3 id="platform-support_6">Platform Support</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Operating Systems</th>
+<th>Mobile Support</th>
+<th>Offline Use</th>
+<th>Languages</th>
+<th>Usability Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/magic-wormhole/magic-wormhole">Magic Wormhole</a></td>
+<td>MacOS, Linux, Windows</td>
+<td>❌</td>
+<td>❌</td>
+<td>English</td>
+<td>⭐⭐⭐⭐⯪ (4.30)</td>
+</tr>
+<tr>
+<td><a href="https://github.com/timvisee/send">Send</a></td>
+<td>Windows, macOS, Linux, Android, iOS</td>
+<td>✅</td>
+<td>✅</td>
+<td>Over 71 languages including English and Simplified and Traditional Chinese</td>
+<td>⭐⭐⭐⯪☆ (3.30)</td>
+</tr>
+<tr>
+<td><a href="https://github.com/schollz/croc">Croc</a></td>
+<td>Windows, macOS, Linux, Android, iOS</td>
+<td>❌</td>
+<td>❌</td>
+<td>English</td>
+<td>⭐⭐⭐⭐⯪ (4.30)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="security-privacy_6">Security &amp; Privacy</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Security Features</th>
+<th>Data Collection</th>
+<th>License</th>
+<th>Community Support</th>
+<th>Security Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/magic-wormhole/magic-wormhole">Magic Wormhole</a></td>
+<td>End-to-End Encryption, One-Time Passwords (OTPs) for Authentication, Public/Private Key Pair Encryption, Strong Cryptography (RSA &amp; X25519), Protection Against Man-in-the-Middle (MITM) Attacks, Human-Friendly Verification Codes, Secure Key Exchange, Default Use of Secure Communication Protocols (TLS).</td>
+<td>Minimal</td>
+<td>GNU AGPL V3</td>
+<td>✅</td>
+<td>⭐⭐⭐⭐⯪ (4.60)</td>
+</tr>
+<tr>
+<td><a href="https://github.com/timvisee/send">Send</a></td>
+<td>E2EE, Transport Layer Security (TLS)</td>
+<td>Minimal</td>
+<td>MPL-2.0</td>
+<td>✅</td>
+<td>⭐⭐⭐⯪☆ (3.40)</td>
+</tr>
+<tr>
+<td><a href="https://github.com/schollz/croc">Croc</a></td>
+<td>End-to-End Encryption with PAKE, One-Time Code Phrases, Custom Code Support, Resumable Transfers, No Port Forwarding Required, IPv6 and IPv4 Support, SOCKS5 Proxy Support (including Tor), No Account Required, Open Source under MIT License.</td>
+<td>Minimal</td>
+<td>MIT License</td>
+<td>⚠️</td>
+<td>⭐⭐⭐⭐☆ (4.20)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="maintenance-deployment_6">Maintenance &amp; Deployment</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Deployment Type</th>
+<th>Maintenance Status</th>
+<th>Last Tested</th>
+<th>Maintenance Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/magic-wormhole/magic-wormhole">Magic Wormhole</a></td>
+<td>A service with a local client that’s hosted by a third party - You install a client on your device, but it connects to and depends on a remote server.</td>
+<td>Updated at least once a month. The development team is responsive to good changes. No clear government funding. Appears to be done by an individual , which may support neutrality. Overall is financially stable.</td>
+<td>2025-04-02</td>
+<td>⭐⭐⭐☆☆ (3.00)</td>
+</tr>
+<tr>
+<td><a href="https://github.com/timvisee/send">Send</a></td>
+<td>A service with a local client that’s hosted by a third party and A service that is hosted by a third party but can also be self-hosted</td>
+<td>It is not frequently updated but the main developer is responsive to updates. There, is no funding for this project, but you can donate to the developer. There are also no sponsorships, but the software appears to be financially sustainable.</td>
+<td>2025-03-27</td>
+<td>⭐⭐⭐⯪☆ (3.30)</td>
+</tr>
+<tr>
+<td><a href="https://github.com/schollz/croc">Croc</a></td>
+<td>A service that is hosted by a third party but can also be self-hosted.</td>
+<td>Frequent Updates. Pretty responsive with the latest commits occurring at least a couple times a month. Funded by Zack Shollz (Software Engineer + Scientist &amp; owner of project). Not government backed which may impact the level of security (vulnerabilities more common due to lower resources. There are about 20 monthly sponsors.</td>
+<td>2025-04-07</td>
+<td>⭐⭐⭐⯪☆ (3.30)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="language-tools">Language Tools</h2>
+<h3 id="overview_7">Overview</h3>
+<p>Quick comparison of key features and ratings:</p>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Overall Rating</th>
+<th>Cost</th>
+<th>Technical Level</th>
+<th>Key Features</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://languagetool.org/">LanguageTool</a></td>
+<td>⭐⭐⭐⯪☆ (3.46)</td>
+<td>Free Core</td>
+<td>Beginner</td>
+<td>Grammar Checking, Spelling Correction, Style Suggestions</td>
+</tr>
+</tbody>
+</table>
+<h3 id="platform-support_7">Platform Support</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Operating Systems</th>
+<th>Mobile Support</th>
+<th>Offline Use</th>
+<th>Languages</th>
+<th>Usability Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://languagetool.org/">LanguageTool</a></td>
+<td>Windows, macOS, Linux, Android, iOS</td>
+<td>✅</td>
+<td>✅</td>
+<td>30 languages</td>
+<td>⭐⭐⭐⭐⯪ (4.70)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="security-privacy_7">Security &amp; Privacy</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Security Features</th>
+<th>Data Collection</th>
+<th>License</th>
+<th>Community Support</th>
+<th>Security Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://languagetool.org/">LanguageTool</a></td>
+<td>Data Encryption, No Storage of Text by Default, Self-Hosted Option, GDPR Compliance, Optional Offline Mode, Secure API Access</td>
+<td>Extensive</td>
+<td>LGPL-2.1 license</td>
+<td>✅</td>
+<td>⭐⭐⯪☆☆ (2.60)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="maintenance-deployment_7">Maintenance &amp; Deployment</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Deployment Type</th>
+<th>Maintenance Status</th>
+<th>Last Tested</th>
+<th>Maintenance Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://languagetool.org/">LanguageTool</a></td>
+<td>A standalone software – Runs entirely locally: If you download and install the LanguageTool desktop application or set up the offline version, it runs entirely on your computer without sending data to external servers. A locally hosted service with separate server and client component: You can also self-host LanguageTool by setting up the backend (server) and using browser extensions or other clients that connect to it. This gives you full control over your data while keeping the tool’s features. A service with a local client that’s hosted by a third party: You can install a browser extension, add-on, or use the web interface (the local client). These clients connect to LanguageTool’s remote servers, which handle grammar checking and processing. User text is sent to their servers for analysis unless you use a self-hosted or offline version.</td>
+<td>Has recent updates to the code. Development team is quick often. LanguageTool is part of the larger company, Learneo, which can provide funding. LanguageTool has paid/subscription versions that provide funding. The company seems to be financially stable as well.</td>
+<td>2025-04-29</td>
+<td>⭐⭐⭐⭐⯪ (4.30)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="messaging">Messaging</h2>
+<h3 id="overview_8">Overview</h3>
+<p>Quick comparison of key features and ratings:</p>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Overall Rating</th>
+<th>Cost</th>
+<th>Technical Level</th>
+<th>Key Features</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://signal.org/">Signal</a></td>
+<td>⭐⭐⭐⭐⯪ (4.97)</td>
+<td>Fully Free</td>
+<td>Beginner</td>
+<td>End-to-End Encrypted Messaging, Voice and Video Calls, Group Chats</td>
+</tr>
+<tr>
+<td><a href="https://tryquiet.org/">Quiet</a></td>
+<td>⭐⭐⭐⯪☆ (3.26)</td>
+<td>Fully Free</td>
+<td>Beginner</td>
+<td>End-to-End Encryption, Tor-Based Communication, No Central Servers</td>
+</tr>
+</tbody>
+</table>
+<h3 id="platform-support_8">Platform Support</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Operating Systems</th>
+<th>Mobile Support</th>
+<th>Offline Use</th>
+<th>Languages</th>
+<th>Usability Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://signal.org/">Signal</a></td>
+<td>Android, macOS, iOS, Windows, Linux</td>
+<td>✅</td>
+<td>⚠️</td>
+<td>68 languages</td>
+<td>⭐⭐⭐⭐⭐ (5.00)</td>
+</tr>
+<tr>
+<td><a href="https://tryquiet.org/">Quiet</a></td>
+<td>Windows, macOS, Linux, iOS (TestFlight Beta)</td>
+<td>⚠️</td>
+<td>❌</td>
+<td>English</td>
+<td>⭐⭐⭐⭐☆ (4.00)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="security-privacy_8">Security &amp; Privacy</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Security Features</th>
+<th>Data Collection</th>
+<th>License</th>
+<th>Community Support</th>
+<th>Security Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://signal.org/">Signal</a></td>
+<td>End-To-End Encryption, Encrypted Group Chats, Disappearing Messages, Screen Security, Registration Lock, No Ads or Trackers, Open Source Code, Encrypted Attachments, Incognito Keyboard (Android), Relay Calls, 2 Factor Authentication, ZRTP</td>
+<td>Minimal</td>
+<td>GNU Affero General Public License v3.0</td>
+<td>✅</td>
+<td>⭐⭐⭐⭐⭐ (5.00)</td>
+</tr>
+<tr>
+<td><a href="https://tryquiet.org/">Quiet</a></td>
+<td>End-to-End Encryption, Tor Onion Services Integration, No Metadata Collection, No Email/Phone Required, No Central Servers, Anonymous Usage, Local Data Storage</td>
+<td>Minimal</td>
+<td>GPL-3.0</td>
+<td>✅</td>
+<td>⭐⭐⭐⯪☆ (3.80)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="maintenance-deployment_8">Maintenance &amp; Deployment</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Deployment Type</th>
+<th>Maintenance Status</th>
+<th>Last Tested</th>
+<th>Maintenance Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://signal.org/">Signal</a></td>
+<td>A service with a local client that’s hosted by a third party - You install a client on your device, but it connects to and depends on a remote server (e.g., install app (client), but servers handle message relaying, etc.).</td>
+<td>Publicly available update logs in appstore. Development team responds within anywhere from an hour to a day. Funding and Sponsorship include donations from individuals and over $22,000,000 dollars in 2023.</td>
+<td>2025-03-27</td>
+<td>⭐⭐⭐⭐⭐ (5.00)</td>
+</tr>
+<tr>
+<td><a href="https://tryquiet.org/">Quiet</a></td>
+<td>A standalone software - Runs entirely locally (e.g., runs on computer and doesn't depend on external server)</td>
+<td>Currently in beta with frequent updates and bug fixes. Development is active with new releases every few days. Project relies on donations for funding. Large number of open issues from 2023 onwards, likely due to beta status.</td>
+<td>2025-04-23</td>
+<td>⭐⭐⭐⯪☆ (3.70)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="notebooks">Notebooks</h2>
+<h3 id="overview_9">Overview</h3>
+<p>Quick comparison of key features and ratings:</p>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Overall Rating</th>
+<th>Cost</th>
+<th>Technical Level</th>
+<th>Key Features</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://notesnook.com/">Notesnook</a></td>
+<td>⭐⭐⭐⭐⯪ (4.29)</td>
+<td>Free Core</td>
+<td>Beginner</td>
+<td>End-to-End Encrypted Notes, Markdown Support, Rich Text Editing</td>
+</tr>
+<tr>
+<td><a href="https://standardnotes.com/">Standard Notes</a></td>
+<td>⭐⭐⭐⯪☆ (3.61)</td>
+<td>Free Core</td>
+<td>Beginner</td>
+<td>End-to-End Encryption, Offline Access, Cross-Platform Sync</td>
+</tr>
+</tbody>
+</table>
+<h3 id="platform-support_9">Platform Support</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Operating Systems</th>
+<th>Mobile Support</th>
+<th>Offline Use</th>
+<th>Languages</th>
+<th>Usability Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://notesnook.com/">Notesnook</a></td>
+<td>Windows, Linux, macOS, Android, iOS</td>
+<td>✅</td>
+<td>✅</td>
+<td>Interface: English (but can write in 50+ languages)</td>
+<td>⭐⭐⭐⭐⯪ (4.70)</td>
+</tr>
+<tr>
+<td><a href="https://standardnotes.com/">Standard Notes</a></td>
+<td>Windows, Linux, macOS (Intel, Apple Silicon), iOS, Android, Web App</td>
+<td>✅</td>
+<td>✅</td>
+<td>English</td>
+<td>⭐⭐⭐⭐⯪ (4.30)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="security-privacy_9">Security &amp; Privacy</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Security Features</th>
+<th>Data Collection</th>
+<th>License</th>
+<th>Community Support</th>
+<th>Security Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://notesnook.com/">Notesnook</a></td>
+<td>End-to-End Encryption, Zero-Knowledge Architecture, Argon2 Key Derivation, ChaCha20-Poly1305-IETF Encryption, Local-Only Vault Option, Encrypted Backups, Open-Source Codebase, No Telemetry Tracking, Password-Protected Notes, Biometric Lock Support, Encrypted Syncing (When Enabled), Self-Hosting Support.</td>
+<td>Minimal</td>
+<td>GNU General Public License V3</td>
+<td>✅</td>
+<td>⭐⭐⭐⭐☆ (4.20)</td>
+</tr>
+<tr>
+<td><a href="https://standardnotes.com/">Standard Notes</a></td>
+<td>End-to-End Encryption (XChaCha20-Poly1305), Optional Two-Factor Authentication, No IP Address Storage, Minimal Metadata Collection, Third-Party Security Audits (2022), Local Data Storage, No Location Tracking, No Usage Analytics</td>
+<td>Minimal</td>
+<td>AGPL-3.0</td>
+<td>⚠️</td>
+<td>⭐⭐⭐⭐☆ (4.20)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="maintenance-deployment_9">Maintenance &amp; Deployment</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Deployment Type</th>
+<th>Maintenance Status</th>
+<th>Last Tested</th>
+<th>Maintenance Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://notesnook.com/">Notesnook</a></td>
+<td>A service with a local client that’s hosted by a third party - You install a client on your device, but it connects to and depends on a remote server. Can also be self-hosted.</td>
+<td>Very frequent updates; Updated about once a month on average. Very responsive development team and can be contacted through email, discord, reddit, and twitter for issues or questions. Notesnook is funded solely through its subscription-based Pro plan and small grassroots community donations, with no government backing. It maintains a public ledger of monthly contributions (as low as $1) and total raised funds (~$171 as of April 2025) through its Open Collective Page. The software appears to be well established and financially stable.</td>
+<td>2025-04-21</td>
+<td>⭐⭐⭐⯪☆ (3.30)</td>
+</tr>
+<tr>
+<td><a href="https://standardnotes.com/">Standard Notes</a></td>
+<td>A service that is hosted by a third party but can also be self-hosted</td>
+<td>Last GitHub update November 2024, iOS update 9 months ago. Acquired by Proton in April 2024, providing financial stability. Funded through user subscriptions. Development team response time is slow. Small but active community with Discord and Twitter presence.</td>
+<td>2025-04-03</td>
+<td>⭐⭐⯪☆☆ (2.70)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="office-suite">Office Suite</h2>
+<h3 id="overview_10">Overview</h3>
+<p>Quick comparison of key features and ratings:</p>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Overall Rating</th>
+<th>Cost</th>
+<th>Technical Level</th>
+<th>Key Features</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.libreoffice.org/">LibreOffice</a></td>
+<td>⭐⭐⭐⯪☆ (3.94)</td>
+<td>Fully Free</td>
+<td>Beginner</td>
+<td>Document Creation and Editing, Spreadsheet Management, Presentation Tools</td>
+</tr>
+<tr>
+<td><a href="https://www.onlyoffice.com/">ONLYOFFICE</a></td>
+<td>⭐⭐⭐⭐☆ (4.21)</td>
+<td>Free Core</td>
+<td>Beginner</td>
+<td>Document Editor, Spreadsheet Editor, Presentation Editor</td>
+</tr>
+</tbody>
+</table>
+<h3 id="platform-support_10">Platform Support</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Operating Systems</th>
+<th>Mobile Support</th>
+<th>Offline Use</th>
+<th>Languages</th>
+<th>Usability Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.libreoffice.org/">LibreOffice</a></td>
+<td>Windows, Linux/GNU, macOS, Android (Viewer), Online/Cloud Version Available</td>
+<td>⚠️</td>
+<td>✅</td>
+<td>55 languages including Simplified &amp; Traditional Chinese, Japanese, Tibetan, Vietnamese, Korean</td>
+<td>⭐⭐⭐⭐⯪ (4.30)</td>
+</tr>
+<tr>
+<td><a href="https://www.onlyoffice.com/">ONLYOFFICE</a></td>
+<td>Windows, macOS, Linux, iOS, Android, AppGallery, Galaxy Store</td>
+<td>✅</td>
+<td>✅</td>
+<td>42 languages including English, Simplified &amp; Traditional Chinese</td>
+<td>⭐⭐⭐⭐⯪ (4.70)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="security-privacy_10">Security &amp; Privacy</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Security Features</th>
+<th>Data Collection</th>
+<th>License</th>
+<th>Community Support</th>
+<th>Security Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.libreoffice.org/">LibreOffice</a></td>
+<td>Document Password Protection, Optional AES-256 Encryption (via extension), GPG Key Support, Offline Operation Capability, No Data Collection in Offline Mode, Open Source Code Verification</td>
+<td>Minimal</td>
+<td>Mozilla Public License 2.0 &amp; GPL-3.0</td>
+<td>✅</td>
+<td>⭐⭐⭐☆☆ (3.20)</td>
+</tr>
+<tr>
+<td><a href="https://www.onlyoffice.com/">ONLYOFFICE</a></td>
+<td>End-to-End Encryption, AES-256-CBC + HMAC-SHA256 Encryption, Document Password Protection, Two-Factor Authentication, Single Sign-On, GDPR &amp; HIPAA Compliance, Local Infrastructure Support</td>
+<td>Extensive</td>
+<td>AGPL v3</td>
+<td>✅</td>
+<td>⭐⭐⭐⯪☆ (3.60)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="maintenance-deployment_10">Maintenance &amp; Deployment</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Deployment Type</th>
+<th>Maintenance Status</th>
+<th>Last Tested</th>
+<th>Maintenance Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.libreoffice.org/">LibreOffice</a></td>
+<td>A standalone software - Runs entirely locally (e.g., runs on computer and doesn't depend on external server)</td>
+<td>Monthly updates with active development team. Non-profit organization with stable financial status according to 2023 report. Strong community support through forums, wiki, and live chat. Development team responsiveness varies based on contribution complexity.</td>
+<td>2025-04-23</td>
+<td>⭐⭐⭐⭐⯪ (4.70)</td>
+</tr>
+<tr>
+<td><a href="https://www.onlyoffice.com/">ONLYOFFICE</a></td>
+<td>A service that is hosted by a third party but can also be self-hosted</td>
+<td>Frequently updated with latest desktop version from March 20, 2025. Active GitHub repository with weekly commits. Estimated annual revenue of 5M+. Subscription-based business model with various pricing tiers. Development team response time varies for GitHub issues.</td>
+<td>2025-04-17</td>
+<td>⭐⭐⭐⭐☆ (4.00)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="password-management">Password Management</h2>
+<h3 id="overview_11">Overview</h3>
+<p>Quick comparison of key features and ratings:</p>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Overall Rating</th>
+<th>Cost</th>
+<th>Technical Level</th>
+<th>Key Features</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://bitwarden.com/">Bitwarden</a></td>
+<td>⭐⭐⭐⭐⯪ (4.69)</td>
+<td>Free Core</td>
+<td>Beginner</td>
+<td>Password Storage, Password Generator, End-to-End Encryption</td>
+</tr>
+</tbody>
+</table>
+<h3 id="platform-support_11">Platform Support</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Operating Systems</th>
+<th>Mobile Support</th>
+<th>Offline Use</th>
+<th>Languages</th>
+<th>Usability Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://bitwarden.com/">Bitwarden</a></td>
+<td>Windows, Linux, macOS, iOS, Android</td>
+<td>✅</td>
+<td>⚠️</td>
+<td>56 languages available</td>
+<td>⭐⭐⭐⭐⯪ (4.30)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="security-privacy_11">Security &amp; Privacy</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Security Features</th>
+<th>Data Collection</th>
+<th>License</th>
+<th>Community Support</th>
+<th>Security Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://bitwarden.com/">Bitwarden</a></td>
+<td>End-to-End Encryption, Zero-Knowledge Architecture, Two-Factor Authentication (2FA), Biometric Unlock, Encrypted Vault Sharing, Self-Hosted Option, Password Breach Monitoring, Role-Based Access Control, Open-Source Codebase, End-to-End Encrypted Data Export</td>
+<td>Minimal</td>
+<td>GPL-3.0</td>
+<td>✅</td>
+<td>⭐⭐⭐⭐⯪ (4.80)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="maintenance-deployment_11">Maintenance &amp; Deployment</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Deployment Type</th>
+<th>Maintenance Status</th>
+<th>Last Tested</th>
+<th>Maintenance Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://bitwarden.com/">Bitwarden</a></td>
+<td>A service that is hosted by a third party but can also be self-hosted.</td>
+<td>Frequent updates ~ 2 every month. Development team is responsive and they address the issues request. Funding and Sponsorship. Bitwarden has funding from investors, numbers vary surrounding the amount of current investors. Raised $100M in a series C September 6th 2022. Software seems financially sustainable.</td>
+<td>2025-03-27</td>
+<td>⭐⭐⭐⭐⯪ (4.70)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="pastebins">PasteBins</h2>
+<h3 id="overview_12">Overview</h3>
+<p>Quick comparison of key features and ratings:</p>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Overall Rating</th>
+<th>Cost</th>
+<th>Technical Level</th>
+<th>Key Features</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://privatebin.info/">PrivateBin</a></td>
+<td>⭐⭐⭐⭐☆ (4.18)</td>
+<td>Fully Free</td>
+<td>Beginner</td>
+<td>Client-Side Encryption, Zero-Knowledge Architecture, Password Protection</td>
+</tr>
+</tbody>
+</table>
+<h3 id="platform-support_12">Platform Support</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Operating Systems</th>
+<th>Mobile Support</th>
+<th>Offline Use</th>
+<th>Languages</th>
+<th>Usability Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://privatebin.info/">PrivateBin</a></td>
+<td>Windows, macOS, Linux, FreeBSD, OpenBSD, Android, iOS</td>
+<td>✅</td>
+<td>❌</td>
+<td>181 languages</td>
+<td>⭐⭐⭐⭐☆ (4.00)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="security-privacy_12">Security &amp; Privacy</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Security Features</th>
+<th>Data Collection</th>
+<th>License</th>
+<th>Community Support</th>
+<th>Security Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://privatebin.info/">PrivateBin</a></td>
+<td>Client-Side Encryption (AES-256-GCM), Zero-Knowledge Architecture, Password Protection for Pastes, Configurable Expiration Settings and Burn-After-Reading Options, Self-Hosting Capability, No Account Required, Open-Source Codebase</td>
+<td>Minimal</td>
+<td>Zlib/libpng</td>
+<td>✅</td>
+<td>⭐⭐⭐⭐☆ (4.00)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="maintenance-deployment_12">Maintenance &amp; Deployment</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Deployment Type</th>
+<th>Maintenance Status</th>
+<th>Last Tested</th>
+<th>Maintenance Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://privatebin.info/">PrivateBin</a></td>
+<td>PrivateBin is a self-hosted web application, meaning you deploy it on your own server. It runs entirely on the backend you control, with all encryption and decryption handled in the user’s browser, ensuring zero-knowledge privacy (It is self hostable but there is a public instance available to use).</td>
+<td>PrivateBin is actively maintained, with regular contributions from its developers and the open-source community. The development status can be tracked via its GitHub repository, where contributors regularly add new features, fix bugs, and update the project to address security vulnerabilities. Updates happen often, although not always at the same time. The frequency of updates is determined by whether vulnerabilities, new features, or community-requested enhancements are found. Security updates and patches are often handled promptly.  The development team is relatively responsive to issues and pull requests on GitHub. If a security vulnerability is discovered, it is typically addressed swiftly, and users can also report them as well. There is limited information about the funding for Private Bin and have no known sponsorships. It is primarily supported by community contributors.</td>
+<td>2025-04-16</td>
+<td>⭐⭐⭐⭐⯪ (4.30)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="privacy-search-engine">Privacy Search Engine</h2>
+<h3 id="overview_13">Overview</h3>
+<p>Quick comparison of key features and ratings:</p>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Overall Rating</th>
+<th>Cost</th>
+<th>Technical Level</th>
+<th>Key Features</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://duckduckgo.com/">DuckDuckGo</a></td>
+<td>⭐⭐⭐⭐⯪ (4.35)</td>
+<td>Free Core</td>
+<td>Beginner</td>
+<td>Private Search, HTTPS Upgrading, Third-Party Tracker Blocking</td>
+</tr>
+</tbody>
+</table>
+<h3 id="platform-support_13">Platform Support</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Operating Systems</th>
+<th>Mobile Support</th>
+<th>Offline Use</th>
+<th>Languages</th>
+<th>Usability Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://duckduckgo.com/">DuckDuckGo</a></td>
+<td>Windows, macOS, Android, iOS, Browser Extensions (Chrome, Edge, Firefox, Opera)</td>
+<td>✅</td>
+<td>❌</td>
+<td>70+ languages including Traditional Chinese, Simplified Chinese, Vietnamese, Japanese, Thai, Sinhala, Korean, Kurdish</td>
+<td>⭐⭐⭐⭐⭐ (5.00)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="security-privacy_13">Security &amp; Privacy</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Security Features</th>
+<th>Data Collection</th>
+<th>License</th>
+<th>Community Support</th>
+<th>Security Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://duckduckgo.com/">DuckDuckGo</a></td>
+<td>No IP Address Collection, No Search History Storage, HTTPS Upgrading, Third-Party Tracker Blocking, Fingerprinting Protection, Cookie Protection, Global Privacy Control (GPC), Open Source Code, No Personal Data Collection</td>
+<td>Minimal</td>
+<td>Apache-2.0</td>
+<td>⚠️</td>
+<td>⭐⭐⭐⭐☆ (4.00)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="maintenance-deployment_13">Maintenance &amp; Deployment</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Deployment Type</th>
+<th>Maintenance Status</th>
+<th>Last Tested</th>
+<th>Maintenance Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://duckduckgo.com/">DuckDuckGo</a></td>
+<td>A service with a local client that's hosted by a third party - You install a client on your device, but it connects to and depends on a remote server</td>
+<td>Last updated February 21, 2025. Development team is responsive with updates typically within hours. Privately held company funded through privacy-respecting search ads. Limited but active GitHub community.</td>
+<td>2025-04-17</td>
+<td>⭐⭐⭐⭐☆ (4.00)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="vpn-services">VPN Services</h2>
+<h3 id="overview_14">Overview</h3>
+<p>Quick comparison of key features and ratings:</p>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Overall Rating</th>
+<th>Cost</th>
+<th>Technical Level</th>
+<th>Key Features</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://protonvpn.com/">Proton VPN</a></td>
+<td>⭐⭐⭐⭐⯪ (4.73)</td>
+<td>Free Core</td>
+<td>Beginner</td>
+<td>Secure VPN Tunnel, No-Logs Policy, High-Speed Servers</td>
+</tr>
+</tbody>
+</table>
+<h3 id="platform-support_14">Platform Support</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Operating Systems</th>
+<th>Mobile Support</th>
+<th>Offline Use</th>
+<th>Languages</th>
+<th>Usability Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://protonvpn.com/">Proton VPN</a></td>
+<td>Windows, macOS, Linux, Android, iOS</td>
+<td>✅</td>
+<td>❌</td>
+<td>~20 languages</td>
+<td>⭐⭐⭐⭐⯪ (4.30)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="security-privacy_14">Security &amp; Privacy</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Security Features</th>
+<th>Data Collection</th>
+<th>License</th>
+<th>Community Support</th>
+<th>Security Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://protonvpn.com/">Proton VPN</a></td>
+<td>Strong Encryption (AES-256-GCM, 4096-bit RSA, HMAC SHA-384), Perfect Forward Secrecy (PFS), No-Logs Policy, Secure Core (Multi-Hop Routing), DNS and IP Leak Protection, Kill Switch, Always-On VPN, NetShield Ad and Malware Blocker, Tor Over VPN, Open-Source Apps, Independent Security Audits, OpenVPN/IKEv2/WireGuard Protocols, VPN Accelerator, Encrypted DNS Queries, No Personal Information Required for Signup, Swiss-Based Jurisdiction (Strong Privacy Laws), Software Sandboxing (OS-level), Argon2 (used in Proton ecosystem), ChaCha20-Poly1305 encryption (via WireGuard), MITM Protection (certificate pinning), Traffic Obfuscation (Stealth protocol)</td>
+<td>Minimal</td>
+<td>GNU General Public License v3.0</td>
+<td>✅</td>
+<td>⭐⭐⭐⭐⭐ (5.00)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="maintenance-deployment_14">Maintenance &amp; Deployment</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Deployment Type</th>
+<th>Maintenance Status</th>
+<th>Last Tested</th>
+<th>Maintenance Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://protonvpn.com/">Proton VPN</a></td>
+<td>A service with a local client that’s hosted by a third party - You install a client on your device, but it connects to and depends on a remote server.</td>
+<td>Frequent updates. Developers are active; consistent updates and improvements across certain platforms. Proton developers actively monitor forums like Proton’s Reddit and GitHub issues for feedback, often incorporating suggestions into future releases. Transparency: They publicly communicate upcoming changes (e.g. protocol deprecations) and explain the reasoning behind them. Specific details about the total amount of funding or annual revenue are not publicly disclosed but Proton AG has received funding from various sources over the years. European Commission Grant: In 2017, Proton AG was awarded €2 million by the European Commission’s Horizon 2020 program to support the development of ProtonDrive. Crowdfunding: ProtonMail’s initial development was significantly supported by a crowdfunding campaign in 2014, which raised over $550,000 from more than 10,000 supporters. Subscription Revenue: Proton’s primary source of ongoing funding comes from its user base through paid subscriptions for services like ProtonMail and ProtonVPN. Proton AG is primarily funded through: User Subscriptions and the European Commission Grant. Proton AG does engage in sponsorship activities to promote its services. For instance, Proton has sponsored YouTubers and other content creators to raise awareness about its privacy-focused services. Additionally, Proton has a Partners Program that allows individuals and organizations to earn rewards for promoting Proton’s services. These sponsorships and partnerships are part of Proton’s marketing strategies and do not influence the company’s commitment to user privacy and security.</td>
+<td>2025-04-15</td>
+<td>⭐⭐⭐⭐⭐ (5.00)</td>
+</tr>
+</tbody>
+</table>
 
 
 
@@ -723,6 +2580,44 @@
       
         <footer class="md-footer">
   
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../toollist_byname/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Tool list">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Tool list
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../CONTRIBUTING/" class="md-footer__link md-footer__link--next" aria-label="Next: How to Contribute">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                How to Contribute
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
     
   
   <div class="md-footer-meta md-typeset">
