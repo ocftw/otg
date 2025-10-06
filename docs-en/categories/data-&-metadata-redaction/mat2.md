@@ -37,7 +37,7 @@
 - **Overall Rating**: ⭐⭐⭐⯪☆ (3.83)
 
 ## Documentation & Testing
-- **Full Documentation**: [MAT2 Documentation](https://github.com/user-attachments/files/20047879/MAT2.Analysis.pdf)
+- **Full Documentation**: [MAT2 Documentation](../../factsheets/MAT2.Analysis.pdf)
 - **Version Tested**: 0.12.2
 - **Date Tested**: 2025-04-29
 - **Testing Environment**: Device: Dell XPS 15, OS: Windows, Network: WiFi

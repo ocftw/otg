@@ -37,7 +37,7 @@
 - **整體評分**：⭐⭐⭐⯪☆ (3.83)
 
 ## 文件與測試
-- **完整文件**：[MAT2 文件](https://github.com/user-attachments/files/20047879/MAT2.Analysis.pdf)
+- **完整文件**：[MAT2 文件](../../factsheets/MAT2.pdf)
 - **測試版本**：0.12.2
 - **測試日期**：2025-04-29
 - **測試環境**：裝置：Dell XPS 15，作業系統：Windows，網路：WiFi

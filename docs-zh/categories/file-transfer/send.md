@@ -37,7 +37,7 @@
 - **整體評分**：⭐⭐⭐⯪☆ (3.62)
 
 ## 文件與測試
-- **完整文件**：[Send 文件](https://github.com/user-attachments/files/20009272/send_analysis.pdf)
+- **完整文件**：[Send 文件](../../factsheets/Send.pdf)
 - **測試版本**：3.4.23
 - **測試日期**：2025-03-27
 - **測試環境**：Dell XPS 15 i9 處理器，32 GB RAM，Windows，4G

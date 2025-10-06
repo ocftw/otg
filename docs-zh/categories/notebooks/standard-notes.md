@@ -37,7 +37,7 @@
 - **整體評分**：⭐⭐⭐⯪☆ (3.61)
 
 ## 文件與測試
-- **完整文件**：[Standard Notes 文件](https://github.com/user-attachments/files/20054460/standardnotes.pdf)
+- **完整文件**：[Standard Notes 文件](../../factsheets/StandardNotes.pdf)
 - **測試版本**：3.195.13
 - **測試日期**：2025-04-03
 - **測試環境**：HP 第 11 代 Intel(R) Core(TM) i7-11800H @ 2.30GHz，Windows 64，網路：WiFi

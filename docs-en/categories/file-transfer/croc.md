@@ -37,7 +37,7 @@
 - **Overall Rating**: ⭐⭐⭐⯪☆ (3.98)
 
 ## Documentation & Testing
-- **Full Documentation**: [Croc Documentation](https://github.com/user-attachments/files/20009329/Croc.Analysis.pdf)
+- **Full Documentation**: [Croc Documentation](../../factsheets/Croc.Analysis.pdf)
 - **Version Tested**: 10.2.2
 - **Date Tested**: 2025-04-07
 - **Testing Environment**: Dell XPS 15, Windows, 4G

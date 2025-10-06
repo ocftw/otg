@@ -37,7 +37,7 @@
 - **Overall Rating**: ⭐⭐⭐⭐⯪ (4.73)
 
 ## Documentation & Testing
-- **Full Documentation**: [Proton VPN Documentation](https://github.com/user-attachments/files/20034866/ProtonVPN.Analysis.pdf)
+- **Full Documentation**: [Proton VPN Documentation](../../factsheets/ProtonVPN.Analysis.pdf)
 - **Version Tested**: v4.0
 - **Date Tested**: 2025-04-15
 - **Testing Environment**: Device: Macbook Pro (14 inch, M4 Chip), 10-core CPU, 24 GB Memory, OS: 15.2 Sequoia (macOS), Network: Wifi

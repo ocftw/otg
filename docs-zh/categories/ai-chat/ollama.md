@@ -37,7 +37,7 @@
 - **整體評分**：⭐⭐⭐⭐☆ (4.05)
 
 ## 文件與測試
-- **完整文件**：[Ollama 文件](https://github.com/user-attachments/files/20054085/ollama.pdf)
+- **完整文件**：[Ollama 文件](../../factsheets/Ollama.pdf)
 - **測試版本**：0.6.8
 - **測試日期**：2025-05-06
 - **測試環境**：Macbook Pro（14 吋，M4 晶片），10 核心 CPU，24 GB 記憶體，作業系統：15.2 Sequoia，網路：Wifi

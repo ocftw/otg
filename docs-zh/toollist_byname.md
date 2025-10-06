@@ -1,400 +1,173 @@
 # 已評估工具
 
-??? note "[AdGuard](https://adguard.com/)"
+<div class="tool-grid">
 
-    ### 分類
-    廣告追蹤器攔截
-    ### 簡介
-    一款全面的廣告攔截和隱私保護擴充功能，可在多個瀏覽器和平台上攔截廣告、線上追蹤並增強隱私。
-    ### 狀態
-    活躍
-    ### 部署方式
-    一款獨立軟體 - 完全在本機端運行（例如，在電腦上運行，不依賴外部伺服器）
-    ### 技術層級
-    初學者
-    ### 整體評分
-    ⭐⭐⭐⭐⯪ (4.56)
-    ### 完整文件
-    [詳細資訊](categories/ad-tracker-blocking/adguard_zh.md)
-    ### 最近測試日期
-    2025-03-30
+<div class="tool-card">
+    <h3><a href="https://adguard.com/" target="_blank" rel="noopener">AdGuard</a></h3>
+    <p><strong>分類：</strong> 廣告追蹤器攔截</p>
+    <p>一款全面的廣告攔截和隱私保護擴充功能，可在多個瀏覽器和平台上攔截廣告、線上追蹤並增強隱私。</p>
+    <p><strong>整體評分：</strong> ⭐⭐⭐⭐⯪ (4.56)</p>
+    <a href="../categories/ad-tracker-blocking/adguard/" class="tool-details-link md-button">詳細資訊</a>
+</div>
 
-??? note "[Bitwarden](https://bitwarden.com/)"
+<div class="tool-card">
+    <h3><a href="https://bitwarden.com/" target="_blank" rel="noopener">Bitwarden</a></h3>
+    <p><strong>分類：</strong> 密碼管理</p>
+    <p>Bitwarden 是一款安全的密碼管理器，可協助個人和組織安全地儲存、管理和分享密碼及敏感資料。</p>
+    <p><strong>整體評分：</strong> ⭐⭐⭐⭐⯪ (4.69)</p>
+    <a href="../categories/password-management/bitwarden/" class="tool-details-link md-button">詳細資訊</a>
+</div>
 
-    ### 分類
-    密碼管理
-    ### 簡介
-    Bitwarden 是一款安全的密碼管理器，可協助個人和組織安全地儲存、管理和分享密碼及敏感資料。它使用端到端加密來保護您的資訊。
-    ### 狀態
-    活躍
-    ### 部署方式
-    一款由第三方託管的服務，但也可以自行託管。
-    ### 技術層級
-    初學者
-    ### 整體評分
-    ⭐⭐⭐⭐⯪ (4.69)
-    ### 完整文件
-    [詳細資訊](categories/password-management/bitwarden.md)
-    ### 最近測試日期
-    2025-03-27
+<div class="tool-card">
+    <h3><a href="https://github.com/schollz/croc" target="_blank" rel="noopener">Croc</a></h3>
+    <p><strong>分類：</strong> 檔案傳輸</p>
+    <p>Croc 可透過網際網路進行安全的端到端加密檔案傳輸，確保使用者隱私和匿名性。</p>
+    <p><strong>整體評分：</strong> ⭐⭐⭐⯪☆ (3.98)</p>
+    <a href="../categories/file-transfer/croc/" class="tool-details-link md-button">詳細資訊</a>
+</div>
 
-??? note "[Croc](https://github.com/schollz/croc)"
+<div class="tool-card">
+    <h3><a href="https://cryptomator.org/" target="_blank" rel="noopener">Cryptomator</a></h3>
+    <p><strong>分類：</strong> 加密</p>
+    <p>旨在為儲存在雲端中的檔案提供客戶端加密。</p>
+    <p><strong>整體評分：</strong> ⭐⭐⭐⭐⯪ (4.34)</p>
+    <a href="../categories/encryption/cryptomator/" class="tool-details-link md-button">詳細資訊</a>
+</div>
 
-    ### 分類
-    檔案傳輸
-    ### 簡介
-    Croc 可透過網際網路進行安全的端到端加密檔案傳輸，確保使用者隱私和匿名性。
-    ### 狀態
-    活躍
-    ### 部署方式
-    一款由第三方託管的服務，但也可以自行託管。
-    ### 技術層級
-    中級
-    ### 整體評分
-    ⭐⭐⭐⯪☆ (3.98)
-    ### 完整文件
-    [詳細資訊](categories/file-transfer/croc.md)
-    ### 最近測試日期
-    2025-04-07
+<div class="tool-card">
+    <h3><a href="https://duckduckgo.com/" target="_blank" rel="noopener">DuckDuckGo</a></h3>
+    <p><strong>分類：</strong> 隱私搜尋引擎</p>
+    <p>一款注重隱私的搜尋引擎，不會追蹤使用者、記錄個人資料或根據先前的活動個人化搜尋結果。</p>
+    <p><strong>整體評分：</strong> ⭐⭐⭐⭐⯪ (4.35)</p>
+    <a href="../categories/privacy-search-engine/duckduckgo/" class="tool-details-link md-button">詳細資訊</a>
+</div>
 
-??? note "[Cryptomator](https://cryptomator.org/)"
+<div class="tool-card">
+    <h3><a href="https://languagetool.org/" target="_blank" rel="noopener">LanguageTool</a></h3>
+    <p><strong>分類：</strong> 語言工具</p>
+    <p>LanguageTool 是一款開源的人工智慧寫作助理，可偵測多種語言的文法、拼字和風格錯誤，以改善寫作。</p>
+    <p><strong>整體評分：</strong> ⭐⭐⭐⯪☆ (3.46)</p>
+    <a href="../categories/language-tools/languagetool/" class="tool-details-link md-button">詳細資訊</a>
+</div>
 
-    ### 分類
-    加密
-    ### 簡介
-    旨在為儲存在雲端中的檔案提供客戶端加密
-    ### 狀態
-    活躍
-    ### 部署方式
-    一款獨立軟體 - 完全在本機端運行（例如，在電腦上運行，不依賴外部伺服器）
-    ### 技術層級
-    初學者
-    ### 整體評分
-    ⭐⭐⭐⭐⯪ (4.34)
-    ### 完整文件
-    [詳細資訊](categories/encryption/cryptomator.md)
-    ### 最近測試日期
-    2025-04-22
+<div class="tool-card">
+    <h3><a href="https://www.libreoffice.org/" target="_blank" rel="noopener">LibreOffice</a></h3>
+    <p><strong>分類：</strong> 辦公室套件</p>
+    <p>一款開源辦公室套件，專為文件建立、編輯和協作而設計，提供離線功能。</p>
+    <p><strong>整體評分：</strong> ⭐⭐⭐⯪☆ (3.94)</p>
+    <a href="../categories/office-suite/libreoffice/" class="tool-details-link md-button">詳細資訊</a>
+</div>
 
-??? note "[DuckDuckGo](https://duckduckgo.com/)"
+<div class="tool-card">
+    <h3><a href="https://github.com/magic-wormhole/magic-wormhole" target="_blank" rel="noopener">Magic Wormhole</a></h3>
+    <p><strong>分類：</strong> 檔案傳輸</p>
+    <p>Magic Wormhole 提供一個函式庫和一個命令列工具，讓使用者可以將任意大小的檔案和目錄從一台電腦傳送到另一台。</p>
+    <p><strong>整體評分：</strong> ⭐⭐⭐⭐☆ (4.15)</p>
+    <a href="../categories/file-transfer/magic-wormhole/" class="tool-details-link md-button">詳細資訊</a>
+</div>
 
-    ### 分類
-    隱私搜尋引擎
-    ### 簡介
-    一款注重隱私的搜尋引擎，不會追蹤使用者、記錄個人資料或根據先前的活動個人化搜尋結果，提供追蹤器攔截和匿名瀏覽功能。
-    ### 狀態
-    活躍
-    ### 部署方式
-    一款帶有本機客戶端的服務，由第三方託管 - 您在您的裝置上安裝一個客戶端，但它會連接並依賴遠端伺服器
-    ### 技術層級
-    初學者
-    ### 整體評分
-    ⭐⭐⭐⭐⯪ (4.35)
-    ### 完整文件
-    [詳細資訊](categories/privacy-search-engine/duckduckgo.md)
-    ### 最近測試日期
-    2025-04-17
+<div class="tool-card">
+    <h3><a href="https://github.com/jvoisin/mat2" target="_blank" rel="noopener">MAT2</a></h3>
+    <p><strong>分類：</strong> 資料和中繼資料編輯</p>
+    <p>Mat2（中繼資料匿名化工具組）旨在從檔案和文件中移除中繼資料，以保護使用者的隱私。</p>
+    <p><strong>整體評分：</strong> ⭐⭐⭐⯪☆ (3.83)</p>
+    <a href="../categories/data-&-metadata-redaction/mat2/" class="tool-details-link md-button">詳細資訊</a>
+</div>
 
-??? note "[LanguageTool](https://languagetool.org/)"
+<div class="tool-card">
+    <h3><a href="https://notesnook.com/" target="_blank" rel="noopener">Notesnook</a></h3>
+    <p><strong>分類：</strong> 筆記本</p>
+    <p>筆記應用程式，提供端到端加密，旨在取代主流應用程式，而不會損害使用者隱私。</p>
+    <p><strong>整體評分：</strong> ⭐⭐⭐⭐⯪ (4.29)</p>
+    <a href="../categories/notebooks/notesnook/" class="tool-details-link md-button">詳細資訊</a>
+</div>
 
-    ### 分類
-    語言工具
-    ### 簡介
-    LanguageTool 是一款開源的人工智慧寫作助理，可偵測多種語言的文法、拼字和風格錯誤，以改善寫作。
-    ### 狀態
-    活躍
-    ### 部署方式
-    一款獨立軟體 – 完全在本機端運行：如果您下載並安裝 LanguageTool 桌面應用程式或設定離線版本，它會完全在您的電腦上運行，不會將資料傳送到外部伺服器。一款在本機端託管的服務，具有獨立的伺服器和客戶端元件：您也可以透過設定後端（伺服器）並使用連接到它的瀏覽器擴充功能或其他客戶端來自行託管 LanguageTool。這讓您可以完全控制您的資料，同時保留工具的功能。一款帶有本機客戶端的服務，由第三方託管：您可以安裝瀏覽器擴充功能、附加元件或使用網頁介面（本機客戶端）。這些客戶端會連接到 LanguageTool 的遠端伺服器，這些伺服器會處理文法檢查和處理。除非您使用自行託管或離線版本，否則使用者文字會傳送到他們的伺服器進行分析。
-    ### 技術層級
-    初學者
-    ### 整體評分
-    ⭐⭐⭐⯪☆ (3.46)
-    ### 完整文件
-    [詳細資訊](categories/language-tools/languagetool.md)
-    ### 最近測試日期
-    2025-04-29
+<div class="tool-card">
+    <h3><a href="https://ollama.com/" target="_blank" rel="noopener">Ollama</a></h3>
+    <p><strong>分類：</strong> 人工智慧聊天</p>
+    <p>在個人電腦上本機端運行大型語言模型，以提供私密、離線的人工智慧協助。</p>
+    <p><strong>整體評分：</strong> ⭐⭐⭐⭐☆ (4.05)</p>
+    <a href="../categories/ai-chat/ollama/" class="tool-details-link md-button">詳細資訊</a>
+</div>
 
-??? note "[LibreOffice](https://www.libreoffice.org/)"
+<div class="tool-card">
+    <h3><a href="https://www.onlyoffice.com/" target="_blank" rel="noopener">ONLYOFFICE</a></h3>
+    <p><strong>分類：</strong> 辦公室套件</p>
+    <p>一款開源辦公室套件，專為文件建立、編輯和協作而設計，包括全面的文件管理功能。</p>
+    <p><strong>整體評分：</strong> ⭐⭐⭐⭐☆ (4.21)</p>
+    <a href="../categories/office-suite/onlyoffice/" class="tool-details-link md-button">詳細資訊</a>
+</div>
 
-    ### 分類
-    辦公室套件
-    ### 簡介
-    一款開源辦公室套件，專為文件建立、編輯和協作而設計，提供離線功能和全面的文件管理功能。
-    ### 狀態
-    活躍
-    ### 部署方式
-    一款獨立軟體 - 完全在本機端運行（例如，在電腦上運行，不依賴外部伺服器）
-    ### 技術層級
-    初學者
-    ### 整體評分
-    ⭐⭐⭐⯪☆ (3.94)
-    ### 完整文件
-    [詳細資訊](categories/office-suite/libreoffice.md)
-    ### 最近測試日期
-    2025-04-23
+<div class="tool-card">
+    <h3><a href="https://privatebin.info/" target="_blank" rel="noopener">PrivateBin</a></h3>
+    <p><strong>分類：</strong> 貼上箱</p>
+    <p>PrivateBin 是一款極簡的開源線上貼上箱，伺服器對貼上的資料零知識。</p>
+    <p><strong>整體評分：</strong> ⭐⭐⭐⭐☆ (4.18)</p>
+    <a href="../categories/pastebins/privatebin/" class="tool-details-link md-button">詳細資訊</a>
+</div>
 
-??? note "[Magic Wormhole](https://github.com/magic-wormhole/magic-wormhole)"
+<div class="tool-card">
+    <h3><a href="https://protonvpn.com/" target="_blank" rel="noopener">Proton VPN</a></h3>
+    <p><strong>分類：</strong> VPN 服務</p>
+    <p>透過加密使用者流量和遮罩其 IP 位址來提供安全和私密的網際網路瀏覽，提供增強的線上隱私和匿名性。</p>
+    <p><strong>整體評分：</strong> ⭐⭐⭐⭐⯪ (4.73)</p>
+    <a href="../categories/vpn-services/proton-vpn/" class="tool-details-link md-button">詳細資訊</a>
+</div>
 
-    ### 分類
-    檔案傳輸
-    ### 簡介
-    Magic Wormhole 提供一個函式庫和一個命令列工具，讓使用者可以將任意大小的檔案和目錄從一台電腦傳送到另一台。
-    ### 狀態
-    活躍
-    ### 部署方式
-    一款帶有本機客戶端的服務，由第三方託管 - 您在您的裝置上安裝一個客戶端，但它會連接並依賴遠端伺服器。
-    ### 技術層級
-    中級
-    ### 整體評分
-    ⭐⭐⭐⭐☆ (4.15)
-    ### 完整文件
-    [詳細資訊](categories/file-transfer/magic-wormhole.md)
-    ### 最近測試日期
-    2025-04-02
+<div class="tool-card">
+    <h3><a href="https://tryquiet.org/" target="_blank" rel="noopener">Quiet</a></h3>
+    <p><strong>分類：</strong> 即時通訊</p>
+    <p>一個在 Tor 洋蔥服務上運行的安全即時通訊平台，提供端到端加密和去中心化通訊，不依賴中央伺服器。</p>
+    <p><strong>整體評分：</strong> ⭐⭐⭐⯪☆ (3.26)</p>
+    <a href="../categories/messaging/quiet/" class="tool-details-link md-button">詳細資訊</a>
+</div>
 
-??? note "[MAT2](https://github.com/jvoisin/mat2)"
+<div class="tool-card">
+    <h3><a href="https://github.com/timvisee/send" target="_blank" rel="noopener">Send</a></h3>
+    <p><strong>分類：</strong> 檔案傳輸</p>
+    <p>Send 可進行安全的端到端加密檔案傳輸，確保使用者隱私和匿名性。</p>
+    <p><strong>整體評分：</strong> ⭐⭐⭐⯪☆ (3.62)</p>
+    <a href="../categories/file-transfer/send/" class="tool-details-link md-button">詳細資訊</a>
+</div>
 
-    ### 分類
-    資料和中繼資料編輯
-    ### 簡介
-    Mat2（中繼資料匿名化工具組）旨在從檔案和文件中移除中繼資料，以保護使用者的隱私。它會移除作者姓名、軟體版本、檔案歷史記錄、位置以及可嵌入檔案中的其他個人資訊等中繼資料。
-    ### 狀態
-    活躍
-    ### 部署方式
-    一款獨立軟體 - 完全在本機端運行（例如，在電腦上運行，不依賴外部伺服器）
-    ### 技術層級
-    中級
-    ### 整體評分
-    ⭐⭐⭐⯪☆ (3.83)
-    ### 完整文件
-    [詳細資訊](categories/data-&-metadata-redaction/mat2.md)
-    ### 最近測試日期
-    2025-04-29
+<div class="tool-card">
+    <h3><a href="https://signal.org/" target="_blank" rel="noopener">Signal</a></h3>
+    <p><strong>分類：</strong> 即時通訊</p>
+    <p>Signal 是一款安全的即時通訊應用程式，旨在提供端到端加密通訊，讓使用者可以傳送訊息、進行語音和視訊通話以及分享檔案。</p>
+    <p><strong>整體評分：</strong> ⭐⭐⭐⭐⯪ (4.97)</p>
+    <a href="../categories/messaging/signal/" class="tool-details-link md-button">詳細資訊</a>
+</div>
 
-??? note "[Notesnook](https://notesnook.com/)"
+<div class="tool-card">
+    <h3><a href="https://standardnotes.com/" target="_blank" rel="noopener">Standard Notes</a></h3>
+    <p><strong>分類：</strong> 筆記本</p>
+    <p>免費、安全的筆記應用程式，具有端到端加密和隱私功能，提供離線功能和最少的資料收集。</p>
+    <p><strong>整體評分：</strong> ⭐⭐⭐⭐⯪ (3.61)</p>
+    <a href="../categories/notebooks/standard-notes/" class="tool-details-link md-button">詳細資訊</a>
+</div>
 
-    ### 分類
-    筆記本
-    ### 簡介
-    筆記應用程式，提供端到端加密，旨在取代主流應用程式，而不會損害使用者隱私。
-    ### 狀態
-    活躍
-    ### 部署方式
-    一款帶有本機客戶端的服務，由第三方託管 - 您在您的裝置上安裝一個客戶端，但它會連接並依賴遠端伺服器。也可以自行託管。
-    ### 技術層級
-    初學者
-    ### 整體評分
-    ⭐⭐⭐⭐⯪ (4.29)
-    ### 完整文件
-    [詳細資訊](categories/notebooks/notesnook.md)
-    ### 最近測試日期
-    2025-04-21
+<div class="tool-card">
+    <h3><a href="https://www.thunderbird.net/en-US/" target="_blank" rel="noopener">ThunderBird</a></h3>
+    <p><strong>分類：</strong> 電子郵件客戶端</p>
+    <p>Thunderbird 是由 Mozilla 開發的一款開源電子郵件應用程式，用於管理多個電子郵件帳戶，具有強大的隱私保護、PGP 加密和附加元件擴充性。</p>
+    <p><strong>整體評分：</strong> ⭐⭐⭐⭐⯪ (4.29)</p>
+    <a href="../categories/email-clients/thunderbird/" class="tool-details-link md-button">詳細資訊</a>
+</div>
 
-??? note "[Ollama](https://ollama.com/)"
+<div class="tool-card">
+    <h3><a href="https://www.torproject.org/" target="_blank" rel="noopener">Tor 瀏覽器</a></h3>
+    <p><strong>分類：</strong> 瀏覽器</p>
+    <p>Tor 瀏覽器是一款免費、注重隱私的網頁瀏覽器，使用 Tor 網路來加密流量並保護使用者的線上匿名性。</p>
+    <p><strong>整體評分：</strong> ⭐⭐⭐⭐⯪ (4.51)</p>
+    <a href="../categories/browser/tor-browser/" class="tool-details-link md-button">詳細資訊</a>
+</div>
 
-    ### 分類
-    人工智慧聊天
-    ### 簡介
-    在個人電腦上本機端運行大型語言模型，以提供私密、離線的人工智慧協助。
-    ### 狀態
-    活躍
-    ### 部署方式
-    一款獨立軟體 - 完全在本機端運行（例如，在電腦上運行，不依賴外部伺服器）
-    ### 技術層級
-    中級
-    ### 整體評分
-    ⭐⭐⭐⭐☆ (4.05)
-    ### 完整文件
-    [詳細資訊](categories/ai-chat/ollama.md)
-    ### 最近測試日期
-    2025-05-06
+<div class="tool-card">
+    <h3><a href="https://www.veracrypt.fr/en/Home.html" target="_blank" rel="noopener">VeraCrypt</a></h3>
+    <p><strong>分類：</strong> 加密</p>
+    <p>VeraCrypt 是一款免費的開源磁碟加密軟體，它使用強大的加密技術來保護單一檔案、資料夾和整個磁碟機。</p>
+    <p><strong>整體評分：</strong> ⭐⭐⭐⭐⯪ (4.75)</p>
+    <a href="../categories/encryption/veracrypt/" class="tool-details-link md-button">詳細資訊</a>
+</div>
 
-??? note "[ONLYOFFICE](https://www.onlyoffice.com/)"
-
-    ### 分類
-    辦公室套件
-    ### 簡介
-    一款開源辦公室套件，專為文件建立、編輯和協作而設計，包括透過 Docs 和 DocSpace 平台進行全面的文件管理。
-    ### 狀態
-    活躍
-    ### 部署方式
-    一款由第三方託管的服務，但也可以自行託管
-    ### 技術層級
-    初學者
-    ### 整體評分
-    ⭐⭐⭐⭐☆ (4.21)
-    ### 完整文件
-    [詳細資訊](categories/office-suite/onlyoffice.md)
-    ### 最近測試日期
-    2025-04-17
-
-??? note "[PrivateBin](https://privatebin.info/)"
-
-    ### 分類
-    貼上箱
-    ### 簡介
-    PrivateBin 是一款極簡的開源線上貼上箱，伺服器對貼上的資料零知識。
-    ### 狀態
-    活躍
-    ### 部署方式
-    PrivateBin 是一款自行託管的網頁應用程式，這意味著您將它部署在自己的伺服器上。它完全在您控制的後端運行，所有加密和解密都在使用者的瀏覽器中處理，確保零知識隱私（它可以自行託管，但也有公開的實例可供使用）。
-    ### 技術層級
-    初學者
-    ### 整體評分
-    ⭐⭐⭐⭐☆ (4.18)
-    ### 完整文件
-    [詳細資訊](categories/pastebins/privatebin.md)
-    ### 最近測試日期
-    2025-04-16
-
-??? note "[Proton VPN](https://protonvpn.com/)"
-
-    ### 分類
-    VPN 服務
-    ### 簡介
-    透過加密使用者流量和遮罩其 IP 位址來提供安全和私密的網際網路瀏覽，提供增強的線上隱私和匿名性。
-    ### 狀態
-    活躍
-    ### 部署方式
-    一款帶有本機客戶端的服務，由第三方託管 - 您在您的裝置上安裝一個客戶端，但它會連接並依賴遠端伺服器。
-    ### 技術層級
-    初學者
-    ### 整體評分
-    ⭐⭐⭐⭐⯪ (4.73)
-    ### 完整文件
-    [詳細資訊](categories/vpn-services/proton-vpn.md)
-    ### 最近測試日期
-    2025-04-15
-
-??? note "[Quiet](https://tryquiet.org/)"
-
-    ### 分類
-    即時通訊
-    ### 簡介
-    一個在 Tor 洋蔥服務上運行的安全即時通訊平台，提供端到端加密和去中心化通訊，不依賴中央伺服器。
-    ### 狀態
-    活躍
-    ### 部署方式
-    一款獨立軟體 - 完全在本機端運行（例如，在電腦上運行，不依賴外部伺服器）
-    ### 技術層級
-    初學者
-    ### 整體評分
-    ⭐⭐⭐⯪☆ (3.26)
-    ### 完整文件
-    [詳細資訊](categories/messaging/quiet.md)
-    ### 最近測試日期
-    2025-04-23
-
-??? note "[Send](https://github.com/timvisee/send)"
-
-    ### 分類
-    檔案傳輸
-    ### 簡介
-    Send 可進行安全的端到端加密檔案傳輸，確保使用者隱私和匿名性。
-    ### 狀態
-    活躍
-    ### 部署方式
-    一款帶有本機客戶端的服務，由第三方託管，也可以自行託管。
-    ### 技術層級
-    初學者
-    ### 整體評分
-    ⭐⭐⭐⯪☆ (3.62)
-    ### 完整文件
-    [詳細資訊](categories/file-transfer/send.md)
-    ### 最近測試日期
-    2025-03-27
-
-??? note "[Signal](https://signal.org/)"
-
-    ### 分類
-    即時通訊
-    ### 簡介
-    Signal 是一款安全的即時通訊應用程式，旨在提供端到端加密通訊，讓使用者可以傳送訊息、進行語音和視訊通話以及分享檔案，同時維護隱私和安全。
-    ### 狀態
-    活躍
-    ### 部署方式
-    一款帶有本機客戶端的服務，由第三方託管 - 您在您的裝置上安裝一個客戶端，但它會連接並依賴遠端伺服器（例如，安裝應用程式（客戶端），但伺服器處理訊息轉發等）。
-    ### 技術層級
-    初學者
-    ### 整體評分
-    ⭐⭐⭐⭐⯪ (4.97)
-    ### 完整文件
-    [詳細資訊](categories/messaging/signal.md)
-    ### 最近測試日期
-    2025-03-27
-
-??? note "[Standard Notes](https://standardnotes.com/)"
-
-    ### 分類
-    筆記本
-    ### 簡介
-    免費、安全的筆記應用程式，具有端到端加密和隱私功能，提供離線功能和最少的資料收集。
-    ### 狀態
-    活躍
-    ### 部署方式
-    一款由第三方託管的服務，但也可以自行託管
-    ### 技術層級
-    初學者
-    ### 整體評分
-    ⭐⭐⭐⭐⯪ (3.61)
-    ### 完整文件
-    [詳細資訊](categories/notebooks/standard-notes.md)
-    ### 最近測試日期
-    2025-04-03
-
-??? note "[ThunderBird](https://www.thunderbird.net/en-US/)"
-
-    ### 分類
-    電子郵件客戶端
-    ### 簡介
-    Thunderbird 是由 Mozilla 開發的一款開源電子郵件應用程式，用於管理多個電子郵件帳戶，具有強大的隱私保護、PGP 加密、OAuth2 支援和附加元件擴充性。
-    ### 狀態
-    活躍
-    ### 部署方式
-    Thunderbird 是一款獨立的開源桌面電子郵件客戶端，部署在使用者的裝置上。它直接安裝在作業系統上，透過 IMAP、POP3 和其他電子郵件協定管理和同步電子郵件、聯絡人和行事曆。該工具的基本功能不需要伺服器，但支援與外部電子郵件服務整合以收發郵件（Thunderbird 應用程式是獨立軟體，但電子郵件資料位於遠端電子郵件伺服器---IMAP 或 POP3）。
-    ### 技術層級
-    中級
-    ### 整體評分
-    ⭐⭐⭐⭐⯪ (4.29)
-    ### 完整文件
-    [詳細資訊](categories/email-clients/thunderbird.md)
-    ### 最近測試日期
-    2025-04-23
-
-??? note "[Tor 瀏覽器](https://www.torproject.org/)"
-
-    ### 分類
-    瀏覽器
-    ### 簡介
-    Tor 瀏覽器是一款免費、注重隱私的網頁瀏覽器，使用 Tor 網路來加密流量並保護使用者的線上匿名性。 
-    ### 狀態
-    活躍
-    ### 部署方式
-     一款帶有本機客戶端的服務，由第三方託管 - 您在您的裝置上安裝一個客戶端，但它會連接並依賴遠端伺服器（Tor 瀏覽器是在本機端電腦上運行的軟體，但會連接到 Tor 網路來瀏覽網頁）。
-    ### 技術層級
-    中級
-    ### 整體評分
-    ⭐⭐⭐⭐⯪ (4.51) 
-    ### 完整文件
-    詳細資訊](categories/browser/tor-browser.md)
-    ### 最近測試日期
-    2025-04-02
-
-??? note "[VeraCrypt](https://www.veracrypt.fr/en/Home.html)"
-
-    ### 分類
-    加密
-    ### 簡介
-    VeraCrypt 是一款免費的開源磁碟加密軟體，它使用強大的加密技術來保護單一檔案、資料夾和整個磁碟機。
-    ### 狀態
-    活躍
-    ### 部署方式
-    一款獨立軟體 - 完全在本機端運行（例如，在電腦上運行，不依賴外部伺服器）
-    ### 技術層級
-    中級
-    ### 整體評分
-    ⭐⭐⭐⭐⯪ (4.75)
-    ### 完整文件
-    [詳細資訊](categories/encryption/veracrypt.md)
-    ### 最近測試日期
-    2025-04-22
+</div>

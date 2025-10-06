@@ -37,7 +37,7 @@
 - **整體評分**：⭐⭐⭐⭐⯪ (4.29)
 
 ## 文件與測試
-- **完整文件**：[ThunderBird 文件](https://github.com/user-attachments/files/20026858/Thunderbird.Analysis.pdf)
+- **完整文件**：[ThunderBird 文件](../../factsheets/Thunderbird.pdf)
 - **測試版本**：137.0.2
 - **測試日期**：2025-04-23
 - **測試環境**：Dell XPS 15，Windows，4G

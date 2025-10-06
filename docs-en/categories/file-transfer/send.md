@@ -37,7 +37,7 @@
 - **Overall Rating**: ⭐⭐⭐⯪☆ (3.62)
 
 ## Documentation & Testing
-- **Full Documentation**: [Send Documentation](https://github.com/user-attachments/files/20009272/send_analysis.pdf)
+- **Full Documentation**: [Send Documentation](../../factsheets/send_analysis.pdf)
 - **Version Tested**: 3.4.23
 - **Date Tested**: 2025-03-27
 - **Testing Environment**: Dell XPS 15 i9 processor, 32 GB RAM, Windows, 4G

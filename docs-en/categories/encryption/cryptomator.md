@@ -37,7 +37,7 @@
 - **Overall Rating**: ⭐⭐⭐⭐⯪ (4.34)
 
 ## Documentation & Testing
-- **Full Documentation**: [Cryptomator Documentation](https://github.com/user-attachments/files/20054319/cryptomater.pdf)
+- **Full Documentation**: [Cryptomator Documentation](../../factsheets/Cryptomator.pdf)
 - **Version Tested**: 1.15.3
 - **Date Tested**: 2025-04-22
 - **Testing Environment**: HP Envy x360, 13th Gen Intel(R) i7 processor, 16 GB RAM, Windows 11, Network: 4G

@@ -37,7 +37,7 @@
 - **整體評分**：⭐⭐⭐⭐⯪ (4.75)
 
 ## 文件與測試
-- **完整文件**：[VeraCrypt 文件](https://github.com/user-attachments/files/20026980/VeraCrypt.Analysis.pdf)
+- **完整文件**：[VeraCrypt 文件](../../factsheets/VeraCrypt.pdf)
 - **測試版本**：1.26.20
 - **測試日期**：2025-04-22
 - **測試環境**：Dell XPS 15，Windows，4G

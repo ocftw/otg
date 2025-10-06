@@ -27,7 +27,11 @@ You can contribute by submitting tool recommendations or assessment data on GitH
 
 ## Tool Assessments
 
+We provide comprehensive assessments for a variety of open-source tools across different categories, including security, privacy, communication, and productivity. Each assessment includes detailed analysis of functionality, security features, privacy protection, user experience, installation difficulty, and hardware/software requirements. Browse our [Tool List](toollist_byname.md) to explore individual tool evaluations.
+
 ## Thematic Comparison Reports
 
+Our thematic comparison reports offer side-by-side analyses of tools within the same category, helping you understand the strengths and trade-offs of different options. These reports cover key aspects such as features, security standards, ease of use, and deployment considerations. Visit our [Tool Comparison](tool_comparison.md) page to compare tools and find the best fit for your needs.
+
 ## License
-This project is licensed under the CC-BY-SA 4.0 License.
+This project's content is licensed under the [CC-BY 4.0 License](https://creativecommons.org/licenses/by/4.0/).

@@ -37,7 +37,7 @@
 - **Overall Rating**: ⭐⭐⭐⭐☆ (4.21)
 
 ## Documentation & Testing
-- **Full Documentation**: [ONLYOFFICE Documentation](https://github.com/user-attachments/files/20054458/onlyoffice.pdf)
+- **Full Documentation**: [ONLYOFFICE Documentation](../../factsheets/ONLYOFFICE_Desktop.pdf)
 - **Version Tested**: 8.3.0
 - **Date Tested**: 2025-04-17
 - **Testing Environment**: HP 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz, Windows 64, Network: WiFi

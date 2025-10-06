@@ -37,7 +37,7 @@
 - **Overall Rating**: ⭐⭐⭐⭐⯪ (4.29)
 
 ## Documentation & Testing
-- **Full Documentation**: [ThunderBird Documentation](https://github.com/user-attachments/files/20026858/Thunderbird.Analysis.pdf)
+- **Full Documentation**: [ThunderBird Documentation](../../factsheets/Thunderbird.Analysis.pdf)
 - **Version Tested**: 137.0.2
 - **Date Tested**: 2025-04-23
 - **Testing Environment**: Dell XPS 15, Windows, 4G

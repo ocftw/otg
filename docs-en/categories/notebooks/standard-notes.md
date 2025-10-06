@@ -37,7 +37,7 @@
 - **Overall Rating**: ⭐⭐⭐⯪☆ (3.61)
 
 ## Documentation & Testing
-- **Full Documentation**: [Standard Notes Documentation](https://github.com/user-attachments/files/20054460/standardnotes.pdf)
+- **Full Documentation**: [Standard Notes Documentation](../../factsheets/StandardNotes.pdf)
 - **Version Tested**: 3.195.13
 - **Date Tested**: 2025-04-03
 - **Testing Environment**: HP 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz, Windows 64, Network: WiFi

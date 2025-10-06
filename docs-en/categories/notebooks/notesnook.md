@@ -37,7 +37,7 @@
 - **Overall Rating**: ⭐⭐⭐⭐⯪ (4.29)
 
 ## Documentation & Testing
-- **Full Documentation**: [Notesnook Documentation](https://github.com/user-attachments/files/20034420/Notesnook.Analysis.pdf)
+- **Full Documentation**: [Notesnook Documentation](../../factsheets/Notesnook.Analysis.pdf)
 - **Version Tested**: V.3.0.32-904c452-desktop
 - **Date Tested**: 2025-04-21
 - **Testing Environment**: HP Envy x360 13th Gen Intel(R) i7 processor 16 GB RAM, OS: Windows, Network, WiFi

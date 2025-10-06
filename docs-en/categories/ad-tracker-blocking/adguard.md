@@ -37,7 +37,7 @@
 - **Overall Rating**: ⭐⭐⭐⭐⯪ (4.56)
 
 ## Documentation & Testing
-- **Full Documentation**: [AdGuard Factsheet](../../../factsheets/AdGuard.pdf)
+- **Full Documentation**: [AdGuard Factsheet](../../factsheets/AdGuard.pdf)
 - **Version Tested**: 5.1
 - **Date Tested**: 2025-03-30
 - **Testing Environment**: HP 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz, Windows 64, Network: WiFi

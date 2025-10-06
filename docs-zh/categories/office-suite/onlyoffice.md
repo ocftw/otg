@@ -37,7 +37,7 @@
 - **整體評分**：⭐⭐⭐⭐☆ (4.21)
 
 ## 文件與測試
-- **完整文件**：[ONLYOFFICE 文件](https://github.com/user-attachments/files/20054458/onlyoffice.pdf)
+- **完整文件**：[ONLYOFFICE 文件](../../factsheets/ONLYOFFICE.pdf)
 - **測試版本**：8.3.0
 - **測試日期**：2025-04-17
 - **測試環境**：HP 第 11 代 Intel(R) Core(TM) i7-11800H @ 2.30GHz，Windows 64，網路：WiFi

@@ -37,7 +37,7 @@
 - **Overall Rating**: ⭐⭐⭐⭐⯪ (4.51)
 
 ## Documentation & Testing
-- **Full Documentation**: [Tor Browser Documentation](https://github.com/user-attachments/files/20004030/Tor.Analysis.pdf)
+- **Full Documentation**: [Tor Browser Documentation](../../factsheets/Tor.Analysis.pdf)
 - **Version Tested**: 14.5a6
 - **Date Tested**: 2025-04-02
 - **Testing Environment**: Dell XPS 15, Windows

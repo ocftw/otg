@@ -37,7 +37,7 @@
 - **Overall Rating**: ⭐⭐⭐⭐⯪ (4.35)
 
 ## Documentation & Testing
-- **Full Documentation**: [DuckDuckGo Documentation](https://github.com/user-attachments/files/20054469/duckduckgo.pdf)
+- **Full Documentation**: [DuckDuckGo Documentation](../../factsheets/DuckDuckGo.pdf)
 - **Version Tested**: 2025.4.7
 - **Date Tested**: 2025-04-17
 - **Testing Environment**: HP 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz, Windows 64, Network: WiFi

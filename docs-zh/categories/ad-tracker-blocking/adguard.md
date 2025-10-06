@@ -37,7 +37,7 @@
 - **整體評分**：⭐⭐⭐⭐⯪ (4.56)
 
 ## 文件與測試
-- **完整文件**：[AdGuard 文件](https://github.com/user-attachments/files/20054478/adguard.pdf)
+- **完整文件**：[AdGuard 文件](../../factsheets/AdGuard.pdf)
 - **測試版本**：5.1
 - **測試日期**：2025-03-30
 - **測試環境**：HP 第 11 代 Intel(R) Core(TM) i7-11800H @ 2.30GHz，Windows 64，網路：WiFi

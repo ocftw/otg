@@ -39,8 +39,8 @@ nav:
   - 首頁: index.md
   - 情境故事: story.md
   - 工具評估方法: assessment/index.md
-  - 工具清單（依名稱）: toollist_byname.md
-  - 工具清單（依類別）: toollist_category.md
+  - 工具清單: toollist_byname.md
+  - 工具比較: tool_comparison.md
   - 如何貢獻: CONTRIBUTING.md
 
 extra:

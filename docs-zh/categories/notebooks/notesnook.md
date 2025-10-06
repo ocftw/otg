@@ -37,7 +37,7 @@
 - **整體評分**：⭐⭐⭐⭐⯪ (4.29)
 
 ## 文件與測試
-- **完整文件**：[Notesnook 文件](https://github.com/user-attachments/files/20034420/Notesnook.Analysis.pdf)
+- **完整文件**：[Notesnook 文件](../../factsheets/Notesnook.pdf)
 - **測試版本**：V.3.0.32-904c452-desktop
 - **測試日期**：2025-04-21
 - **測試環境**：HP Envy x360 第 13 代 Intel(R) i7 處理器 16 GB RAM，作業系統：Windows，網路，WiFi

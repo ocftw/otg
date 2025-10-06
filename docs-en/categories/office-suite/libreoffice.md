@@ -37,7 +37,7 @@
 - **Overall Rating**: ⭐⭐⭐⯪☆ (3.94)
 
 ## Documentation & Testing
-- **Full Documentation**: [LibreOffice Documentation](https://github.com/user-attachments/files/20054385/libreoffice.pdf)
+- **Full Documentation**: [LibreOffice Documentation](../../factsheets/LibreOffice.pdf)
 - **Version Tested**: 25.2.2
 - **Date Tested**: 2025-04-23
 - **Testing Environment**: HP 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz, Windows 64, Network: WiFi

@@ -37,7 +37,7 @@
 - **Overall Rating**: ⭐⭐⭐⭐⯪ (4.69)
 
 ## Documentation & Testing
-- **Full Documentation**: [Bitwarden Documentation](https://github.com/user-attachments/files/20023933/Bitwarden.Analysis.pdf)
+- **Full Documentation**: [Bitwarden Documentation](../../factsheets/Bitwarden.Analysis.pdf)
 - **Version Tested**: v2025.3.1
 - **Date Tested**: 2025-03-27
 - **Testing Environment**: HP ZBook, Windows, 4G

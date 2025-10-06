@@ -37,7 +37,7 @@
 - **Overall Rating**: ⭐⭐⭐⭐⯪ (4.75)
 
 ## Documentation & Testing
-- **Full Documentation**: [VeraCrypt Documentation](https://github.com/user-attachments/files/20026980/VeraCrypt.Analysis.pdf)
+- **Full Documentation**: [VeraCrypt Documentation](../../factsheets/VeraCrypt.Analysis.pdf)
 - **Version Tested**: 1.26.20
 - **Date Tested**: 2025-04-22
 - **Testing Environment**: Dell XPS 15, Windows, 4G

@@ -37,7 +37,7 @@
 - **整體評分**：⭐⭐⭐⯪☆ (3.46)
 
 ## 文件與測試
-- **完整文件**：[LanguageTool 文件](https://github.com/user-attachments/files/20028276/LanguageTool.Analysis.pdf)
+- **完整文件**：[LanguageTool 文件](../../factsheets/LanguageTool.pdf)
 - **測試版本**：1.1.0.0
 - **測試日期**：2025-04-29
 - **測試環境**：HP Zbook 第 11 代 Intel(R) Core(TM) i7-11800H @ 2.30GHz，作業系統：Windows，網路：WiFi

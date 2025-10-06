@@ -37,7 +37,7 @@
 - **整體評分**：⭐⭐⭐⭐⯪ (4.51)
 
 ## 文件與測試
-- **完整文件**：[Tor 瀏覽器文件](https://github.com/user-attachments/files/20004030/Tor.Analysis.pdf)
+- **完整文件**：[Tor 瀏覽器文件](../../factsheets/Tor.pdf)
 - **測試版本**：14.5a6
 - **測試日期**：2025-04-02
 - **測試環境**：Dell XPS 15，Windows

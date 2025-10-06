@@ -37,7 +37,7 @@
 - **整體評分**：⭐⭐⭐⯪☆ (3.98)
 
 ## 文件與測試
-- **完整文件**：[Croc 文件](https://github.com/user-attachments/files/20009329/Croc.Analysis.pdf)
+- **完整文件**：[Croc 文件](../../factsheets/Croc.pdf)
 - **測試版本**：10.2.2
 - **測試日期**：2025-04-07
 - **測試環境**：Dell XPS 15，Windows，4G

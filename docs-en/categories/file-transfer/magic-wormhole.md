@@ -37,7 +37,7 @@
 - **Overall Rating**: ⭐⭐⭐⭐☆ (4.15)
 
 ## Documentation & Testing
-- **Full Documentation**: [Magic Wormhole Documentation](https://github.com/user-attachments/files/20004139/Magic.Wormhole.Analysis.pdf)
+- **Full Documentation**: [Magic Wormhole Documentation](../../factsheets/Magic.Wormhole.Analysis.pdf)
 - **Version Tested**: 0.6.3
 - **Date Tested**: 2025-04-02
 - **Testing Environment**: HP Envy x360, Windows, 4G

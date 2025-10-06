@@ -37,7 +37,7 @@
 - **Overall Rating**: ⭐⭐⭐⭐☆ (4.18)
 
 ## Documentation & Testing
-- **Full Documentation**: [PrivateBin Documentation](https://github.com/user-attachments/files/20026808/PrivateBin.Analysis.pdf)
+- **Full Documentation**: [PrivateBin Documentation](../../factsheets/PrivateBin.Analysis.pdf)
 - **Version Tested**: 1.7.6
 - **Date Tested**: 2025-04-16
 - **Testing Environment**: Dell XPS 15, Windows, 4G

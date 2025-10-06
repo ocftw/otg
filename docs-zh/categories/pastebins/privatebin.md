@@ -37,7 +37,7 @@
 - **整體評分**：⭐⭐⭐⭐☆ (4.18)
 
 ## 文件與測試
-- **完整文件**：[PrivateBin 文件](https://github.com/user-attachments/files/20026808/PrivateBin.Analysis.pdf)
+- **完整文件**：[PrivateBin 文件](../../factsheets/PrivateBin.pdf)
 - **測試版本**：1.7.6
 - **測試日期**：2025-04-16
 - **測試環境**：Dell XPS 15，Windows，4G

@@ -37,7 +37,7 @@
 - **整體評分**：⭐⭐⭐⭐⯪ (4.73)
 
 ## 文件與測試
-- **完整文件**：[Proton VPN 文件](https://github.com/user-attachments/files/20034866/ProtonVPN.Analysis.pdf)
+- **完整文件**：[Proton VPN 文件](../../factsheets/ProtonVPN.pdf)
 - **測試版本**：v4.0
 - **測試日期**：2025-04-15
 - **測試環境**：裝置：Macbook Pro（14 吋，M4 晶片），10 核心 CPU，24 GB 記憶體，作業系統：15.2 Sequoia (macOS)，網路：Wifi

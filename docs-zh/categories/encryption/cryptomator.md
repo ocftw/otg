@@ -37,7 +37,7 @@
 - **整體評分**：⭐⭐⭐⭐⯪ (4.34)
 
 ## 文件與測試
-- **完整文件**：[Cryptomator 文件](https://github.com/user-attachments/files/20054319/cryptomater.pdf)
+- **完整文件**：[Cryptomator 文件](../../factsheets/Cryptomator.pdf)
 - **測試版本**：1.15.3
 - **測試日期**：2025-04-22
 - **測試環境**：HP Envy x360，第 13 代 Intel(R) i7 處理器，16 GB RAM，Windows 11，網路：4G

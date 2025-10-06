@@ -37,7 +37,7 @@
 - **整體評分**：⭐⭐⭐⭐⯪ (4.69)
 
 ## 文件與測試
-- **完整文件**：[Bitwarden 文件](https://github.com/user-attachments/files/20023933/Bitwarden.Analysis.pdf)
+- **完整文件**：[Bitwarden 文件](../../factsheets/Bitwarden.pdf)
 - **測試版本**：v2025.3.1
 - **測試日期**：2025-03-27
 - **測試環境**：HP ZBook，Windows，4G

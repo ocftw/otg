@@ -37,7 +37,7 @@
 - **整體評分**：⭐⭐⭐⭐⯪ (4.97)
 
 ## 文件與測試
-- **完整文件**：[Signal 文件](https://github.com/user-attachments/files/20027975/Signal.Analysis.pdf)
+- **完整文件**：[Signal 文件](../../factsheets/Signal.pdf)
 - **測試版本**：V. 7.51.0.0
 - **測試日期**：2025-03-27
 - **測試環境**：Macbook Pro（14 吋，M4 晶片），10 核心 CPU，24 GB 記憶體，作業系統：15.2 Sequoia (macOS)，網路：Wifi

@@ -37,7 +37,7 @@
 - **整體評分**：⭐⭐⭐⭐☆ (4.15)
 
 ## 文件與測試
-- **完整文件**：[Magic Wormhole 文件](https://github.com/user-attachments/files/20004139/Magic.Wormhole.Analysis.pdf)
+- **完整文件**：[Magic Wormhole 文件](../../factsheets/Magic Wormhole.pdf)
 - **測試版本**：0.6.3
 - **測試日期**：2025-04-02
 - **測試環境**：HP Envy x360，Windows，4G

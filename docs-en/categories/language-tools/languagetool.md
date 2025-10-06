@@ -37,7 +37,7 @@
 - **Overall Rating**: ⭐⭐⭐⯪☆ (3.46)
 
 ## Documentation & Testing
-- **Full Documentation**: [LanguageTool Documentation](https://github.com/user-attachments/files/20028276/LanguageTool.Analysis.pdf)
+- **Full Documentation**: [LanguageTool Documentation](../../factsheets/LanguageTool.Analysis.pdf)
 - **Version Tested**: 1.1.0.0
 - **Date Tested**: 2025-04-29
 - **Testing Environment**: HP Zbook 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz, OS: Windows, Network: WiFi
