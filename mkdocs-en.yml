@@ -39,12 +39,7 @@ theme:
 nav:
   - Home: index.md
   - Story: story.md
-  - Tool Assessment:
-      - Introduction: assessment/index.md
-      - Scoring: assessment/scoring.md
-      - Data Structure: assessment/data-structure.md
-      - Example Assessment: assessment/example-assessment.md
-      - Tool Template: assessment/tool-template.md
+  - Tool Assessment: assessment/index.md
   - Tool list: toollist_byname.md
   - Tool comparison: tool_comparison.md
   - How to Contribute: CONTRIBUTING.md
@@ -52,10 +47,10 @@ nav:
 extra:
   alternate:
     - name: 正體中文
-      link: /otg/zh/
+      link: /zh/
       lang: zh-TW
     - name: English
-      link: /otg/en/
+      link: /en/
       lang: en
 
 extra_css:

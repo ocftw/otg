@@ -1,3 +1,14 @@
+.md-header {
+  background-color: #6450DC !important;
+}
+
+.md-tabs {
+  background-color: #6450DC !important;
+}
+
+[data-md-color-scheme="slate"] .md-header h1 {
+  color: #D7DCF0 !important;
+}
 
 .md-content__inner h2 {
     font-weight: bold;

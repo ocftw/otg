@@ -72,10 +72,6 @@ div.grid.cards > ul > li > p:first-child {
   background-color: #6450DC !important;
 }
 
-.md-sidebar {
-  display: none;
-}
-
 [data-md-color-scheme="slate"] .md-header h1 {
   color: #D7DCF0 !important;
 }
