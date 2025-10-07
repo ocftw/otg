@@ -65,5 +65,6 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
+  - md_in_html
   - toc:
-      toc_depth: 2
+      toc_depth: 3

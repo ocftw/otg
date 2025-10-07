@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # 已評估工具
 
 <div class="tool-grid">

@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # Evaluated Tools
 
 <div class="tool-grid">
