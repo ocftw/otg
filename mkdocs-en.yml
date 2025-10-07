@@ -7,7 +7,7 @@ site_dir: site/en
 theme:
   name: material
   language: en
-  logo: .icons/logo.svg
+  logo: icons/logo.svg
   features:
     - search.suggest
     - search.highlight
