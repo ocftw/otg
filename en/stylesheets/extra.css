@@ -132,3 +132,14 @@ div.grid.cards > ul > li > p:first-child {
 .md-sidebar--primary {
     display: none;
 }
+
+/* Hide h3 in TOC by default */
+.md-nav--secondary .md-nav__list .md-nav__list {
+    display: none;
+}
+
+/* Show h3 in TOC only for story page */
+[href*="story"] ~ .md-nav--secondary .md-nav__list .md-nav__list,
+.md-content article:has(h1:contains("Digital Activism")) ~ .md-sidebar--secondary .md-nav__list .md-nav__list {
+    display: block !important;
+}
