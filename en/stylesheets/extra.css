@@ -132,3 +132,8 @@ div.grid.cards > ul > li > p:first-child {
 .md-sidebar--primary {
     display: none;
 }
+
+/* Hide TOC headings in content but show in sidebar */
+.hidden-toc {
+    display: none;
+}
