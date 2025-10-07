@@ -128,9 +128,11 @@ div.grid.cards > ul > li > p:first-child {
     text-decoration: underline;
 }
 
-/* Hide left sidebar */
-.md-sidebar--primary {
-    display: none;
+/* Hide left sidebar on desktop only */
+@media screen and (min-width: 76.25em) {
+    .md-sidebar--primary {
+        display: none;
+    }
 }
 
 /* Hide TOC headings in content but show in sidebar */
