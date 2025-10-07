@@ -8,6 +8,7 @@ theme:
   name: material
   language: zh-Hant
   logo: icons/logo.svg
+  favicon: icons/favicon.svg
   features:
     - search.suggest
     - search.highlight
