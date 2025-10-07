@@ -47,10 +47,10 @@ nav:
 extra:
   alternate:
     - name: 正體中文
-      link: /zh/
+      link: /otg/zh/
       lang: zh-TW
     - name: English
-      link: /en/
+      link: /otg/en/
       lang: en
   generator: false
 
