@@ -122,10 +122,6 @@ Each tool in our repository must include:
 - Include all required links
 - Update timestamps when needed
 
-## Additional Resources
-
-- [Automation Process](.github/README-scripts.md) - How the automated submission process works
-
 ## Need Help?
 
 If you have questions about contributing:
