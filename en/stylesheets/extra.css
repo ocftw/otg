@@ -127,3 +127,8 @@ div.grid.cards > ul > li > p:first-child {
     font-weight: bold;
     text-decoration: underline;
 }
+
+/* Hide left sidebar */
+.md-sidebar--primary {
+    display: none;
+}
