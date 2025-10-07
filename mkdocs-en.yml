@@ -54,7 +54,7 @@ extra:
       lang: en
   generator: false
 
-copyright: Made with ❤️ by WPI students + the OCF community, and support from APC
+copyright: Made with ❤️ by WPI students + the OCF community, and support from APC | Powered by Material for MkDocs
 
 extra_css:
   - stylesheets/extra.css
