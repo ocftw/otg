@@ -2,7 +2,9 @@
 site_name: Open Tech Garage
 site_url: https://a4ltw.github.io/otg/
 docs_dir: docs-en
-site_dir: site/en
+site_dir: docs/en
+repo_name: Open Tech Garage
+repo_url: https://github.com/ocftw/otg
 
 theme:
   name: material
@@ -21,7 +23,7 @@ theme:
     - navigation.tracking
     - navigation.footer
     - content.tooltips
-  
+
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -49,10 +51,10 @@ nav:
 extra:
   alternate:
     - name: 正體中文
-      link: /otg/zh/
+      link: /
       lang: zh-TW
     - name: English
-      link: /otg/en/
+      link: /en
       lang: en
   generator: false
 
@@ -60,6 +62,18 @@ copyright: Made with ❤️ by OCF + WPI students | Support from APC | Powered b
 
 extra_css:
   - stylesheets/extra.css
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      type: iso_datetime
+      locale: en
+      enable_creation_date: true
+      enable_parallel_processing: true
+  - git-authors:
+      show_contribution: true
+      show_email_address: false
+      show_line_count: true
 
 markdown_extensions:
   - admonition

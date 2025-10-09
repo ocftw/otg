@@ -2,7 +2,9 @@
 site_name: 開放科技車庫
 site_url: https://a4ltw.github.io/otg/
 docs_dir: docs-zh
-site_dir: site/zh
+site_dir: docs
+repo_name: 開放科技車庫
+repo_url: https://github.com/ocftw/otg
 
 theme:
   name: material
@@ -48,10 +50,10 @@ nav:
 extra:
   alternate:
     - name: 正體中文
-      link: /otg/zh/
+      link: /
       lang: zh-TW
     - name: English
-      link: /otg/en/
+      link: /en/
       lang: en
   generator: false
 
@@ -59,6 +61,18 @@ copyright: Made with ❤️ by OCF + WPI students | Support from APC | Powered b
 
 extra_css:
   - stylesheets/extra.css
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      type: iso_datetime
+      locale: en
+      enable_creation_date: true
+      enable_parallel_processing: true
+  - git-authors:
+      show_contribution: true
+      show_email_address: false
+      show_line_count: true
 
 markdown_extensions:
   - admonition
