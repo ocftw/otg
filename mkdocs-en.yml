@@ -68,6 +68,10 @@ plugins:
       locale: en
       enable_creation_date: true
       enable_parallel_processing: true
+  - git-authors:
+      show_contribution: true
+      show_email_address: false
+      show_line_count: true
 
 markdown_extensions:
   - admonition
