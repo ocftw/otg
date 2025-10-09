@@ -5,5 +5,6 @@ description = "開放科技車庫 | Open Tech Garage, 開放科技車庫（Open 
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "mkdocs-git-revision-date-localized-plugin>=1.4.7",
     "mkdocs-material>=9.6.21",
 ]

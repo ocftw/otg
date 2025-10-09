@@ -61,6 +61,10 @@ copyright: Made with ❤️ by OCF + WPI students | Support from APC | Powered b
 extra_css:
   - stylesheets/extra.css
 
+plugins:
+  - search
+  - git-revision-date-localized
+
 markdown_extensions:
   - admonition
   - pymdownx.details
