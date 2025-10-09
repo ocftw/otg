@@ -1,0 +1,35 @@
+name: Build Docs
+on:
+  push:
+    branches:
+      - main
+permissions:
+  contents: write
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+      - name: Configure Git Credentials
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email toomore@ocf.tw
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+      - name: Build Mkdocs
+        run: |
+          git worktree add ./site gh-pages
+          rm -rf ./site/*
+          uv run mkdocs build -v -f ./mkdocs-zh.yml
+          uv run mkdocs build -v -f ./mkdocs-en.yml
+          cd ./site
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -a -m 'Deploy on ${{ github.ref_name }} ${{ github.sha }}'
+            git push origin HEAD
+          else
+            echo "No changes to commit."
+          fi
