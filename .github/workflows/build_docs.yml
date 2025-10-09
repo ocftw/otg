@@ -28,6 +28,7 @@ jobs:
           uv run mkdocs build -v -f ./mkdocs-en.yml
           cd ./docs
           if [ -n "$(git status --porcelain)" ]; then
+            git add .
             git commit -a -m 'Deploy on ${{ github.ref_name }} ${{ github.sha }}'
             git push origin HEAD
           else
