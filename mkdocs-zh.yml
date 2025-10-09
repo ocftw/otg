@@ -2,7 +2,7 @@
 site_name: 開放科技車庫
 site_url: https://a4ltw.github.io/otg/
 docs_dir: docs-zh
-site_dir: site/zh
+site_dir: site
 
 theme:
   name: material
@@ -48,10 +48,10 @@ nav:
 extra:
   alternate:
     - name: 正體中文
-      link: /otg/zh/
+      link: /
       lang: zh-TW
     - name: English
-      link: /otg/en/
+      link: /en/
       lang: en
   generator: false
 
