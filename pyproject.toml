@@ -1,0 +1,9 @@
+[project]
+name = "ocftw-otg"
+version = "0.1.0"
+description = "開放科技車庫 | Open Tech Garage, 開放科技車庫（Open Tech Garage） 是一個聚焦於評估、分析與測試多種開源軟體工具的專案。初期開發由財團法人開放文化基金會 (OCF) 與美國伍斯特理工學院 (WPI) IQP 計畫之實習學生共同執行，網站由財團法人開放文化基金會 (OCF) 維護。"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mkdocs-material>=9.6.21",
+]
