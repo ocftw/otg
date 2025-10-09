@@ -2,7 +2,7 @@
 site_name: Open Tech Garage
 site_url: https://a4ltw.github.io/otg/
 docs_dir: docs-en
-site_dir: site/en
+site_dir: docs/en
 
 theme:
   name: material
@@ -21,7 +21,7 @@ theme:
     - navigation.tracking
     - navigation.footer
     - content.tooltips
-  
+
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default

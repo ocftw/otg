@@ -2,7 +2,7 @@
 site_name: 開放科技車庫
 site_url: https://a4ltw.github.io/otg/
 docs_dir: docs-zh
-site_dir: site
+site_dir: docs
 
 theme:
   name: material

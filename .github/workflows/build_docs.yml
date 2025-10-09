@@ -24,8 +24,8 @@ jobs:
         run: |
           git worktree add ./docs gh-pages
           rm -rf ./docs/*
-          uv run mkdocs build -v -f ./mkdocs-zh.yml -d ./docs
-          uv run mkdocs build -v -f ./mkdocs-en.yml -d ./docs
+          uv run mkdocs build -v -f ./mkdocs-zh.yml
+          uv run mkdocs build -v -f ./mkdocs-en.yml
           cd ./docs
           if [ -n "$(git status --porcelain)" ]; then
             git commit -a -m 'Deploy on ${{ github.ref_name }} ${{ github.sha }}'
